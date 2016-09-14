@@ -44,7 +44,7 @@
     <div class="header-2">
         <a class="tb tl" href="javascript:history.go(-1)"><img class="reBack" src="/wap/images/reBack.png" alt=""></a>
         <span class=" tb header-tit tm">案例中心</span>
-        <a class="tr tb" href="menu.html">
+        <a class="tr tb" href="/menu.html">
             <img class="menu-icon" src="/wap/images/menu.png" alt="">
         </a>
     </div>
@@ -54,7 +54,7 @@
     <div class="pd-1"><img src="/wap/images/sub-tit.png" alt=""></div>
     <ul class="ct-user-list tm clearfix mg-t1">
         <?php
-        $data = \app\modules\cn\models\Content::getContent(['pageStr' => 1,'fields' => 'score,abroadSchool','category' => "178,102",'pageSize'=>9]);
+        $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'score,abroadSchool','category' => "178,102",'pageSize'=>9]);
         $total = $data['total'];
         $count = $data['count'];
         unset($data['count']);
@@ -63,7 +63,7 @@
             foreach($data as $v) {
                 ?>
                 <li>
-                    <div class="ct-head inb"><img src="<?php echo $v['image']?>" alt=""></div>
+                    <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
                     <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
 
                     <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
@@ -95,7 +95,7 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit"><?php echo $v['title']?></h1>
@@ -127,7 +127,7 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit"><?php echo $v['title']?></h1>
@@ -159,7 +159,7 @@
             ?>
             <li>
                 <div class="class-img fl">
-                    <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                    <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                 </div>
                 <div class="class-info fr">
                     <h1 class="class-tit"><?php echo $v['title']?></h1>
@@ -182,35 +182,17 @@
 </div>
 
 <div class="class-link bg-1 clearfix">
-    <a class="inb" href="#">
+    <a class="inb" href="/GMAT.html">
         <img src="/wap/images/sy-3.png" alt="">
     </a>
-    <a class="inb" href="#">
+    <a class="inb" href="/TOEFL.html">
         <img src="/wap/images/sy-4.png" alt="">
     </a>
 </div>
 <!--footer-->
-<footer class="tm">
-    <a class="inb f-list" href="index.html">
-        <img src="/wap/images/icon-16.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">首页</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="contact.html">
-        <img src="/wap/images/icon-17.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">电话咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-18.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">在线咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-19.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">全国分支</p>
-    </a>
-</footer>
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
 <!--footer End-->
 </body>
 <script>

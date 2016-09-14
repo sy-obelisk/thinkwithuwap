@@ -6,22 +6,13 @@
 namespace app\modules\wap\controllers;
 use yii;
 use app\libs\ThinkUController;
-use app\modules\cn\models\Content;
+use app\modules\wap\models\Content;
 use app\libs\Schools;
 
 class SchoolsController extends ThinkUController {
     public $enableCsrfValidation = false;
-    public $layout = 'cn';
-    public $activity;
-    public $activityDate;
 
-    public function init()
-    {
-        $re = Content::getActive();
-        $this->activity = $re['activity'];
-        $this->activityDate = $re['activityDate'];
-    }
-    /**首页-分类数据
+    /**首页
      * @return string
      * by fawn
      */

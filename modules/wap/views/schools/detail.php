@@ -168,7 +168,7 @@
                         ?>
                         <li>
                             <div class="goldHead">
-                                <img src="<?php echo $v['image']?>" alt="老师照片"/>
+                                <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="老师照片"/>
                             </div>
                             <span><?php echo $v['name']?></span>
                             <a href="http://chat.looyuoms.com/chat/chat/p.do?c=20001277&f=10057560&g=10060013&refer=meiguoliuxue" target="_blank">
@@ -285,7 +285,7 @@
         $data = \app\modules\cn\models\Content::getContent(['category' => "252",'pageSize'=>1]);
         foreach($data as $v) {
             ?>
-            <a href="#"><img src="<?php echo $v['image']?>" alt="右边banner"/></a>
+            <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="右边banner"/></a>
         <?php
         }
         ?>

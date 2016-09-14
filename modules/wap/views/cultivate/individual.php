@@ -221,7 +221,7 @@
                             ?>
                             <li>
                                 <div class="headP-left">
-                                    <img src="<?php echo $v['image']?>" alt="学员头像"/>
+                                    <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="学员头像"/>
                                 </div>
                                 <!--                        <div class="headP-right">-->
                                 <!--                            <h4>--><?php //echo $v['name']?><!--</h4>-->
@@ -289,7 +289,7 @@
                                 ?>
                                 <li>
                                     <div class="summerTop">
-                                        <img src="<?php echo $v['image']?>" alt="图片">
+                                        <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="图片">
                                         <!--遮罩-->
                                         <div class="summer-mask">
                                             <a href="/teachers/<?php echo $v['name']?>/<?php echo $v['id']?>.html" target="_blank">
@@ -327,7 +327,7 @@
                 foreach($inter as $v) {
                     ?>
                     <li>
-                        <img src="<?php echo $v['image']?>" alt="课程图"/>
+                        <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="课程图"/>
 
                         <p><?php echo $v['name']?></p>
                         <b><?php echo $v['place']?></b>
@@ -368,7 +368,7 @@
                         <li>
                             <div class="botTop">
                                 <a href="/practices/<?php echo $v['id']?>.html">
-                                    <img src="<?php echo $v['image']?>" alt="详情图片"/>
+                                    <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="详情图片"/>
                                 </a>
                             </div>
                             <h4>

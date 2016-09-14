@@ -46,7 +46,7 @@
     <div class="header-2">
         <a class="tb tl" href="javascript:history.go(-1)"><img class="reBack" src="/wap/images/reBack.png" alt=""></a>
         <span class=" tb header-tit tm">院校搜索</span>
-        <a class="tr tb" href="menu.html">
+        <a class="tr tb" href="/menu.html">
             <img class="menu-icon" src="/wap/images/menu.png" alt="">
         </a>
     </div>
@@ -83,7 +83,7 @@
                 ?>
                 <li>
                     <div class="sc-logo fl">
-                        <img src="<?php echo Yii::$app->params['schoolConnect'].$v['image']?>" alt="">
+                        <img src="<?php echo Yii::$app->params['schoolConnect'].Yii::$app->params['PC'].$v['image']?>" alt="">
 
                         <p class="concern">已有<span>111</span>人关注</p>
                     </div>
@@ -105,34 +105,16 @@
         ?>
     </ul>
     <div class="bg-1 pd-1 sc-other">
-        <a href="#"><img src="/wap/images/sc-3.png" alt=""></a>
-        <a href="#"><img src="/wap/images/sc-4.png" alt=""></a>
-        <a href="#"><img src="/wap/images/sc-5.png" alt=""></a>
+        <a href="/abroad.html"><img src="/wap/images/sc-3.png" alt=""></a>
+        <a href="/TOEFL.html"><img src="/wap/images/sc-4.png" alt=""></a>
+        <a href="/GMAT.html"><img src="/wap/images/sc-5.png" alt=""></a>
     </div>
 
 </div>
 <!--footer-->
-<footer class="tm">
-    <a class="inb f-list" href="index.html">
-        <img src="/wap/images/icon-16.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">首页</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="contact.html">
-        <img src="/wap/images/icon-17.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">电话咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-18.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">在线咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-19.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">全国分支</p>
-    </a>
-</footer>
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
 <!--footer End-->
 </body>
 <script>

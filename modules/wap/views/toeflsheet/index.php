@@ -44,7 +44,7 @@
     <div class="header-2">
         <a class="tb tl" href="javascript:history.go(-1)"><img class="reBack" src="/wap/images/reBack.png" alt=""></a>
         <span class=" tb header-tit tm">托福课程</span>
-        <a class="tr tb" href="menu.html">
+        <a class="tr tb" href="/menu.html">
             <img class="menu-icon" src="/wap/images/menu.png" alt="">
         </a>
     </div>
@@ -120,7 +120,7 @@
         foreach($data as $v) {
             ?>
             <li>
-                <div class="ct-head inb"><img src="<?php echo $v['image']?>" alt=""></div>
+                <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
                 <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
 
                 <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
@@ -130,7 +130,7 @@
         ?>
     </ul>
     <div class="tm ct-btn mg-t1">
-        <a class="ct-b1 inb" href="#">点击了解：查看更多申友名校案例</a>
+        <a class="ct-b1 inb" href="/case.html">点击了解：查看更多申友名校案例</a>
     </div>
 </div>
 <div class="bg-1 mg-t1">
@@ -202,27 +202,9 @@
 
 </ul>
 <!--footer-->
-<footer class="tm">
-    <a class="inb f-list" href="index.html">
-        <img src="/wap/images/icon-16.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">首页</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="contact.html">
-        <img src="/wap/images/icon-17.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">电话咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-18.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">在线咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-19.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">全国分支</p>
-    </a>
-</footer>
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
 <!--footer End-->
 </body>
 </html>

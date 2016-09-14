@@ -5,13 +5,13 @@
  * User: obelisk
  */
 namespace app\modules\wap\controllers;
-use app\modules\cn\models\HistoryRecord;
+use app\modules\wap\models\HistoryRecord;
 use app\modules\content\models\Category;
 use yii;
 use app\libs\ThinkUApiControl;
-use app\modules\cn\models\Content;
-use app\modules\cn\models\Collect;
-use app\modules\cn\models\Login;
+use app\modules\wap\models\Content;
+use app\modules\wap\models\Collect;
+use app\modules\wap\models\Login;
 use app\libs\Sms;
 use app\libs\VerificationCode;
 class ApiController extends ThinkUApiControl {

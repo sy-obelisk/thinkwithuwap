@@ -20,4 +20,5 @@ return [
     'categoryUrl' => 'http://schools.smartapply.cn/cn/api/cats',
     'contentUrl' => 'http://schools.smartapply.cn/cn/api/content',
     'schoolConnect' => 'http://schools.smartapply.cn',
+    'PC' => 'http://www.thinkwithu.com',
 ];

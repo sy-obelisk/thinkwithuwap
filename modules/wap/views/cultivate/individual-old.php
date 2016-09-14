@@ -103,7 +103,7 @@
                         ?>
                         <li>
                             <div>
-                                <img src="<?php echo $v['image']?>" alt="人人图标"/>
+                                <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="人人图标"/>
                                 <b><?php echo $v['name']?></b>
                             </div>
                         </li>
@@ -298,7 +298,7 @@
                 $data = \app\modules\cn\models\Content::getContent(['category' => "104,207",'pageSize' => 20]);
                 foreach($data as $v) {
                     ?>
-                    <li><img src="<?php echo $v['image']?>" alt="图标"/></li>
+                    <li><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="图标"/></li>
                 <?php
                 }
                 ?>
@@ -316,7 +316,7 @@
                 ?>
                 <li>
                     <div class="stu-left">
-                        <img src="<?php echo $v['image']?>" alt="学员头像" width="125px"/>
+                        <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="学员头像" width="125px"/>
                         <a href="/word-details/<?php echo $v['id']?>/102.html"><img src="/cn/images/abroadPro_seeXQ.png" alt="查看详情"/></a>
                     </div>
                     <div class="stu-right">

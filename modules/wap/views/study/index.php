@@ -44,7 +44,7 @@
     <div class="header-2">
         <a class="tb tl" href="javascript:history.go(-1)"><img class="reBack" src="/wap/images/reBack.png" alt=""></a>
         <span class=" tb header-tit tm">留学咨询</span>
-        <a class="tr tb" href="menu.html">
+        <a class="tr tb" href="/menu.html">
             <img class="menu-icon" src="/wap/images/menu.png" alt="">
         </a>
     </div>
@@ -64,7 +64,7 @@
             foreach($data as $v) {
                 ?>
                 <li>
-                    <div class="ct-head inb"><img src="<?php echo $v['image']?>" alt=""></div>
+                    <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
                     <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
 
                     <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
@@ -75,7 +75,7 @@
 
         </ul>
         <div class="tm ct-btn mg-t1">
-            <a class="ct-b1 inb" href="#">点击了解：查看更多申友名校案例</a>
+            <a class="ct-b1 inb" href="/case.html">点击了解：查看更多申友名校案例</a>
         </div>
     </div>
 </div>
@@ -96,7 +96,7 @@
     <div class="content clearfix">
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-1.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/A.html"><img src="/wap/images/cp-1.png" alt=""></a>
                 <p class="must">必选项目</p>
             </div>
             <p class="cp-tit">A类卓越菁英</p>
@@ -104,7 +104,7 @@
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-2.html"><img src="/wap/images/cp-2.png" alt=""></a>
+                <a href="/B.html"><img src="/wap/images/cp-2.png" alt=""></a>
                 <p class="must">必选项目</p>
             </div>
             <p class="cp-tit">B类梦想起航</p>
@@ -112,14 +112,14 @@
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-3.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/C.html"><img src="/wap/images/cp-1.png" alt=""></a>
             </div>
             <p class="cp-tit">C类名校直通车</p>
             <p class="cp-describe">申请美英港热门名校</p>
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-4.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/D.html"><img src="/wap/images/cp-1.png" alt=""></a>
                 <p class="must">精英申请者必选项目</p>
             </div>
             <p class="cp-tit">D类助力传奇</p>
@@ -129,7 +129,7 @@
     <div class="content">
         <ul class="other-list">
             <li class="">
-                <a href="USA.html">
+                <a href="/USA.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-9.png" alt=""></div>
                     <div class="inb">
                         <p class="other-tit">美国申请方案</p>
@@ -138,7 +138,7 @@
                 </a>
             </li>
             <li class="">
-                <a href="gas-station.html">
+                <a href="/single.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-10.png" alt=""></div>
                     <div class="inb">
                         <p class="other-tit">单项加油站</p>
@@ -147,7 +147,7 @@
                 </a>
             </li>
             <li class="">
-                <a href="advantage.html">
+                <a href="/advantage.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-11.png" alt=""></div>
                     <div class="inb">
                         <p class="other-tit">申友留学服务优势</p>
@@ -211,27 +211,9 @@
     <p class="ct-tel">免费咨询热线：400-600-1123</p>
 </div>
 <!--footer-->
-<footer class="tm">
-    <a class="inb f-list" href="index.html">
-        <img src="/wap/images/icon-16.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">首页</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="contact.html">
-        <img src="/wap/images/icon-17.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">电话咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-18.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">在线咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-19.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">全国分支</p>
-    </a>
-</footer>
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
 <!--footer End-->
 </body>
 </html>

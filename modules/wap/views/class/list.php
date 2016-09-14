@@ -53,7 +53,7 @@
                             </div>
                         </div>
                         <div class="inlist-right">
-                            <img src="<?php echo $v['image']?>" alt="课程图片">
+                            <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="课程图片">
                         </div>
                         <div style="clear: both"></div>
                     </li>

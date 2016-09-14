@@ -61,7 +61,7 @@
     <div data-value="list4" class="class-list-wrap" style="display: block">
         <ul class="class-list">
             <?php
-            $data = \app\modules\cn\models\Content::getContent(['pageStr' => 1,'fields' => 'url,place,time', 'category' => '107', 'category_extend' =>"178,115,116",'pageSize' => 6]);
+            $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'url,place,time', 'category' => '107', 'category_extend' =>"178,115,116",'pageSize' => 6]);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -71,7 +71,7 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit ellipsis"><?php echo $v['name']?></h1>
@@ -95,7 +95,7 @@
     <div data-value="list5" class="class-list-wrap">
         <ul class="class-list">
             <?php
-            $data = \app\modules\cn\models\Content::getContent(['pageStr' => 1,'fields' => 'url,place,time', 'category' => '107,178','pageSize' => 6]);
+            $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'url,place,time', 'category' => '107,178','pageSize' => 6]);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -105,7 +105,7 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit ellipsis"><?php echo $v['name']?></h1>
@@ -129,7 +129,7 @@
     <div data-value="list6" class="class-list-wrap">
         <ul class="class-list">
             <?php
-            $data = \app\modules\cn\models\Content::getContent(['pageStr' => 1,'fields' => 'url,place,time', 'category' => '107,115','pageSize' => 6]);
+            $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'url,place,time', 'category' => '107,115','pageSize' => 6]);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -139,7 +139,7 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit ellipsis"><?php echo $v['name']?></h1>
@@ -163,7 +163,7 @@
     <div data-value="list7" class="class-list-wrap">
         <ul class="class-list">
             <?php
-            $data = \app\modules\cn\models\Content::getContent(['pageStr' => 1,'fields' => 'url,place,time', 'category' => '107,116','pageSize' => 6]);
+            $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'url,place,time', 'category' => '107,116','pageSize' => 6]);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -173,7 +173,7 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit ellipsis"><?php echo $v['name']?></h1>
@@ -202,7 +202,7 @@
     <div class="content clearfix">
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-1.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/A.html"><img src="/wap/images/cp-1.png" alt=""></a>
                 <p class="must">必选项目</p>
             </div>
             <p class="cp-tit">A类卓越菁英</p>
@@ -210,7 +210,7 @@
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-2.html"><img src="/wap/images/cp-2.png" alt=""></a>
+                <a href="/B.html"><img src="/wap/images/cp-2.png" alt=""></a>
                 <p class="must">必选项目</p>
             </div>
             <p class="cp-tit">B类梦想起航</p>
@@ -218,14 +218,14 @@
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-3.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/C.html"><img src="/wap/images/cp-1.png" alt=""></a>
             </div>
             <p class="cp-tit">C类名校直通车</p>
             <p class="cp-describe">申请美英港热门名校</p>
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-4.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/D.html"><img src="/wap/images/cp-1.png" alt=""></a>
                 <p class="must">精英申请者必选项目</p>
             </div>
             <p class="cp-tit">D类助力传奇</p>
@@ -234,35 +234,17 @@
     </div>
 </section>
 <div class="class-link bg-1 clearfix">
-    <a class="inb" href="#">
+    <a class="inb" href="/GMAT.html">
         <img src="/wap/images/sy-3.png" alt="">
     </a>
-    <a class="inb" href="#">
+    <a class="inb" href="/TOEFL.html">
         <img src="/wap/images/sy-4.png" alt="">
     </a>
 </div>
 <!--footer-->
-<footer class="tm">
-    <a class="inb f-list" href="index.html">
-        <img src="/wap/images/icon-16.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">首页</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="contact.html">
-        <img src="/wap/images/icon-17.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">电话咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-18.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">在线咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-19.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">全国分支</p>
-    </a>
-</footer>
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
 <!--footer End-->
 </body>
 <script>

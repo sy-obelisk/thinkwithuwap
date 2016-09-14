@@ -49,7 +49,7 @@
                     $data = \app\modules\cn\models\Content::getContent(['fields' => 'url','category' => "237,190",'pageSize'=>10]);
                     foreach($data as $v) {
                         ?>
-                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo $v['image']?>" alt="banner图"/></a></li>
+                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="banner图"/></a></li>
                     <?php
                     }
                     ?>
@@ -93,7 +93,7 @@
                 <li>
                     <div>
                         <a href="<?php echo $v['url']?>">
-                        <img src="<?php echo $v['image']?>" alt="图片"/>
+                        <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="图片"/>
                         </a>
                     </div>
                     <span><a href="<?php echo $v['url']?>"><?php echo $v['name']?> </a></span>
@@ -111,7 +111,7 @@
                         ?>
                         <li>
                             <div class="excellImgL">
-                                <img src="<?php echo $v['image']?>" alt="图片"/>
+                                <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="图片"/>
                             </div>
                             <div class="excellR">
                                 <b>精品课程</b>
@@ -460,7 +460,7 @@
                     $data = \app\modules\cn\models\Content::getContent(['fields'=> "url",'category' => "177,115,190",'pageSize'=>3]);
                     foreach($data as $v) {
                         ?>
-                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo $v['image']?>" alt="banner图"/></a></li>
+                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="banner图"/></a></li>
                     <?php
                     }
                     ?>
@@ -978,7 +978,7 @@
                     <li>
                         <a href="/teachers/<?php echo $v['name']?>/<?php echo $v['id']?>.html">
                             <div class="leftTeacher">
-                                <img src="<?php echo $v['image']?>" alt="老师图片"/>
+                                <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="老师图片"/>
                                 <!--遮罩层-->
                                 <div class="teacherZZC">
                                     <h5><?php echo $v['name']?></h5>
@@ -1036,7 +1036,7 @@
                     $data = \app\modules\cn\models\Content::getContent(['fields'=> "url",'category' => "116,190",'pageSize'=>3]);
                     foreach($data as $v) {
                         ?>
-                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo $v['image']?>" alt="banner图"/></a></li>
+                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="banner图"/></a></li>
                     <?php
                     }
                     ?>
@@ -1324,7 +1324,7 @@
                         <li>
                             <a href="/teachers/<?php echo $v['name']?>/<?php echo $v['id']?>.html">
                                 <div class="leftTeacher">
-                                    <img src="<?php echo $v['image']?>" alt="老师图片"/>
+                                    <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="老师图片"/>
                                     <!--遮罩层-->
                                     <div class="teacherZZC">
                                         <h5><?php echo $v['name']?></h5>
@@ -1382,7 +1382,7 @@
                     $data = \app\modules\cn\models\Content::getContent(['fields'=> "url",'category' => "168,190",'pageSize'=>3]);
                     foreach($data as $v) {
                         ?>
-                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo $v['image']?>" alt="banner图"/></a></li>
+                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="banner图"/></a></li>
                     <?php
                     }
                     ?>

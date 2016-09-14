@@ -54,7 +54,7 @@
                         <li>
                             <div class="botTop">
                                 <a href="/practices/<?php echo $v['id']?>.html">
-                                    <img src="<?php echo $v['image']?>" alt="详情图片"/>
+                                    <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="详情图片"/>
                                 </a>
                             </div>
                             <h4>

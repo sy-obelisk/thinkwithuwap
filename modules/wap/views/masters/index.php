@@ -44,7 +44,7 @@
     <div class="header-2">
         <a class="tb tl" href="javascript:history.go(-1)"><img class="reBack" src="/wap/images/reBack.png" alt=""></a>
         <span class=" tb header-tit tm">名师云集</span>
-        <a class="tr tb" href="menu.html">
+        <a class="tr tb" href="/menu.html">
             <img class="menu-icon" src="/wap/images/menu.png" alt="">
         </a>
     </div>
@@ -60,7 +60,7 @@
     <div class="tc-wrap" data-value="140" style="display: block">
         <ul class="tc-list">
             <?php
-            $data = \app\modules\cn\models\Content::getContent(['pageStr' => 1,'fields' => 'abstract,job','category' => "140",'pageSize'=>6]);
+            $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'abstract,job','category' => "140",'pageSize'=>6]);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -70,7 +70,7 @@
                 ?>
                 <li>
                     <div class="tc-img inb">
-                        <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="tc-info inb clearfix">
                         <div class="tc-info-top">
@@ -101,7 +101,7 @@
     <div class="tc-wrap" data-value="139">
         <ul class="tc-list">
             <?php
-            $data = \app\modules\cn\models\Content::getContent(['pageStr' => 1,'fields' => 'abstract,job','category' => "139",'pageSize'=>6]);
+            $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'abstract,job','category' => "139",'pageSize'=>6]);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -111,7 +111,7 @@
                 ?>
                 <li>
                     <div class="tc-img inb">
-                        <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="tc-info inb clearfix">
                         <div class="tc-info-top">
@@ -142,7 +142,7 @@
     <div class="tc-wrap" data-value="141">
         <ul class="tc-list">
             <?php
-            $data = \app\modules\cn\models\Content::getContent(['pageStr' => 1,'fields' => 'abstract,job','category' => "141",'pageSize'=>6]);
+            $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'abstract,job','category' => "141",'pageSize'=>6]);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -152,7 +152,7 @@
                 ?>
                 <li>
                     <div class="tc-img inb">
-                        <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="tc-info inb clearfix">
                         <div class="tc-info-top">
@@ -183,7 +183,7 @@
     <div class="tc-wrap" data-value="246">
         <ul class="tc-list">
             <?php
-            $data = \app\modules\cn\models\Content::getContent(['pageStr' => 1,'fields' => 'abstract,job','category' => "246",'pageSize'=>6]);
+            $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'abstract,job','category' => "246",'pageSize'=>6]);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -193,7 +193,7 @@
                 ?>
                 <li>
                     <div class="tc-img inb">
-                        <a href="#"><img src="<?php echo $v['image']?>" alt=""></a>
+                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="tc-info inb clearfix">
                         <div class="tc-info-top">
@@ -223,27 +223,9 @@
     </div>
 </div>
 <!--footer-->
-<footer class="tm">
-    <a class="inb f-list" href="index.html">
-        <img src="/wap/images/icon-16.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">首页</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="contact.html">
-        <img src="/wap/images/icon-17.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">电话咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-18.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">在线咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="#">
-        <img src="/wap/images/icon-19.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">全国分支</p>
-    </a>
-</footer>
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
 <!--footer End-->
 </body>
 <script>

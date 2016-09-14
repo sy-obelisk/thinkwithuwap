@@ -23,4 +23,16 @@ class GmatsheetController extends ThinkUController {
     public function actionIndex(){
         return $this->renderPartial('index');
     }
+
+    public function actionWeek(){
+        return $this->renderPartial('week');
+    }
+
+    public function actionSummer(){
+        return $this->renderPartial('summer');
+    }
+
+    public function actionVip(){
+        return $this->renderPartial('vip');
+    }
 }

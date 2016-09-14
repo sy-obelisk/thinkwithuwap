@@ -142,7 +142,7 @@
             foreach($data as $k => $v) {
                 ?>
                 <li>
-                    <div class="headPortrait"><img src="<?php echo $v['image']?>" alt="老师头像"/></div>
+                    <div class="headPortrait"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="老师头像"/></div>
                     <div>
                         <h4><?php echo $v['name']?></h4>
 

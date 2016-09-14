@@ -27,7 +27,7 @@
             ?>
             <li>
                 <a href="/teachers/<?php echo $v['name']?>/<?php echo $v['id']?>.html" target="_blank">
-                    <img src="<?php echo $v['image']?>" alt="名师照片">
+                    <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="名师照片">
                 </a>
                 <!--遮罩层-->
                 <div class="infoMask"></div>

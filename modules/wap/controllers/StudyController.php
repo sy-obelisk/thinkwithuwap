@@ -32,61 +32,33 @@ class StudyController extends ThinkUController {
      * 留学提升
      * @Obelisk
      */
-    public function actionPromote(){
-        $country = Yii::$app->request->get('country','USA');
-        $degree = Yii::$app->request->get('degree','course');
-        $countryId = CategoryExtend::find()->where("value = '$country'")->one();
-        $degreeId = CategoryExtend::find()->where("value = '$degree'")->one();
-        $countryId = $countryId->catId;
-        $degreeId = $degreeId->catId;
+    public function actionA(){
 
-        return $this->render('promote',['countryId' => $countryId,'degreeId' => $degreeId]);
+        return $this->renderPartial('A');
     }
 
     /**
      * 留学申请
      * @Obelisk
      */
-    public function actionApply(){
-        $country = Yii::$app->request->get('country','USA');
-        $degree = Yii::$app->request->get('degree','course');
-        $countryId = CategoryExtend::find()->where("value = '$country'")->one();
-        $degreeId = CategoryExtend::find()->where("value = '$degree'")->one();
-        $countryId = $countryId->catId;
-        $degreeId = $degreeId->catId;
-        return $this->render('apply',['countryId' => $countryId,'degreeId' => $degreeId]);
+    public function actionB(){
+        return $this->renderPartial('B');
     }
 
     /**
      * 留学规划
      * @Obelisk
      */
-    public function actionProject(){
-        $country = Yii::$app->request->get('country','USA');
-        $degree = Yii::$app->request->get('degree','course');
-        $countryId = CategoryExtend::find()->where("value = '$country'")->one();
-        $degreeId = CategoryExtend::find()->where("value = '$degree'")->one();
-        $countryId = $countryId->catId;
-        $degreeId = $degreeId->catId;
-        return $this->render('project',['countryId' => $countryId,'degreeId' => $degreeId]);
+    public function actionC(){
+        return $this->renderPartial('C');
     }
 
     /**
      * 留学评估
      * @Obelisk
      */
-    public function actionAssess(){
-        if($_POST){
-            $extendVal = Yii::$app->request->post('extendValue');
-            $collagen = Yii::$app->request->post('collagen');
-            $collagen = htmlspecialchars($collagen);
-            Yii::$app->session->set('extendVal',$extendVal);
-            Yii::$app->session->set('name','匿名');
-            return $this->render('result',['collagen' => $collagen]);
-        }else{
-            $extendData = CategoryExtend::find()->where("catId=222 AND belong='content'")->orderBy('id ASC')->all();
-            return $this->render('assess',['extendData' => $extendData]);
-        }
+    public function actionD(){
+        return $this->renderPartial('D');
     }
 
 
@@ -94,8 +66,8 @@ class StudyController extends ThinkUController {
      * 留学产品
      * @Obelisk
      */
-    public function actionAbroadProducts(){
-        return $this->render('abroadProducts');
+    public function actionUsa(){
+        return $this->renderPartial('usa');
     }
 
     /**
@@ -104,8 +76,8 @@ class StudyController extends ThinkUController {
      * @Obelisk
      */
 
-    public function actionDoctorStudy(){
-        return $this->render('doctorStudy');
+    public function actionAdvantage(){
+        return $this->renderPartial('advantage');
     }
 
     /**

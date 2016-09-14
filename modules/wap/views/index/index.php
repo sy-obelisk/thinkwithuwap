@@ -47,7 +47,7 @@
             <input class="inb" type="search" placeholder="输入你想查询的内容">
         </form>
     </div>
-    <a class="menu fr inb" href="menu.html">
+    <a class="menu fr inb" href="/menu.html">
         <img src="/wap/images/menu.png" alt="">
     </a>
     <div class="menu-wrap ani"></div>
@@ -65,7 +65,7 @@
     <div class="swiper-container-1 banner-wrap">
         <div class="swiper-wrapper">
             <?php
-            $data = \app\modules\cn\models\Content::getContent(['fields' => 'url','category' => "190,223",'pageSize' => 5]);
+            $data = \app\modules\wap\models\Content::getContent(['fields' => 'url','category' => "190,223",'pageSize' => 5]);
             foreach($data as $v) {
                 ?>
                 <div class="swiper-slide banner"><a href="#"><img src="/wap/images/banner-1.png" alt=""></a></div>
@@ -81,7 +81,7 @@
 <nav>
     <ul class="nav-list tm clearfix pd1">
         <li>
-            <a href="consult.html">
+            <a href="/abroad.html">
                 <div class="nav-icon">
                     <img src="/wap/images/icon-1.png" alt="">
                     <img class="hot ani" src="/wap/images/hot.png" alt="">
@@ -90,7 +90,7 @@
             <p class="nav-name">留学咨询</p>
         </li>
         <li>
-            <a href="gmat-subjects.html">
+            <a href="/GMAT.html">
                 <div class="nav-icon">
                     <img src="/wap/images/icon-2.png" alt="">
                     <img class="hot ani" src="/wap/images/hot.png" alt="">
@@ -99,7 +99,7 @@
             <p class="nav-name">GMAT</p>
         </li>
         <li>
-            <a href="toefl-sub.html">
+            <a href="/TOEFL.html">
                 <div class="nav-icon">
                     <img src="/wap/images/icon-3.png" alt="">
                 </div>
@@ -107,13 +107,13 @@
             <p class="nav-name">托福</p>
         </li>
         <li>
-            <a href="sy-class.html">
+            <a href="/class.html">
                 <div class="nav-icon"><img src="/wap/images/icon-4.png" alt=""></div>
             </a>
             <p class="nav-name">申友课堂</p>
         </li>
         <li>
-            <a href="school-search.html">
+            <a href="/schools.html">
                 <div class="nav-icon">
                     <img src="/wap/images/icon-5.png" alt="">
                     <img class="hot ani" src="/wap/images/hot.png" alt="">
@@ -122,19 +122,19 @@
             <p class="nav-name">院校搜索</p>
         </li>
         <li>
-            <a href="bg-boost.html">
+            <a href="/practices.html">
                 <div class="nav-icon"><img src="/wap/images/icon-6.png" alt=""></div>
             </a>
             <p class="nav-name">背景提升</p>
         </li>
         <li>
-            <a href="case-center.html">
+            <a href="/case.html">
                 <div class="nav-icon"><img src="/wap/images/icon-7.png" alt=""></div>
             </a>
             <p class="nav-name">案例中心</p>
         </li>
         <li>
-            <a href="teacher-gathered.html">
+            <a href="/teachers.html">
                 <div class="nav-icon"><img src="/wap/images/icon-8.png" alt=""></div>
             </a>
             <p class="nav-name">名师云集</p>
@@ -159,7 +159,7 @@
     <div class="content clearfix">
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-1.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/A.html"><img src="/wap/images/cp-1.png" alt=""></a>
                 <p class="must">必选项目</p>
             </div>
             <p class="cp-tit">A类卓越菁英</p>
@@ -167,7 +167,7 @@
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-2.html"><img src="/wap/images/cp-2.png" alt=""></a>
+                <a href="/B.html"><img src="/wap/images/cp-2.png" alt=""></a>
                 <p class="must">必选项目</p>
             </div>
             <p class="cp-tit">B类梦想起航</p>
@@ -175,14 +175,14 @@
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-3.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/C.html"><img src="/wap/images/cp-1.png" alt=""></a>
             </div>
             <p class="cp-tit">C类名校直通车</p>
             <p class="cp-describe">申请美英港热门名校</p>
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="content-4.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/D.html"><img src="/wap/images/cp-1.png" alt=""></a>
                 <p class="must">精英申请者必选项目</p>
             </div>
             <p class="cp-tit">D类助力传奇</p>
@@ -192,7 +192,7 @@
     <div class="content">
         <ul class="other-list">
             <li class="">
-                <a href="USA.html">
+                <a href="/USA.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-9.png" alt=""></div>
                     <div class="inb">
                         <p class="other-tit">美国申请方案</p>
@@ -201,7 +201,7 @@
                 </a>
             </li>
             <li class="">
-                <a href="gas-station.html">
+                <a href="/single.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-10.png" alt=""></div>
                     <div class="inb">
                         <p class="other-tit">单项加油站</p>
@@ -210,7 +210,7 @@
                 </a>
             </li>
             <li class="">
-                <a href="advantage.html">
+                <a href="/advantage.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-11.png" alt=""></div>
                     <div class="inb">
                         <p class="other-tit">申友留学服务优势</p>
@@ -232,16 +232,16 @@
         </div>
         <div class="gmat-right fr" style="width: 58%">
             <div class="r-top">
-                <a href="gmat-week.html"><img src="/wap/images/icon-13.png" style="width: 48.5%" alt=""></a>
-                <a href="gmat-summer.html"><img src="/wap/images/icon-14.png" style="width: 48.5%" alt=""></a>
+                <a href="/gmat-week.html"><img src="/wap/images/icon-13.png" style="width: 48.5%" alt=""></a>
+                <a href="/gmat-summer.html"><img src="/wap/images/icon-14.png" style="width: 48.5%" alt=""></a>
             </div>
-            <a href="gmat-vip.html"><img src="/wap/images/icon-15.png" alt=""></a>
+            <a href="/gmat-vip.html"><img src="/wap/images/icon-15.png" alt=""></a>
         </div>
     </div>
     <div class="pd1"><p class="col-name inb">托福培训</p></div>
     <div class="train-wrap pd2 clearfix">
         <div class="fl train-text-wrap" style="background: #77A42E">
-            <a href="toefl-sub.html#tf-open">
+            <a href="/TOEFL.html">
                 <img src="/wap/images/search-2.png" style="width: 1.65rem" alt="">
                 <div class="inb train-text">
                     <p class="train-tit">托福开班查询</p>
@@ -289,42 +289,50 @@
             <div class="swiper-container-2 anli-banner">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide a-banner clearfix">
-                        <div class="anli-show fl tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">1攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                        <div class="anli-show fr tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide a-banner clearfix">
-                        <div class="anli-show fl tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                        <div class="anli-show fr tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide a-banner clearfix">
-                        <div class="anli-show fl tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                        <div class="anli-show fr tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                    </div>
+                        <?php
+                        $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "178,102",'limit'=>'2,2']);
+                        foreach($data as $k => $v) {
+                            ?>
+                            <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
+                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
 
+                                <div class="inb anli-mark"><?php echo $v['abroadSchool']?></div>
+                            </div>
+                        <?php
+                        }
+?>
+                    </div>
+                    <div class="swiper-slide a-banner clearfix">
+                        <?php
+                        $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "178,102",'limit'=>'4,2']);
+                        foreach($data as $k => $v) {
+                            ?>
+                            <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
+                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
+
+                                <div class="inb anli-mark"><?php echo $v['abroadSchool']?></div>
+                            </div>
+                        <?php
+                        }
+                        ?>
+                    </div>
+                    <div class="swiper-slide a-banner clearfix">
+                        <?php
+                        $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "178,102",'limit'=>'0,2']);
+                        foreach($data as $k => $v) {
+                            ?>
+                            <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
+                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
+
+                                <div class="inb anli-mark"><?php echo $v['abroadSchool']?></div>
+                            </div>
+                        <?php
+                        }
+                        ?>
+                    </div>
                 </div>
                 <div class="anli-page-2 swiper-pagination"></div>
             </div>
@@ -333,40 +341,49 @@
             <div class="swiper-container-3 anli-banner">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide a-banner clearfix">
-                        <div class="anli-show fl tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">2攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                        <div class="anli-show fr tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
+                        <?php
+                        $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "115,102",'limit'=>'2,2']);
+                        foreach($data as $k => $v) {
+                            ?>
+                            <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
+                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
+
+                                <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
+                            </div>
+                        <?php
+                        }
+                        ?>
                     </div>
                     <div class="swiper-slide a-banner clearfix">
-                        <div class="anli-show fl tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                        <div class="anli-show fr tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
+                        <?php
+                        $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "115,102",'limit'=>'4,2']);
+                        foreach($data as $k => $v) {
+                            ?>
+                            <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
+                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
+
+                                <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
+                            </div>
+                        <?php
+                        }
+                        ?>
                     </div>
                     <div class="swiper-slide a-banner clearfix">
-                        <div class="anli-show fl tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                        <div class="anli-show fr tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
+                        <?php
+                        $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "115,102",'limit'=>'0,2']);
+                        foreach($data as $k => $v) {
+                            ?>
+                            <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
+                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
+
+                                <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
+                            </div>
+                        <?php
+                        }
+                        ?>
                     </div>
 
                 </div>
@@ -377,40 +394,49 @@
             <div class="swiper-container-4 anli-banner">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide a-banner clearfix">
-                        <div class="anli-show fl tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">3攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                        <div class="anli-show fr tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
+                        <?php
+                        $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "116,102",'limit'=>'2,2']);
+                        foreach($data as $k => $v) {
+                            ?>
+                            <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
+                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
+
+                                <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
+                            </div>
+                        <?php
+                        }
+                        ?>
                     </div>
                     <div class="swiper-slide a-banner clearfix">
-                        <div class="anli-show fl tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                        <div class="anli-show fr tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
+                        <?php
+                        $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "116,102",'limit'=>'4,2']);
+                        foreach($data as $k => $v) {
+                            ?>
+                            <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
+                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
+
+                                <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
+                            </div>
+                        <?php
+                        }
+                        ?>
                     </div>
                     <div class="swiper-slide a-banner clearfix">
-                        <div class="anli-show fl tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
-                        <div class="anli-show fr tm">
-                            <div class="ali-img"><img src="/wap/images/c-2.png" alt=""></div>
-                            <p class="anli-moj ellipsis-2 tl">攻克数学，600到700的完美升华</p>
-                            <div class="inb anli-mark">成绩：GMAT710</div>
-                        </div>
+                        <?php
+                        $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "116,102",'limit'=>'0,2']);
+                        foreach($data as $k => $v) {
+                            ?>
+                            <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
+                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
+
+                                <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
+                            </div>
+                        <?php
+                        }
+                        ?>
                     </div>
                 </div>
                 <div class="anli-page-4 swiper-pagination"></div>
@@ -441,82 +467,61 @@
     </div>
     <!--选项卡-->
     <div class="info-select-wrap" style="display: block;">
-        <div class="info-wrap">
-            <div class="info-img inb"><img src="/wap/images/c-1.png" alt=""></div>
-            <div class="info-text inb">
-                <h1 class="info-tit">2016申友GMAT网络年会</h1>
-                <p class="info-de ellipsis-2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容</p>
-                <p class="time">2016-05-06</p>
+        <?php
+        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "178,118",'pageSize' => 3]);
+        foreach($data as $k => $v) {
+            ?>
+            <div class="info-wrap">
+                <div class="info-img inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                <div class="info-text inb">
+                    <h1 class="info-tit"><?php echo $v['name']?></h1>
+
+                    <p class="info-de ellipsis-2"><?php echo $v['abstract']?></p>
+
+                    <p class="time"><?php echo $v['createTime']?></p>
+                </div>
             </div>
-        </div>
-        <div class="info-wrap">
-            <div class="info-img inb"><img src="/wap/images/c-1.png" alt=""></div>
-            <div class="info-text inb">
-                <h1 class="info-tit">2016申友GMAT网络年会</h1>
-                <p class="info-de ellipsis-2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容</p>
-                <p class="time">2016-05-06</p>
-            </div>
-        </div>
-        <div class="info-wrap">
-            <div class="info-img inb"><img src="/wap/images/c-1.png" alt=""></div>
-            <div class="info-text inb">
-                <h1 class="info-tit">2016申友GMAT网络年会</h1>
-                <p class="info-de ellipsis-2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容</p>
-                <p class="time">2016-05-06</p>
-            </div>
-        </div>
+        <?php
+        }
+?>
     </div>
     <div class="info-select-wrap">
-        <div class="info-wrap">
-            <div class="info-img inb"><img src="/wap/images/c-1.png" alt=""></div>
-            <div class="info-text inb">
-                <h1 class="info-tit">2016申友GMAT网络年会</h1>
-                <p class="info-de ellipsis-2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容</p>
-                <p class="time">2016-05-06</p>
+        <?php
+        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "177,118",'pageSize' => 3]);
+        foreach($data as $k => $v) {
+            ?>
+            <div class="info-wrap">
+                <div class="info-img inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                <div class="info-text inb">
+                    <h1 class="info-tit"><?php echo $v['name']?></h1>
+
+                    <p class="info-de ellipsis-2"><?php echo $v['abstract']?></p>
+
+                    <p class="time"><?php echo $v['createTime']?></p>
+                </div>
             </div>
-        </div>
-        <div class="info-wrap">
-            <div class="info-img inb"><img src="/wap/images/c-1.png" alt=""></div>
-            <div class="info-text inb">
-                <h1 class="info-tit">2016申友GMAT网络年会</h1>
-                <p class="info-de ellipsis-2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容</p>
-                <p class="time">2016-05-06</p>
-            </div>
-        </div>
-        <div class="info-wrap">
-            <div class="info-img inb"><img src="/wap/images/c-1.png" alt=""></div>
-            <div class="info-text inb">
-                <h1 class="info-tit">2016申友GMAT网络年会</h1>
-                <p class="info-de ellipsis-2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容</p>
-                <p class="time">2016-05-06</p>
-            </div>
-        </div>
+        <?php
+        }
+        ?>
     </div>
     <div class="info-select-wrap">
-        <div class="info-wrap">
-            <div class="info-img inb"><img src="/wap/images/c-1.png" alt=""></div>
-            <div class="info-text inb">
-                <h1 class="info-tit">2016申友GMAT网络年会</h1>
-                <p class="info-de ellipsis-2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容</p>
-                <p class="time">2016-05-06</p>
+        <?php
+        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "105,118",'pageSize' => 3]);
+        foreach($data as $k => $v) {
+            ?>
+            <div class="info-wrap">
+                <div class="info-img inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                <div class="info-text inb">
+                    <h1 class="info-tit"><?php echo $v['name']?></h1>
+
+                    <p class="info-de ellipsis-2"><?php echo $v['abstract']?></p>
+
+                    <p class="time"><?php echo $v['createTime']?></p>
+                </div>
             </div>
-        </div>
-        <div class="info-wrap">
-            <div class="info-img inb"><img src="/wap/images/c-1.png" alt=""></div>
-            <div class="info-text inb">
-                <h1 class="info-tit">2016申友GMAT网络年会</h1>
-                <p class="info-de ellipsis-2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容</p>
-                <p class="time">2016-05-06</p>
-            </div>
-        </div>
-        <div class="info-wrap">
-            <div class="info-img inb"><img src="/wap/images/c-1.png" alt=""></div>
-            <div class="info-text inb">
-                <h1 class="info-tit">2016申友GMAT网络年会</h1>
-                <p class="info-de ellipsis-2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容</p>
-                <p class="time">2016-05-06</p>
-            </div>
-        </div>
+        <?php
+        }
+        ?>
     </div>
 
 
@@ -530,27 +535,9 @@
 </div>
 <!--版权 End-->
 <!--footer-->
-<footer class="tm">
-    <a class="inb f-list" href="index.html">
-        <img src="/wap/images/icon-16.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">首页</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="tel:400-600-1123">
-        <img src="/wap/images/icon-17.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">电话咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
-        <img src="/wap/images/icon-18.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">在线咨询</p>
-    </a>
-    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="contact.html">
-        <img src="/wap/images/icon-19.png" style="width: 1.15rem" alt="">
-        <p class="ft-name">全国分支</p>
-    </a>
-</footer>
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
 <!--footer End-->
 
 </body>
