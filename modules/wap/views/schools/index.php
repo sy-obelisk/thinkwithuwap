@@ -83,7 +83,7 @@
                 ?>
                 <li>
                     <div class="sc-logo fl">
-                        <img src="<?php echo Yii::$app->params['schoolConnect'].Yii::$app->params['PC'].$v['image']?>" alt="">
+                        <img src="<?php echo Yii::$app->params['schoolConnect'].$v['image']?>" alt="">
 
                         <p class="concern">已有<span>111</span>人关注</p>
                     </div>
