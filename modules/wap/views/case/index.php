@@ -221,7 +221,7 @@
                 for(i=0;i<re.data.length;i++){
                     dataStr += '<li>';
                     dataStr += '<div class="class-img fl">';
-                    dataStr+='<a href="#"><img src="'+re.data[i].image+'" alt=""></a>';
+                    dataStr+='<a href="#"><img src="<?php echo Yii::$app->params['PC']?>'+re.data[i].image+'" alt=""></a>';
                     dataStr+='</div>';
                     dataStr +='<div class="class-info fr">';
                     dataStr +='<h1 class="class-tit">'+re.data[i].title+'</h1>';
