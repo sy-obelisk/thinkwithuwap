@@ -254,7 +254,7 @@
                 for(i=0;i<re.data.length;i++){
                     dataStr += '<li>';
                     dataStr += '<div class="tc-img inb">';
-                    dataStr += '<a href="#"><img src="'+re.data[i].image+'" alt=""></a>';
+                    dataStr += '<a href="#"><img src="<?php echo Yii::$app->params['PC']?>'+re.data[i].image+'" alt=""></a>';
                     dataStr += '</div>';
                     dataStr += '<div class="tc-info inb clearfix">';
                     dataStr += '<div class="tc-info-top">';
