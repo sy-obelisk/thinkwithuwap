@@ -1,5 +1,4 @@
 <?php
-var_dump(111);die;
 header("Content-Type:text/html;charset=utf-8");
 //// comment out the following two lines when deployed to production
 defined('YII_DEBUG') or define('YII_DEBUG', 1);
