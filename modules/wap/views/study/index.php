@@ -163,7 +163,7 @@
     </div>
 
     <div class="tm ct-btn">
-        <a class="ct-b1 inb" href="#">点击咨询：适合你的申请方案</a>
+        <a class="ct-b1 inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">点击咨询：适合你的申请方案</a>
     </div>
 </section>
 <!--内容 END-->
