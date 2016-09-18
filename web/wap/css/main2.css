@@ -131,10 +131,13 @@
 
 .boost-img {
     width: 100%;
-    /*height: 5rem;*/
+    height: 5rem;
     overflow: hidden;
 }
-
+.boost-img img{
+    width: 100%;
+    height: 100%;
+}
 .boost-name {
     margin-top: 0.2rem;
     line-height: 0.9rem;
@@ -734,7 +737,9 @@
     width: 5rem;
     margin-right: 0.3rem;
 }
-
+.tc-img img{
+    width: 100%;
+}
 .tc-info {
     width: 68%;
 }

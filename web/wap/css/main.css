@@ -387,6 +387,10 @@ footer {
     width: 6.75rem;
     height: 6.5rem;
     overflow: hidden;
+    /*border: 1px red solid;*/
+}
+.ali-img img{
+    width: 100%;height: 100%;
 }
 .anli-moj{
     margin-top: 0.3rem;
