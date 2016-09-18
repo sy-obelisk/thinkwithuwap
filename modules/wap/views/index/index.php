@@ -147,8 +147,10 @@
     <p class="col-name inb">留学产品</p>
     <div class="inb fr">
         <div class="icon inb">
-            <img src="/wap/images/more.png" style="width: 0.6rem;" alt="">
-            <span class=" r-name inb">更多方案</span>
+            <a href="/abroad.html">
+                <img src="/wap/images/more.png" style="width: 0.6rem;" alt="">
+                <span class=" r-name inb">更多方案</span>
+            </a>
         </div>
 
     </div>
@@ -228,7 +230,7 @@
     <div class="pd1"><p class="col-name inb">GMAT培训</p></div>
     <div class="gmat-wrap pd2 clearfix">
         <div class="gmat-left fl" style="width: 40%">
-            <a href="gmat-subjects.html#gmat-open"><img src="/wap/images/icon-12.png" alt=""></a>
+            <a href="/GMAT.html#gmat-open"><img src="/wap/images/icon-12.png" alt=""></a>
         </div>
         <div class="gmat-right fr" style="width: 58%">
             <div class="r-top">
@@ -269,7 +271,7 @@
     <p class="col-name inb">申友案例库</p>
     <div class="inb fr">
         <div class="icon inb">
-            <a href="teacher-gathered.html">
+            <a href="/teachers.html">
                 <img src="/wap/images/more-2.png" style="width: 0.6rem;" alt="">
                 <span class=" r-name inb">名师团队</span>
             </a>

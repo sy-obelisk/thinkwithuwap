@@ -72,9 +72,6 @@
             }
 ?>
     </ul>
-    <div class="tm ct-btn mg-t1">
-        <a class="ct-b1 inb" href="#">点击了解：查看更多申友名校案例</a>
-    </div>
 </div>
 <div class="bg-1 pd-0">
     <div class="case-select">
