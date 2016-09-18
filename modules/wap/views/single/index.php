@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="/wap/css/swiper-3.3.1.min.css">
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
+    <script src="/wap/js/common.js"></script>
     <title>单项加油站</title>
 </head>
 <body>

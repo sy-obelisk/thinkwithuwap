@@ -400,6 +400,7 @@ footer {
     line-height: 0.9rem;
     font-size: 0.6rem;
     border-radius: 3px;
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
 }
 .s2 span{
     padding: 0 0.85rem;
