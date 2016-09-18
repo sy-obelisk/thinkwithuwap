@@ -533,7 +533,7 @@
 <div class="tm bg-col-1 pd1">
     <p class="ft-tit">申友教育 高端留学与GT培训品牌</p>
     <div><a class="pc-enter inb" href="http://www.thinkwithu.com">电脑版入口</a></div>
-    <p class="copyright">Copyrigth © 2016 All Right Reserved 申友教育 版权所</p>
+    <p class="copyright">Copyrigth © 2016 All Right Reserved 上海小申教育科技有限公司 版权所</p>
 </div>
 <!--版权 End-->
 <!--footer-->

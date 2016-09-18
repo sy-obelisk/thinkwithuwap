@@ -52,7 +52,7 @@
     <ul class="nav2-wrap pd-1">
         <li>
             <i class="inb tl nav-icon"><img src="/wap/images/nav-1.png" style="width: 1.1rem" alt=""></i>
-            <a class="inb nav2-name" href="/abroad.html">留学申请服务</a>
+            <a class="inb nav2-name" href="/abroad.html">留学咨询服务</a>
         </li>
         <li>
             <i class="inb tl nav-icon"><img src="/wap/images/nav-2.png" style="width: 1.1rem" alt=""></i>
