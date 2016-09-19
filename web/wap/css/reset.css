@@ -19,7 +19,7 @@ ul{list-style-type: none;margin: 0;padding: 0;}
 .tm{text-align: center;}
 .tl{text-align: left;}
 .tr{text-align: right;}
-.inb{display: inline-block;vertical-align: middle;}
+.inb{display: inline-block;vertical-align: middle;max-width: 10rem}
 .tb{display: table-cell;width: 50%;}
 .relative{position: relative;}
 .ani{position: absolute}
