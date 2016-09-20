@@ -82,45 +82,39 @@
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
-            <h1 class="open-name">GMAT周末班 </h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
+            <h1 class="open-name">GMAT强化班（周末班） </h1>
+            <P class="open-time">9月3、4、10、11、17、18、24、25日</P>
         </div>
     </li>
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
-            <h1 class="open-name">GMAT周末班 </h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
+            <h1 class="open-name">GMAT强化班（周末班） </h1>
+            <P class="open-time">10月15、16、22、23、29、30日</P>
         </div>
     </li>
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
-            <h1 class="open-name">GMAT周末班 </h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
+            <h1 class="open-name">GMAT VIP一对一 </h1>
+            <P class="open-time">随时开课</P>
         </div>
     </li>
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
-            <h1 class="open-name">GMAT周末班 </h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
+            <h1 class="open-name">GMAT PRE基础班 </h1>
+            <P class="open-time">随时开课</P>
         </div>
     </li>
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
-            <h1 class="open-name">GMAT周末班 </h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
+            <h1 class="open-name">GMAT机经冲刺班 </h1>
+            <P class="open-time">每月换库后开课</P>
         </div>
     </li>
-    <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">GMAT周末班 </h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
-        </div>
-    </li>
+
 </ul>
 <div class="pd1 mg-t1 bg-col-1">
     <p class="col-name inb">选择申友GMAT课程，轻松拿高分</p>
