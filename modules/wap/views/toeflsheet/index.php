@@ -73,43 +73,22 @@
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
-            <h1 class="open-name">托福周末班</h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
+            <h1 class="open-name">托福强化班（线下）</h1>
+            <P class="open-time">9月3、4、10、11、17、18、24、25日</P>
         </div>
     </li>
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
-            <h1 class="open-name">托福周末班</h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
+            <h1 class="open-name">托福强化班（线上）</h1>
+            <P class="open-time">随时开课</P>
         </div>
     </li>
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
-            <h1 class="open-name">托福周末班</h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
-        </div>
-    </li>
-    <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">托福周末班</h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
-        </div>
-    </li>
-    <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">托福周末班</h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
-        </div>
-    </li>
-    <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">GMAT周末班 </h1>
-            <P class="open-time">5月7、8、14、15、21、22、28、29日</P>
+            <h1 class="open-name">托福VIP一对一</h1>
+            <P class="open-time">随时开课</P>
         </div>
     </li>
 </ul>

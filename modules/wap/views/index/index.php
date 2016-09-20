@@ -197,7 +197,7 @@
             <li class="">
                 <a href="/USA.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-9.png" alt=""></div>
-                    <div class="inb">
+                    <div class="inb max_w">
                         <p class="other-tit">美国申请方案</p>
                         <p class="other-de color-1">Top30/50商学院申请计划</p>
                     </div>
@@ -206,7 +206,7 @@
             <li class="">
                 <a href="/single.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-10.png" alt=""></div>
-                    <div class="inb">
+                    <div class="inb max_w">
                         <p class="other-tit">单项加油站</p>
                         <p class="other-de color-2">定制个性化文书、网申、面试、签证等服务</p>
                     </div>
@@ -215,7 +215,7 @@
             <li class="">
                 <a href="/advantage.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-11.png" alt=""></div>
-                    <div class="inb">
+                    <div class="inb max_w">
                         <p class="other-tit">申友留学服务优势</p>
                         <p class="other-de color-3">提倡非中介名校申请模式，透明服务<br>
                             六位一体服务，团队精细分工
