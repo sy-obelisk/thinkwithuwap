@@ -66,10 +66,10 @@
     <div class="swiper-container-1 banner-wrap">
         <div class="swiper-wrapper">
             <?php
-            $data = \app\modules\wap\models\Content::getContent(['fields' => 'url','category' => "190,223",'pageSize' => 5]);
+            $data = \app\modules\wap\models\Content::getContent(['fields' => 'url','category' => "190,254",'pageSize' => 5]);
             foreach($data as $v) {
                 ?>
-                <div class="swiper-slide banner"><a href="#"><img src="/wap/images/banner-1.png" alt=""></a></div>
+                <div class="swiper-slide banner"><a href="<?php echo $v['url']?>"><img src="<?php echo $v['image']?>" alt=""></a></div>
             <?php
             }
             ?>

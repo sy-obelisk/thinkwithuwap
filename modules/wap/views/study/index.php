@@ -54,7 +54,7 @@
 <div class="ct-top">
     <div class="ct-1 tm relative">
         <img src="/wap/images/ct-1.png" alt="">
-        <div><a class="inb mg-t1 tm line-1" href="#"><img src="/wap/images/ct-3.png" alt=""></a></div>
+        <div><a class="inb mg-t1 tm line-1" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/ct-3.png" alt=""></a></div>
         <img class="arrow-1 ani" src="/wap/images/ct-2.png" alt="">
     </div>
     <div class="ct-2">

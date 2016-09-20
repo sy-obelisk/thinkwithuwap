@@ -55,9 +55,14 @@
 <div style="width: 100%;overflow: hidden">
     <div class="swiper-container-1 banner-wrap relative">
         <div class="swiper-wrapper">
-            <div class="swiper-slide banner"><a href="#"><img src="/wap/images/n-1.png" alt=""></a></div>
-            <div class="swiper-slide banner"><a href="#"><img src="/wap/images/n-1.png" alt=""></a></div>
-            <div class="swiper-slide banner"><a href="#"><img src="/wap/images/n-1.png" alt=""></a></div>
+            <?php
+            $data = \app\modules\wap\models\Content::getContent(['fields' => 'url','category' => "190,255",'pageSize' => 5]);
+            foreach($data as $v) {
+                ?>
+                <div class="swiper-slide banner"><a href="<?php echo $v['url']?>"><img src="<?php echo $v['image']?>" alt=""></a></div>
+            <?php
+            }
+            ?>
         </div>
         <div class="n1-page swiper-pagination"></div>
     </div>
