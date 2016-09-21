@@ -126,38 +126,38 @@
         </li>
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
         <li>
-            <p class="course-tit">测评预<br>约访谈</p>
-            <p class="course-de">名师剖析测评结果，针对性提出复习建议</p>
+            <p class="course-tit">核心<br>课程</p>
+            <p class="course-de">指导 GMAT 核心内容的解题思路和方法</p>
+            <p class="course-time">（30课时）</p>
+        </li>
+        <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
+        <li>
+            <p class="course-tit">真题<br>精讲</p>
+            <p class="course-de">远程线上讲解，在做题中巩固思路和方法</p>
             <p class="course-time">（2课时）</p>
         </li>
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
         <li>
-            <p class="course-tit">测评预<br>约访谈</p>
-            <p class="course-de">名师剖析测评结果，针对性提出复习建议</p>
-            <p class="course-time">（2课时）</p>
-        </li>
-        <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
-        <li>
-            <p class="course-tit">测评预<br>约访谈</p>
-            <p class="course-de">名师剖析测评结果，针对性提出复习建议</p>
+            <p class="course-tit">模考<br>解析</p>
+            <p class="course-de">学管老师发送模考卷， 远程线上分析讲解</p>
             <p class="course-time">（2课时）</p>
         </li>
         <li>
-            <p class="course-tit">测评预<br>约访谈</p>
-            <p class="course-de">名师剖析测评结果，针对性提出复习建议</p>
-            <p class="course-time">（2课时）</p>
+            <p class="course-tit">名师<br>答疑</p>
+            <p class="course-de">遇到问题，可上传至社区，会有老师答疑</p>
+            <p class="course-time">（随时）</p>
         </li>
         <div class="inb sub-8" style=" margin: 0.5rem 0.3rem 0;"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
         <li>
-            <p class="course-tit">测评预<br>约访谈</p>
-            <p class="course-de">名师剖析测评结果，针对性提出复习建议</p>
-            <p class="course-time">（2课时）</p>
+            <p class="course-tit">学习<br>社区</p>
+            <p class="course-de">成为申友学员并开通账号后即可登陆使用</p>
+            <p class="course-time">（随时）</p>
         </li>
         <div class="inb sub-8" style=" margin: 0.5rem 0.3rem 0;"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
         <li>
-            <p class="course-tit">测评预<br>约访谈</p>
-            <p class="course-de">名师剖析测评结果，针对性提出复习建议</p>
-            <p class="course-time">（2课时）</p>
+            <p class="course-tit">机经<br>冲刺</p>
+            <p class="course-de">当月题库讲解机经，助大家进行考前冲刺</p>
+            <p class="course-time">（换库后）</p>
         </li>
     </ul>
 </div>
