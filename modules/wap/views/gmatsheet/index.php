@@ -133,7 +133,7 @@
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
         <li>
             <p class="course-tit">真题<br>精讲</p>
-            <p class="course-de">远程线上讲解，在做题中巩固思路和方法</p>
+            <p class="course-de">远程线上讲解，做题中巩固思路和方法</p>
             <p class="course-time">（2课时）</p>
         </li>
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
