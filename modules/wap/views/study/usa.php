@@ -59,8 +59,8 @@
     <div class="inb u-top">
         <img src="/wap/images/u-1.png" alt="">
         <div class="tm u-select">
-            <a href="#"><img src="/wap/images/u-2.png" alt=""></a>
-            <a href="#"><img src="/wap/images/u-3.png" alt=""></a>
+            <a href="tel:400-600-1123"><img src="/wap/images/u-2.png" alt=""></a>
+            <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/u-3.png" alt=""></a>
         </div>
     </div>
 </div>
@@ -75,7 +75,11 @@
                 <span class="price">限期优惠价：980元</span>
                 <em class="u-price">原价：8800元 </em>
             </div>
-            <div class="u-btn"><img src="/wap/images/u-btn.png" alt=""></div>
+            <div class="u-btn">
+                <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
+                <img src="/wap/images/u-btn.png" alt="">
+                    </a>
+            </div>
         </div>
     </div>
     <div class="u1">
@@ -91,7 +95,9 @@
                 <img class="u-big" src="/wap/images/u-big.png" alt="">
                 <em class="u-price inb">原价：8800元 </em>
             </div>
-            <div class="u-btn"><img src="/wap/images/u-btn.png" alt=""></div>
+            <div class="u-btn">                <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
+                    <img src="/wap/images/u-btn.png" alt="">
+                </a></div>
         </div>
     </div>
 </div>
@@ -102,7 +108,9 @@
     </div>
     <div class="clearfix u2-de-wrap">
         <img class="u2-de" src="/wap/images/u-7.png" alt="">
-        <div class="tr" style="padding-bottom: 0.3rem"><img class="u-btn" src="/wap/images/u-btn.png" alt=""></div>
+        <div class="tr" style="padding-bottom: 0.3rem">                <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
+                <img src="/wap/images/u-btn.png" alt="">
+            </a></div>
     </div>
 </div>
 <div style="margin-bottom: 0.8rem">

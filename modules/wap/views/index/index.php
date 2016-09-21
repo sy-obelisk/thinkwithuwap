@@ -69,7 +69,7 @@
             $data = \app\modules\wap\models\Content::getContent(['fields' => 'url','category' => "190,254",'pageSize' => 5]);
             foreach($data as $v) {
                 ?>
-                <div class="swiper-slide banner"><a href="<?php echo $v['url']?>"><img src="<?php echo $v['image']?>" alt=""></a></div>
+                <div class="swiper-slide banner"><a href="<?php echo $v['url']?>"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
             <?php
             }
             ?>
