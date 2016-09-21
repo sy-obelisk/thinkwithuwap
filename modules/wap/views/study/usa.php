@@ -108,7 +108,8 @@
     </div>
     <div class="clearfix u2-de-wrap">
         <img class="u2-de" src="/wap/images/u-7.png" alt="">
-        <div class="tr" style="padding-bottom: 0.3rem">                <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
+        <div class="tr u-btn fr" style="padding-bottom: 0.3rem">
+            <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
                 <img src="/wap/images/u-btn.png" alt="">
             </a></div>
     </div>
