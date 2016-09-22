@@ -83,14 +83,21 @@
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
             <h1 class="open-name">GMAT强化班（周末班） </h1>
-            <P class="open-time">9月3、4、10、11、17、18、24、25日</P>
+            <P class="open-time">10月15、16、22、23、29、30日</P>
         </div>
     </li>
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
-            <h1 class="open-name">GMAT强化班（周末班） </h1>
-            <P class="open-time">10月15、16、22、23、29、30日</P>
+            <h1 class="open-name">GMAT国庆班 </h1>
+            <P class="open-time">10月1、2、3、4、5、6日（全日制）</P>
+        </div>
+    </li>
+    <li>
+        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+        <div class="fr open-text">
+            <h1 class="open-name">GMAT寒假班  </h1>
+            <P class="open-time">1、2月每周滚动开班；连授班</P>
         </div>
     </li>
     <li>
@@ -133,7 +140,7 @@
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
         <li>
             <p class="course-tit">真题<br>精讲</p>
-            <p class="course-de">远程线上讲解，在做题中巩固思路和方法</p>
+            <p class="course-de">远程线上讲解，做题中巩固思路和方法</p>
             <p class="course-time">（2课时）</p>
         </li>
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>

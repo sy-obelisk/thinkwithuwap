@@ -549,10 +549,10 @@
         var mySwiper = new Swiper('.swiper-container-1', {
             loop: true,
             observer: true,
-            autoplay:1000,
+            autoplay:2000,
             observeParents: true,
             paginationClickable: true,
-            pagination: '.baner-page',
+            pagination: '.baner-page'
         });
         var mySwiper = new Swiper('.swiper-container-2', {
             loop: true,
@@ -560,7 +560,7 @@
             autoplay:2000,
             observeParents: true,
             paginationClickable: true,
-            pagination: '.anli-page-2',
+            pagination: '.anli-page-2'
         });
         var mySwiper = new Swiper('.swiper-container-3', {
             loop: true,
@@ -568,7 +568,7 @@
             autoplay:2000,
             observeParents: true,
             paginationClickable: true,
-            pagination: '.anli-page-3',
+            pagination: '.anli-page-3'
         });
         var mySwiper = new Swiper('.swiper-container-4', {
             loop: true,
@@ -576,7 +576,7 @@
             autoplay:2000,
             observeParents: true,
             paginationClickable: true,
-            pagination: '.anli-page-4',
+            pagination: '.anli-page-4'
         });
 
         $(".select-wrap span").on("click", function () {
