@@ -83,14 +83,21 @@
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
             <h1 class="open-name">GMAT强化班（周末班） </h1>
-            <P class="open-time">9月3、4、10、11、17、18、24、25日</P>
+            <P class="open-time">10月15、16、22、23、29、30日</P>
         </div>
     </li>
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
-            <h1 class="open-name">GMAT强化班（周末班） </h1>
-            <P class="open-time">10月15、16、22、23、29、30日</P>
+            <h1 class="open-name">GMAT国庆班 </h1>
+            <P class="open-time">10月1、2、3、4、5、6日（全日制）</P>
+        </div>
+    </li>
+    <li>
+        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+        <div class="fr open-text">
+            <h1 class="open-name">GMAT寒假班  </h1>
+            <P class="open-time">1、2月每周滚动开班；连授班</P>
         </div>
     </li>
     <li>

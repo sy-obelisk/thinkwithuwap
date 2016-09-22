@@ -68,8 +68,12 @@
     </div>
     <script language="javascript">
         var mySwiper = new Swiper('.swiper-container-1', {
-            loop: false,
-            pagination: '.n1-page',
+            loop: true,
+            observer: true,
+            autoplay:2000,
+            observeParents: true,
+            paginationClickable: true,
+            pagination: '.n1-page'
         })
     </script>
 </div>
