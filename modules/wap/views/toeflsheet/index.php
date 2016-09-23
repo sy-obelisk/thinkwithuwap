@@ -74,7 +74,7 @@
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
             <h1 class="open-name">托福强化班（线下）</h1>
-            <P class="open-time">9月3、4、10、11、17、18、24、25日</P>
+            <P class="open-time">每月周末滚动开班</P>
         </div>
     </li>
     <li>
@@ -82,6 +82,13 @@
         <div class="fr open-text">
             <h1 class="open-name">托福强化班（线上）</h1>
             <P class="open-time">随时开课</P>
+        </div>
+    </li>
+    <li>
+        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+        <div class="fr open-text">
+            <h1 class="open-name">托福寒假班（连授班）</h1>
+            <P class="open-time">1、2月每周滚动开班</P>
         </div>
     </li>
     <li>

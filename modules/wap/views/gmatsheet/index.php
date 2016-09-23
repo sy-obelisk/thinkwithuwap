@@ -83,7 +83,7 @@
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
         <div class="fr open-text">
             <h1 class="open-name">GMAT强化班（周末班） </h1>
-            <P class="open-time">10月15、16、22、23、29、30日</P>
+            <P class="open-time">每月周末滚动开班</P>
         </div>
     </li>
     <li>
@@ -141,13 +141,13 @@
         <li>
             <p class="course-tit">真题<br>精讲</p>
             <p class="course-de">远程线上讲解，做题中巩固思路和方法</p>
-            <p class="course-time">（2课时）</p>
+            <p class="course-time">（4课时/周）</p>
         </li>
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
         <li>
             <p class="course-tit">模考<br>解析</p>
             <p class="course-de">学管老师发送模考卷， 远程线上分析讲解</p>
-            <p class="course-time">（2课时）</p>
+            <p class="course-time">（3课时/月）</p>
         </li>
         <li>
             <p class="course-tit">名师<br>答疑</p>
