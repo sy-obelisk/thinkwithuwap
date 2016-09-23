@@ -9,9 +9,9 @@
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="title" content="">
+    <meta name="keywords" content="留学动态,留学资讯,留学新闻,gmat考试技巧,gmat资讯,gmat动态,申友动态,申友公开课,申友专题">
+    <meta name="description" content="申友教育为您提供热门的留学资讯,gamt考试动态,免费公开课开课时间,以及申友做题技巧,为您名校留学保驾护航。">
+    <meta name="title" content="留学动态_gmat资讯_申友专题-申友教育">
     <meta name="author" content="">
     <meta name="Copyright" content="">
     <!-- <meta name="description" content=""> -->
@@ -37,7 +37,7 @@
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
     <script src="/wap/js/common.js"></script>
-    <title>最新资讯</title>
+    <title>留学动态_gmat资讯_申友专题-申友教育</title>
 </head>
 <body>
 <!--内页头部-->

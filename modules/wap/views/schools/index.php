@@ -9,12 +9,11 @@
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="title" content="">
+    <meta name="keywords" content="国外名校,世界名校排行榜,名校介绍,名校录取条件,哈佛,剑桥,牛津大学,斯坦福,普林斯顿">
+    <meta name="description" content="申友为您提供国外院校搜索,国外名校名校排行榜,美国、英国、澳大利亚、加拿大等各国学校介绍以及录取要求,你与名校只差一个申友的距离。">
+    <meta name="title" content="国外院校搜索-申友教育">
     <meta name="author" content="">
     <meta name="Copyright" content="">
-    <meta name="description" content="">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- 让IE浏览器用最高级内核渲染页面 还有用 Chrome 框架的页面用webkit 内核
@@ -39,7 +38,7 @@
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
     <script src="/wap/js/common.js"></script>
-    <title>院校搜索</title>
+    <title>国外院校搜索-申友教育</title>
 </head>
 <body>
 <!--内页头部-->

@@ -9,9 +9,9 @@
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="title" content="">
+    <meta name="keywords" content="申友介绍,申友教育,申友简介,申友托福,申友gmat,申友留学">
+    <meta name="description" content="申友,GMAT/TOEFL培训机构的行业领跑者,”非中介”留学申请机构,专注英、美、港等名校留学申请,另设全方位签约高分GMAT/托福课程,欢迎来电咨询。">
+    <meta name="title" content="申友留学_申友gmat_申友托福-申友教育">
     <meta name="author" content="">
     <meta name="Copyright" content="">
     <!-- <meta name="description" content=""> -->
@@ -37,7 +37,7 @@
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
     <script src="/wap/js/common.js"></script>
-    <title>了解申友</title>
+    <title>申友留学_申友gmat_申友托福-申友教育</title>
 </head>
 <body>
 <!--内页头部-->

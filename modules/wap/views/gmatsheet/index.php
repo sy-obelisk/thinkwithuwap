@@ -9,9 +9,10 @@
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="title" content="">
+    <meta name="keywords" content="GMAT报名,GMAT考试时间,GMAT备考,GMAT换库,GMAT机经,GMAT逻辑,gmat真题,GMAT培训,GMAT课程,GMAT网络课程,GMAT辅导,GMAT班,GMAT阅读,GMAT数学,GMAT语法">
+    <meta name="description" content="申友GMAT培训平台致力培育GMAT高分学员。为学员提供关于GMAT报名,GMAT考试时间,
+    GMAT换库,GMAT机经,GMAT逻辑,GMAT真题,GMAT阅读,GMAT数学,GMAT语法等专业的GMAT备考信息,被业界称为“GMAT高分基地”。">
+    <meta name="title" content="gmat培训_gmat课程_gmat真题-申友教育">
     <meta name="author" content="">
     <meta name="Copyright" content="">
     <!-- <meta name="description" content=""> -->
@@ -37,7 +38,7 @@
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
     <script src="/wap/js/common.js"></script>
-    <title>GMAT课程</title>
+    <title>gmat培训_gmat课程_gmat真题-申友教育</title>
 </head>
 <body>
 <!--内页头部-->

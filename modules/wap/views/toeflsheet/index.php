@@ -9,9 +9,10 @@
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="title" content="">
+    <meta name="keywords" content="托福报名,托福考试时间,托福备考,托福机经,托福真题,托福培训,托福课程,托福网络课程,托福辅导,托福班,托福听力,托福口语,托福词汇,托福写作,托福阅读">
+    <meta name="description" content="申友托福培训平台致力培育托福高分学员。为学员提供关于托福报名,托福考试时间,
+    托福机经,托福真题,托福听力,托福口语、托福词汇、托福写作、托福阅读等专业的托福备考信息,被业界称为“托福高分基地”。">
+    <meta name="title" content="托福培训_toefl培训_托福课程-申友教育">
     <meta name="author" content="">
     <meta name="Copyright" content="">
     <!-- <meta name="description" content=""> -->
@@ -37,7 +38,7 @@
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
     <script src="/wap/js/common.js"></script>
-    <title>托福课程</title>
+    <title>托福培训_toefl培训_托福课程-申友教育</title>
 </head>
 <body>
 <!--内页头部-->

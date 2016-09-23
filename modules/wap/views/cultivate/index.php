@@ -66,12 +66,12 @@
 </div>
 <div class="sub-list bg-1">
     <div class="clearfix">
-        <a class="sub-1 fl inb" href="/gmat-week.html"><img src="/wap/images/sub-1.png" alt=""></a>
-        <a class="sub-2 fr inb" href="/gmat-vip.html"><img src="/wap/images/sub-2.png" alt=""></a>
+        <a class="sub-1 fl inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/sub-1.png" alt=""></a>
+        <a class="sub-2 fr inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/sub-2.png" alt=""></a>
     </div>
     <div class="clearfix">
-        <a class="sub-3 fl inb" href="/gmat-summer.html"><img src="/wap/images/sub-3.png" alt=""></a>
-        <a class="sub-4 fr inb" href="#"><img src="/wap/images/sub-4.png" alt=""></a>
+        <a class="sub-3 fl inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/sub-3.png" alt=""></a>
+        <a class="sub-4 fr inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/sub-4.png" alt=""></a>
     </div>
 </div>
 <!--栏目 END-->

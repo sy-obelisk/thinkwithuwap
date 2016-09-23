@@ -9,9 +9,9 @@
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="title" content="">
+    <meta name="keywords" content="申友公开课,申友在线课程,申友开课信息,申友排课,申友课表,申友GMAT">
+    <meta name="description" content="申友教育为您提供申友公开课的开课时间,申友公开课的课程安排,申友公开课报名方式等课程信息,欢迎来电咨询。">
+    <meta name="title" content="申友在线课堂-申友教育">
     <meta name="author" content="">
     <meta name="Copyright" content="">
     <!-- <meta name="description" content=""> -->
@@ -37,7 +37,7 @@
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
     <script src="/wap/js/common.js"></script>
-    <title>申友课堂</title>
+    <title>申友在线课堂-申友教育</title>
 </head>
 <body>
 <!--内页头部-->

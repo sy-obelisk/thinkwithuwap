@@ -9,9 +9,9 @@
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="title" content="">
+    <meta name="keywords" content="留学实习,游学实习,国外实习,暑期国外学习,寒假国外学习">
+    <meta name="description" content="申友教育为您提供国内外留学实习机会,游学实习项目,寒暑假精品留学项目,为您规划留学,提高硬实力,助您成长。">
+    <meta name="title" content="留学实习_游学实习_背景提升-申友教育">
     <meta name="author" content="">
     <meta name="Copyright" content="">
     <!-- <meta name="description" content=""> -->
@@ -37,7 +37,7 @@
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/common.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
-    <title>背景提升</title>
+    <title>留学实习_游学实习_背景提升-申友教育</title>
 </head>
 <body>
 <!--内页头部-->

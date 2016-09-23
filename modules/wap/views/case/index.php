@@ -9,9 +9,9 @@
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="title" content="">
+    <meta name="keywords" content="留学学习经验,留学学习心得,gmat高分经验,留学备考经验,gmat高分学员备考经验">
+    <meta name="description" content="申友教育为您提供留学成功申请案例,高分学子案例,高分心得,申请技巧,备考经验等学员信息,更多信息欢迎来电咨询。">
+    <meta name="title" content="留学成功案例_留学经验分享-申友教育">
     <meta name="author" content="">
     <meta name="Copyright" content="">
     <!-- <meta name="description" content=""> -->
@@ -37,7 +37,7 @@
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
     <script src="/wap/js/common.js"></script>
-    <title>案例中心</title>
+    <title>留学成功案例_留学经验分享-申友教育</title>
 </head>
 <body>
 <!--内页头部-->

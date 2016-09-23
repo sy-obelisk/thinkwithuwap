@@ -9,9 +9,9 @@
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="title" content="">
+    <meta name="keywords" content="gmat名师,托福名师,留学顾问,海外mentor,雷哥gmat,申友团队">
+    <meta name="description" content="申友教育拥有国内专业的留学服务团队,团队顾问精通其申请方向内的细节工作任务,比其他留学顾问更有效,更精准地定位申请,大大提高成功率。">
+    <meta name="title" content="gmat名师_托福名师_留学顾问-申友教育">
     <meta name="author" content="">
     <meta name="Copyright" content="">
     <!-- <meta name="description" content=""> -->
@@ -37,7 +37,7 @@
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
     <script src="/wap/js/common.js"></script>
-    <title>名师云集</title>
+    <title>gmat名师_托福名师_留学顾问-申友教育</title>
 </head>
 <body>
 <!--内页头部-->
