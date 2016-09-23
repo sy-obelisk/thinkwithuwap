@@ -42,9 +42,9 @@
 <body>
 <!--内页头部-->
 <header class=" pd-0 bg-1" style="background:#802F8A; margin-bottom: 0.6rem">
-    <div class="header-2">
-        <a class="tb tl" href="javascript:history.go(-1)"><img class="reBack" src="/wap/images/nav-11.png" alt=""></a>
-        <span class=" tb header-tit tm" style="color: #ffffff">联系申友</span>
+    <div class="header-2" style="text-align: center;position: relative">
+        <a href="javascript:history.go(-1)" style="position: absolute;left: 0;top: 0"><img class="reBack" src="/wap/images/nav-11.png" alt=""></a>
+        <span style="color: #ffffff">联系申友</span>
     </div>
 </header>
 <!--内页头部 END-->
