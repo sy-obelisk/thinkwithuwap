@@ -39,8 +39,8 @@ class AboutController extends ThinkUController {
      * @return string
      * @Obelisk
      */
-    public function actionJoin(){
-        return $this->render('join');
+    public function actionContactUs(){
+        return $this->renderPartial('contactus');
     }
 
     /**

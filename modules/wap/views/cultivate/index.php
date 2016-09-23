@@ -187,7 +187,7 @@
 
     </ul>
     <div class="tm ct-btn mg-t1">
-        <a class="ct-b1 inb" href="/case.html">点击了解：查看更多申友名校案例</a>
+        <a class="ct-b1 inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">点击了解：查看更多申友名校案例</a>
     </div>
 </div>
 <div class="bg-1 mg-t1">
@@ -279,7 +279,7 @@
         <p class="ft-name">在线咨询</p>
     </a>
     <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="/contact.html">
+    <a class="inb f-list" href="/contactus.html">
         <img src="/wap/images/icon-19.png" style="width: 1.15rem" alt="">
         <p class="ft-name">全国分支</p>
     </a>
