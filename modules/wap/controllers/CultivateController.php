@@ -6,15 +6,12 @@
  * Date: 15-11-23
  * Time: 上午10:51
  */
-namespace app\modules\cn\controllers;
+namespace app\modules\wap\controllers;
 use yii;
 use app\modules\cn\models\Content;
 use app\libs\ThinkUController;
 
 class CultivateController extends ThinkUController {
-    public $enableCsrfValidation = false;
-    public $layout = 'cn';
-    public $layout_data;
     /**
      * 培训界面
      * by fawn
@@ -22,8 +19,7 @@ class CultivateController extends ThinkUController {
      * @return string
      */
     public function actionIndex(){
-        $type = Yii::$app->request->get('str');
-        return $this->render('index',['type' => $type]);
+        return $this->renderPartial('index');
     }
 
     /**

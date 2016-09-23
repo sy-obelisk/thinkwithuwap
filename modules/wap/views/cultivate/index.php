@@ -1,1522 +1,289 @@
-
-    <link rel="stylesheet" href="/cn/css/cultivate.css"/>
-
-
-    <script type="text/javascript" src="/cn/js/studyAbroad.js"></script>
-
-<!-----------------------------培训导航------------------------------>
-<div class="curltivateNav">
-    <ul>
-        <div class="purpleBG">
-            <b>培训首页</b>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--阻止浏览器缓存-->
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="expires" content="0">
+    <!-- Basic Page Needs
+     ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="title" content="">
+    <meta name="author" content="">
+    <meta name="Copyright" content="">
+    <!-- <meta name="description" content=""> -->
+    <!-- 让IE浏览器用最高级内核渲染页面 还有用 Chrome 框架的页面用webkit 内核
+    ================================================== -->
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+    <!-- IOS6全屏 Chrome高版本全屏
+    ================================================== -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- 让360双核浏览器用webkit内核渲染页面
+    ================================================== -->
+    <meta name="renderer" content="webkit">
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <!-- !!!注意 minimal-ui 是IOS7.1的新属性，最小化浏览器UI -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="/wap/css/reset.css">
+    <link rel="stylesheet" href="/wap/css/common.css">
+    <link rel="stylesheet" href="/wap/css/main2.css">
+    <link rel="stylesheet" href="/wap/css/swiper-3.3.1.min.css">
+    <script src="/wap/js/jquery-1.12.2.min.js"></script>
+    <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
+    <script src="/wap/js/common.js"></script>
+    <title>GMAT课程</title>
+</head>
+<body>
+<!--内页头部-->
+<header class=" pd-0 bg-1">
+    <div class="header-2">
+<!--        <a class="tb tl" href="javascript:history.go(-1)"><img class="reBack" src="/wap/images/reBack.png" alt=""></a>-->
+        <span class=" tb header-tit tm">GMAT课程</span>
+<!--        <a class="tr tb" href="/menu.html">-->
+<!--            <img class="menu-icon" src="/wap/images/menu.png" alt="">-->
+<!--        </a>-->
+    </div>
+</header>
+<!--内页头部 END-->
+<!--广告位-->
+<div class="mg-t1"><a href="#"><img src="/wap/images/ad-9.png" alt=""></a></div>
+<!--广告位 END-->
+<!--栏目-->
+<div class="pd1 mg-t1 bg-col-1">
+    <p class="col-name inb">选择申友的理由</p>
+</div>
+<div class="bg-1 pd-1" style="padding-bottom: 1rem">
+    <img src="/wap/images/sub-7.png" alt="">
+</div>
+<div class="pd1 mg-t1 bg-col-1">
+    <p class="col-name inb">申友GMAT特色课程,45天快速突破700+</p>
+</div>
+<div class="sub-list bg-1">
+    <div class="clearfix">
+        <a class="sub-1 fl inb" href="/gmat-week.html"><img src="/wap/images/sub-1.png" alt=""></a>
+        <a class="sub-2 fr inb" href="/gmat-vip.html"><img src="/wap/images/sub-2.png" alt=""></a>
+    </div>
+    <div class="clearfix">
+        <a class="sub-3 fl inb" href="/gmat-summer.html"><img src="/wap/images/sub-3.png" alt=""></a>
+        <a class="sub-4 fr inb" href="#"><img src="/wap/images/sub-4.png" alt=""></a>
+    </div>
+</div>
+<!--栏目 END-->
+<div class="pd1 mg-t1 bg-col-1" name="gmat-open" id="gmat-open">
+    <p class="col-name inb">最新开班查询</p>
+</div>
+<ul class="bg-1 pd-0 open-list">
+    <li>
+        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+        <div class="fr open-text">
+            <h1 class="open-name">GMAT强化班（周末班） </h1>
+            <P class="open-time">10月15、16、22、23、29、30日</P>
         </div>
+    </li>
+    <li>
+        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+        <div class="fr open-text">
+            <h1 class="open-name">GMAT国庆班 </h1>
+            <P class="open-time">10月1、2、3、4、5、6日（全日制）</P>
+        </div>
+    </li>
+    <li>
+        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+        <div class="fr open-text">
+            <h1 class="open-name">GMAT寒假班  </h1>
+            <P class="open-time">1、2月每周滚动开班；连授班</P>
+        </div>
+    </li>
+    <li>
+        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+        <div class="fr open-text">
+            <h1 class="open-name">GMAT VIP一对一 </h1>
+            <P class="open-time">随时开课</P>
+        </div>
+    </li>
+    <li>
+        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+        <div class="fr open-text">
+            <h1 class="open-name">GMAT PRE基础班 </h1>
+            <P class="open-time">随时开课</P>
+        </div>
+    </li>
+    <li>
+        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+        <div class="fr open-text">
+            <h1 class="open-name">GMAT机经冲刺班 </h1>
+            <P class="open-time">每月换库后开课</P>
+        </div>
+    </li>
+
+</ul>
+<div class="pd1 mg-t1 bg-col-1">
+    <p class="col-name inb">选择申友GMAT课程，轻松拿高分</p>
+    <ul class="course-wrap tm">
         <li>
-            <a href="/gmatsheet.html">
-                <img src="/cn/images/cultivate_icon01.png" alt="GMAT培训" width="29"/><span>GMAT培训</span>
-            </a>
+            <p class="course-tit">测评预<br>约访谈</p>
+            <p class="course-de">名师剖析测评结果，针对性提出复习建议</p>
+            <p class="course-time">（2课时）</p>
+        </li>
+        <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
+        <li>
+            <p class="course-tit">核心<br>课程</p>
+            <p class="course-de">指导 GMAT 核心内容的解题思路和方法</p>
+            <p class="course-time">（30课时）</p>
+        </li>
+        <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
+        <li>
+            <p class="course-tit">真题<br>精讲</p>
+            <p class="course-de">远程线上讲解，做题中巩固思路和方法</p>
+            <p class="course-time">（2课时）</p>
+        </li>
+        <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
+        <li>
+            <p class="course-tit">模考<br>解析</p>
+            <p class="course-de">学管老师发送模考卷， 远程线上分析讲解</p>
+            <p class="course-time">（2课时）</p>
         </li>
         <li>
-            <a href="/toefl/assistance.html">
-                <img src="/cn/images/cultivate_icon02.png" alt="托福培训" width="29"/><span>托福培训</span>
-            </a>
+            <p class="course-tit">名师<br>答疑</p>
+            <p class="course-de">遇到问题，可上传至社区，会有老师答疑</p>
+            <p class="course-time">（随时）</p>
         </li>
+        <div class="inb sub-8" style=" margin: 0.5rem 0.3rem 0;"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
         <li>
-            <a href="/training-other.html">
-                <img src="/cn/images/cultivate_icon03.png" alt="其他培训" width="29"/><span>其他培训</span>
-            </a>
+            <p class="course-tit">学习<br>社区</p>
+            <p class="course-de">成为申友学员并开通账号后即可登陆使用</p>
+            <p class="course-time">（随时）</p>
+        </li>
+        <div class="inb sub-8" style=" margin: 0.5rem 0.3rem 0;"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
+        <li>
+            <p class="course-tit">机经<br>冲刺</p>
+            <p class="course-de">当月题库讲解机经，助大家进行考前冲刺</p>
+            <p class="course-time">（换库后）</p>
         </li>
     </ul>
 </div>
-<!-----------------------------培训导航end------------------------------>
-<div class="cultivateTop">
-    <div class="cult-left">
-        <div class="leftBanner">
-            <div class="lbcuHd hd">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['fields' => 'url','category' => "237,190",'pageSize'=>10]);
-                    foreach($data as $v) {
-                        ?>
-                        <li></li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-            <div class="lbcuBd">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['fields' => 'url','category' => "237,190",'pageSize'=>10]);
-                    foreach($data as $v) {
-                        ?>
-                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="banner图"/></a></li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-        </div>
-        <script type="text/javascript">
-            jQuery(".leftBanner").slide({mainCell:".lbcuBd ul",autoPlay:true,effect:"leftLoop"});
-        </script>
-        <!--推荐课程-->
-        <div class="lessonSuggestions">
-            <h3>推荐课程</h3>
-            <div class="lessonBanner">
-                <div class="lessonBd">
-                    <img src="/cn/images/cultivate_labaIcon.png" alt="喇叭图标"/>
-                    <ul>
-                        <?php
-                        $data = \app\modules\cn\models\Content::getContent(['category' => "105,118","pageSize" => 5]);
-                        foreach($data as $v) {
-                            ?>
-                            <li><a href="/word-details/<?php echo $v['id']?>/105,118.html"><?php echo $v['name']?></a></li>
-                        <?php
-                        }
-                        ?>
-                    </ul>
-                </div>
-            </div>
-            <script type="text/javascript">
-                jQuery(".lessonBanner").slide({mainCell:".lessonBd ul",autoPlay:true,effect:"leftLoop",vis:2});
-            </script>
-            <div style="clear: both"></div>
-        </div>
-        <!--精品课程-->
-        <div class="excellentCourse">
-            <h4>精品课程</h4>
-            <ul>
-                <?php
-                $data = \app\modules\cn\models\Content::getContent(['fields' => 'url','category' => "160,190","pageSize" => 4]);
-                foreach($data as $v) {
-                ?>
-                <li>
-                    <div>
-                        <a href="<?php echo $v['url']?>">
-                        <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="图片"/>
-                        </a>
-                    </div>
-                    <span><a href="<?php echo $v['url']?>"><?php echo $v['name']?> </a></span>
-                    <a href="<?php echo $v['url']?>">查看详情</a>
-                </li>
-                <?php
-                }
-                ?>
-            </ul>
-            <!--<div class="excellent-left">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['category' => "160,177","pageSize" => 4]);
-                    foreach($data as $v) {
-                        ?>
-                        <li>
-                            <div class="excellImgL">
-                                <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="图片"/>
-                            </div>
-                            <div class="excellR">
-                                <b>精品课程</b>
-                                <h5><?php echo $v['name']?></h5>
-                            </div>
-                            <div style="clear: both"></div>
-                        </li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>-->
-            <!--<div class="excellent-right">
-                <h3>开班查询</h3>
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['category' => "164","pageSize" => 5]);
-                    foreach($data as $v) {
-                        ?>
-                        <li>
-                            <img src="/cn/images/quesAnswer_dianIcon.png" alt="icon"/>
-                            <a href="/word-details/<?php echo $v['id']?>/164.html"><?php echo $v['name']?></a>
-                        </li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>-->
-        </div>
-    </div>
-    <div class="cult-center">
-        <div class="centerBanner">
-            <div class="adChd hd">
-                <ul>
-                    <li><a href="/list/118.html">考讯</a></li>
-                    <li><a href="/public-class.html">公开课</a></li>
-                </ul>
-            </div>
-            <div style="clear: both"></div>
-            <div class="adCbd">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['category' => "109,118","pageSize" => 7]);
-                    foreach($data as $v) {
-                        ?>
-                        <li><a href="/word-details/<?php echo $v['id']?>/109,118.html"><?php echo $v['name']?></a></li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['category' => "177,107","pageSize" => 7]);
-                    foreach($data as $v) {
-                        ?>
-                        <li><a href="/public-class/<?php echo $v['id']?>.html"><?php echo $v['name']?></a></li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-        </div>
-        <script type="text/javascript">
-            jQuery(".centerBanner").slide({mainCell:".adCbd",trigger:"mouseover"});
-        </script>
-        <!--快速通道-->
-        <div class="hyperchannel">
-            <h3>快速通道</h3>
-            <ul>
-                <li>
-                    <a href="http://www.gmatonline.cn/practise/" target="_blank">
-                        <span class="haveW">
-                            <img src="/cn/images/cultivate_btnIcon01.png" alt="第一个图标"/>
-                        </span>
-                        <img src="/cn/images/cultivate_btnIcon06.png" alt="第二个图标"/>
-                        <span class="mlTitle">GMAT快速做题</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.gmatonline.cn/exam/" target="_blank">
-                          <span class="haveW">
-                            <img src="/cn/images/cultivate_btnIcon02.png" alt="第一个图标"/>
-                        </span>
-                        <img src="/cn/images/cultivate_btnIcon06.png" alt="第二个图标"/>
-                        <span class="mlTitle">GMAT在线模考</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.gmatonline.cn/test/" target="_blank">
-                          <span class="haveW">
-                            <img src="/cn/images/cultivate_btnIcon03.png" alt="第一个图标"/>
-                        </span>
-                        <img src="/cn/images/cultivate_btnIcon06.png" alt="第二个图标"/>
-                        <span class="mlTitle">GMAT在线测评</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.toeflonline.cn/listen/practise.html" target="_blank">
-                          <span class="haveW">
-                            <img src="/cn/images/cultivate_btnIcon04.png" alt="第一个图标"/>
-                        </span>
-                        <img src="/cn/images/cultivate_btnIcon06.png" alt="第二个图标"/>
-                        <span class="mlTitle">托福听力训练</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.toeflonline.cn/tpoExam.html" target="_blank">
-                          <span class="haveW">
-                            <img src="/cn/images/cultivate_btnIcon05.png" alt="第一个图标"/>
-                        </span>
-                        <img src="/cn/images/cultivate_btnIcon06.png" alt="第二个图标"/>
-                        <span class="mlTitle">TPO模考</span>
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-    </div>
-    <div class="cult-right">
-        <div class="highScore">
-            <div class="highHd hd">
-                <ul>
-                    <li><a href="/case.html#admission">GMAT高分榜单</a></li>
-                    <li><a href="/case.html#admission">托福高分榜单</a></li>
-                </ul>
-            </div>
-            <div style="clear: both"></div>
-            <div class="highBd">
-                <ul>
-                    <li>
-                        <div class="highS-out">
-                            <div class="highS-outBd">
-                                <ul>
-                                    <?php
-                                    $data = \app\modules\cn\models\Content::getContent(['category' => "104,115","pageSize" => 15]);
-                                    foreach($data as $v) {
-                                        ?>
-                                        <li><img src="/cn/images/cultivate_jiangbei.png" alt="奖杯图标"/>
-                                            <a href="/word-details/<?php echo $v['id']?>/104.html"><?php echo $v['name']?></a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(".highS-out").slide({mainCell:".highS-outBd ul",autoPlay:true,effect:"topMarquee",interTime:50,vis:7});
-                        </script>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <div class="highS-out02">
-                            <div class="highS-outBd02">
-                                <ul>
-                                    <?php
-                                    $data = \app\modules\cn\models\Content::getContent(['category' => "104,116","pageSize" => 15]);
-                                    foreach($data as $v) {
-                                        ?>
-                                        <li><img src="/cn/images/cultivate_jiangbei.png" alt="奖杯图标"/>
-                                            <a href="/word-details/<?php echo $v['id']?>/104.html"><?php echo $v['name']?></a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(".highS-out02").slide({mainCell:".highS-outBd02 ul",autoPlay:true,effect:"topMarquee",interTime:50,vis:7});
-                        </script>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-        <script type="text/javascript">
-            jQuery(".highScore").slide({mainCell:".highBd",trigger:"mouseover"});
-        </script>
-        <div class="dissRight cultML">
-            <div class="newActive">
-                <b>最新活动</b>
-            </div>
-            <?php
-            $re = \app\modules\cn\models\Content::getActive();
-            $activity = $re['activity'];
-            $activityDate = $re['activityDate'];
+<div class="sub-case">
+    <img src="/wap/images/sub-tit.png" alt="">
+    <ul class="ct-user-list tm clearfix mg-t1">
+        <?php
+        $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "178,102",'pageSize'=>6]);
+        foreach($data as $v) {
             ?>
-            <div class="calendar">
-                <div class="calendarHd calendarHd-erji">
-                    <ul>
-                        <li><?php echo date('Y年m月')?></li>
-                    </ul>
-                    <a href="javascript:;" class="prev"><i class="fa fa-caret-left"></i></a>
-                    <a href="javascript:;" class="next"><i class="fa fa-caret-right "></i></a>
-                </div>
-                <div style="clear: both"></div>
-                <div class="calendarBd">
-                    <?php
-                    $week = date("N",strtotime(date("Y-m-01")));
-                    ?>
-                    <ul class="calUl01">
-                        <li>
-                            <ul>
-                                <li>Sun.</li>
-                                <li>Mon.</li>
-                                <li>Tues.</li>
-                                <li>Wed.</li>
-                                <li>Thur.</li>
-                                <li>Fri.</li>
-                                <li>Sat.</li>
-                                <?php
-                                for($a=1;$a<=$week;$a++) {
-                                    ?>
-                                    <li></li>
-                                <?php
-                                }
-                                ?>
-                                <?php
-                                $StartMonth   = date("Y-m-01"); //开始日期
-                                $EndMonth     = date("Y-m-d",strtotime("$StartMonth +1 month -1 day")); //结束日期
-                                $ToStartMonth = strtotime( $StartMonth ); //转换一下
-                                $ToEndMonth   = strtotime( $EndMonth ); //一样转换一下
-                                $i            = false; //开始标示
-                                while( $ToStartMonth < $ToEndMonth ) {
-                                    $NewMonth = !$i ? date('Y-m-d', strtotime('+0 Month', $ToStartMonth)) : date('Y-m-d', strtotime('+1 day', $ToStartMonth));
-                                    $ToStartMonth = strtotime($NewMonth);
-                                    $i = true;
-                                    ?>
-                                    <li>
-                                        <?php
-                                        if (in_array($NewMonth, $activityDate)){
-                                            ?>
-                                            <a href="/public-class/<?php echo $activity[$NewMonth]['id']?>.html" class="on on-erji"><?php echo date("d", strtotime($NewMonth)) ?></a>
-
-                                            <div class="classOn classOn-erji">
-                                                <?php echo $activity[$NewMonth]['name']?>
-                                            </div>
-                                        <?php
-                                        }else {
-                                            ?>
-                                            <?php echo date("d", strtotime($NewMonth)) ?>
-                                        <?php
-                                        }
-                                        ?>
-                                    </li>
-                                <?php
-                                }
-                                ?>
-                            </ul>
-                        </li>
-                    </ul>
-                    <?php
-                    $StartMonth   = date("Y-m-01");
-                    $week = date("N",strtotime(date("Y-m-01",strtotime("$StartMonth +1 month"))));
-                    ?>
-                    <ul class="calUl02">
-                        <li>
-                            <ul>
-                                <li>Sun.</li>
-                                <li>Mon.</li>
-                                <li>Tues.</li>
-                                <li>Wed.</li>
-                                <li>Thur.</li>
-                                <li>Fri.</li>
-                                <li>Sat.</li>
-                                <?php
-                                for($a=1;$a<=$week;$a++) {
-                                    ?>
-                                    <li></li>
-                                <?php
-                                }
-                                ?>
-                                <?php
-                                $StartMonth   = date("Y-m-01",strtotime("$StartMonth +1 month")); //开始日期
-                                $EndMonth     = date("Y-m-d",strtotime("$StartMonth +1 month -1 day")); //结束日期
-                                $ToStartMonth = strtotime( $StartMonth ); //转换一下
-                                $ToEndMonth   = strtotime( $EndMonth ); //一样转换一下
-                                $i            = false; //开始标示
-                                while( $ToStartMonth < $ToEndMonth ) {
-                                    $NewMonth = !$i ? date('Y-m-d', strtotime('+0 Month', $ToStartMonth)) : date('Y-m-d', strtotime('+1 day', $ToStartMonth));
-                                    $ToStartMonth = strtotime($NewMonth);
-                                    $i = true;
-                                    ?>
-                                    <li>
-                                        <?php
-                                        if (in_array($NewMonth, $activityDate)){
-                                            ?>
-                                            <a href="/public-class/<?php echo $activity[$NewMonth]['id']?>.html" class="on on-erji"><?php echo date("d", strtotime($NewMonth)) ?></a>
-
-                                            <div class="classOn classOn-erji">
-                                                <?php echo $activity[$NewMonth]['name']?>
-                                            </div>
-                                        <?php
-                                        }else {
-                                            ?>
-                                            <?php echo date("d", strtotime($NewMonth)) ?>
-                                        <?php
-                                        }
-                                        ?>
-                                    </li>
-                                <?php
-                                }
-                                ?>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <script type="text/javascript">
-                jQuery(".calendar").slide({titleCell:".calendarHd ul",mainCell:".calendarBd",trigger:"click",autoPage:"autoPage"});
-            </script>
-        </div>
-    </div>
-</div>
-<div class="advert">
-    <a href="#"><img src="/cn/images/cultivate_advate.png" alt="广告图片"/></a>
-</div>
-<!--GMAT备考-->
-<div id="GMAT" class="commonTitle commonTitleBG01">
-    <h1>GMAT备考</h1>
-    <div>
-        <b>GMAT/托福一站式学习平台全国高分基地</b>
-        <span><img src="/cn/images/cultvate_whitePhone.png" alt="白色电话" width="20"/> 400-600-1123</span>
-        <a href="http://chat.looyuoms.com/chat/chat/p.do?c=20001277&f=10057560&g=10060013&refer=GMATpeixun" target="_blank">在线测试</a>
-    </div>
-</div>
-<div class="commonContent">
-    <!--录取榜部分-->
-    <div class="admissionList">
-        <div class="admissLeft">
-            <div class="albannerHd hd">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['category' => "177,115,190",'pageSize'=>3]);
-                    foreach($data as $v) {
-                        ?>
-                        <li></li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-            <div class="albannerBd">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['fields'=> "url",'category' => "177,115,190",'pageSize'=>3]);
-                    foreach($data as $v) {
-                        ?>
-                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="banner图"/></a></li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-        </div>
-        <script type="text/javascript">
-            jQuery(".admissLeft").slide({mainCell:".albannerBd ul",autoPlay:true,effect:"leftLoop"});
-        </script>
-        <div class="admissRight">
-            <ul>
-                <?php
-                $data = \app\modules\cn\models\Content::getContent(['category' => "118,115","pageSize" => 7]);
-                foreach($data as $v) {
-                    ?>
-                    <li><span>●</span><a href="/word-details/<?php echo $v['id']?>/115,118.html"><?php echo $v['name']?></a></li>
-                <?php
-                }
-                ?>
-            </ul>
-        </div>
-    </div>
-    <!--培训产品部分-->
-    <div class="trainingProduct">
-        <div class="trainPleft">
-            <div class="trainPTitle">
-                <p><a href="/gmatsheet.html" target="_blank">培训产品</a></p>
-            </div>
-            <div class="trainProduct cultTrain">
-                <ul>
-                    <li>
-                        <div class="productLeft"><a href="/gmat/assistance/basic-course.html">基础课程</a></div>
-                        <div class="productRight">
-                            <div class="rightHd hd">
-                                <a href="javascript:void(0);" class="prev"><i class="fa fa-caret-left"></i></a>
-                                <a href="javascript:void(0);" class="next"><i class="fa fa-caret-right"></i></a>
-                            </div>
-                            <div class="rightBd bd01">
-                                <ul>
-                                    <?php
-                                    $data = \app\modules\cn\models\Content::getContent(['category' => "161,115","pageSize" => 1]);
-                                    foreach($data as $v) {
-                                    ?>
-                                    <li><a href="/picture-details/<?php echo $v['id']?>/161.html"><?php echo $v['name']?> </a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(".productRight").slide({mainCell:".bd01 ul",trigger:"click"});
-                        </script>
-                    </li>
-
-                    <li>
-                        <div class="productLeft"><a href="/gmat/assistance/advanced-course.html">高分课程</a></div>
-                        <div class="productRight">
-                            <div class="rightHd hd">
-                                <a href="javascript:;" class="prev"><i class="fa fa-caret-left"></i></a>
-                                <a href="javascript:;" class="next"><i class="fa fa-caret-right"></i></a>
-                            </div>
-                            <div class="rightBd bd02">
-                                <ul>
-                                    <?php
-                                    $data = \app\modules\cn\models\Content::getContent(['category' => "162,115","pageSize" => 4]);
-                                    foreach($data as $v) {
-                                        ?>
-                                        <li><a href="/picture-details/<?php echo $v['id']?>/162.html"><?php echo $v['name']?> </a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(".productRight").slide({mainCell:".bd02 ul",trigger:"click"});
-                        </script>
-                    </li>
-
-                    <li>
-                        <div class="productLeft"><a href="/gmat/assistance/intensive-training-course.html">强化课程</a></div>
-                        <div class="productRight">
-                            <div class="rightHd hd">
-                                <a href="javascript:;" class="prev"><i class="fa fa-caret-left"></i></a>
-                                <a href="javascript:;" class="next"><i class="fa fa-caret-right"></i></a>
-                            </div>
-                            <div class="rightBd bd03">
-                                <ul>
-                                    <?php
-                                    $data = \app\modules\cn\models\Content::getContent(['category' => "163,115","pageSize" => 8]);
-                                    foreach($data as $v) {
-                                        ?>
-                                        <li><a href="/picture-details/<?php echo $v['id']?>/163.html"><?php echo $v['name']?> </a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(".productRight").slide({mainCell:".bd03 ul",trigger:"click"});
-                        </script>
-                    </li>
-
-                    <li>
-                        <div class="productLeft"><a href="/assistance/course-inquiry.html">开班查询</a></div>
-                        <div class="productRight">
-                            <div class="rightHd hd">
-                                <a href="javascript:;" class="prev"><i class="fa fa-caret-left"></i></a>
-                                <a href="javascript:;" class="next"><i class="fa fa-caret-right"></i></a>
-                            </div>
-                            <div class="rightBd bd04">
-                                <ul>
-                                    <?php
-                                    $data = \app\modules\cn\models\Content::getContent(['category' => "164,115","pageSize" => 3]);
-                                    foreach($data as $v) {
-                                        ?>
-                                        <li><a href="/picture-details/<?php echo $v['id']?>/164.html"><?php echo $v['name']?> </a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(".productRight").slide({mainCell:".bd04 ul",trigger:"click"});
-                        </script>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-        <div class="trainPright">
-            <div class="trainPTitle">
-                <p><a href="/question.html">GMAT问答</a></p>
-            </div>
-            <ul>
-                <?php
-                $data = \app\modules\cn\models\Content::getContent(['category' => "121,115","pageSize" => 4]);
-                foreach($data as $v) {
-                    ?>
-                    <li><a href="/word-details/<?php echo $v['id']?>/115,121.html"><?php echo $v['name']?></a></li>
-                <?php
-                }
-                ?>
-            </ul>
-            <a target="_blank" href="http://chat.looyuoms.com/chat/chat/p.do?c=20001277&f=10057560&g=10060013&refer=GMATpeixun">立即提问</a>
-        </div>
-    </div>
-    <!--备考资料部分-->
-    <div class="ueberTestdaf">
-        <div class="ueberHd hd">
-            <h4><a href="/duidance.html">备考资料</a></h4>
-            <ul>
-                <li><a href="/duidance.html">数学</a></li>
-                <li><a href="/duidance.html">语法</a></li>
-                <li><a href="/duidance.html">逻辑</a></li>
-                <li><a href="/duidance.html">阅读</a></li>
-                <li><a href="/duidance.html">作文</a></li>
-                <li><a href="/duidance.html">IR</a></li>
-            </ul>
-        </div>
-        <div class="ueberBd">
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square01">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "166,115,196","pageSize" => 5]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/115,166.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square01">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "166,115,197","pageSize" => 5]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/115,116.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square01">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "166,115,198","pageSize" => 5]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/115,166.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square01">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "166,115,199","pageSize" => 5]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/115,166.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square01">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "166,115,200","pageSize" => 5]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/115,166.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square01">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "166,115,201","pageSize" => 5]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/115,166.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <script type="text/javascript">
-        jQuery(".ueberTestdaf").slide({mainCell:".ueberBd",trigger:"mouseover"});
-    </script>
-    <!--客户感言部分-->
-    <div class="CustomerFeedback">
-        <div class="customer-left">
-            <a href="/case.html#allCase">
-            <img src="/cn/images/cultivate_customer02.png" alt="客户感言图片"/>
-            </a>
-        </div>
-        <div class="customer-right">
-            <?php
-            $data = \app\modules\cn\models\Content::getContent(['category' => "115,102","pageSize" => 7]);
-            foreach($data as $v) {
-                ?>
-                <p><span>●</span><a href="/picture-details/<?php echo $v['id']?>/102.html"><?php echo $v['title']?></a></p>
-            <?php
-            }
-            ?>
-        </div>
-    </div>
-    <div style="clear: both;"></div>
-</div>
-<!--智能测评-->
-<div class="intelligentTest">
-    <div class="ceping intell">
-        <h1>GMATONLINE智能测评</h1>
-        <span>选择最适合你的题目难度</span>
-        <ul>
             <li>
-                <a href="http://www.gmatonline.cn/practise/cepingtishi&kzid=66&cptime=45" target="_blank">
-                    <div class="circleWhite">
-                        <span></span>
-                        <img src="/cn/images/quesAnswer_cepingIcon01.png" alt="图标"/>
-                    </div>
-                    <p>
-                        未考过GMAT <br>
-                        无IBT/IELTS成绩
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="http://www.gmatonline.cn/practise/cepingtishi&kzid=67&cptime=45" target="_blank">
-                    <div class="circleWhite">
-                        <span></span>
-                        <img src="/cn/images/quesAnswer_cepingIcon02.png" alt="图标"/>
-                    </div>
-                    <p>
-                        未考过GMAT <br>
-                        有IBT/IELTS成绩
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="http://www.gmatonline.cn/practise/cepingtishi&kzid=68&cptime=50" target="_blank">
-                    <div class="circleWhite">
-                        <span></span>
-                        <img src="/cn/images/quesAnswer_cepingIcon03.png" alt="图标" style="width: 41px"/>
-                    </div>
-                    <p>
-                        考过GMAT <br>
-                        600以下
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="http://www.gmatonline.cn/practise/cepingtishi&kzid=69&cptime=55" target="_blank">
-                    <div class="circleWhite">
-                        <span></span>
-                        <img src="/cn/images/quesAnswer_cepingIcon04.png" alt="图标"/>
-                    </div>
-                    <p>
-                        考过GMAT <br>
-                        650以下
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="http://www.gmatonline.cn/practise/cepingtishi&kzid=70&cptime=55" target="_blank">
-                    <div class="circleWhite">
-                        <span></span>
-                        <img src="/cn/images/quesAnswer_cepingIcon05.png" alt="图标" style="width: 54px"/>
-                    </div>
-                    <p>
-                        考过GMAT <br>
-                        700以下
-                    </p>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <img src="/cn/images/studentsCase_onlinePG02.png" alt="在线评估图标"  class="onlineImg"/>
-    <div class="onlinePG onlineSpe">
+                <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
 
-        <div class="userInfo">
-            <ul>
-                <li>
-                    <label>
-                        <span>*</span>
-                        <b>姓名：</b>
-                    </label>
-                    <div>
-                        <input class="onlineName" type="text"/>
-                    </div>
-                </li>
-                <?php
-                $extendData = \app\modules\cn\models\CategoryExtend::find()->where("catId=226 AND belong='content'")->orderBy('id ASC')->all();
-                    foreach($extendData as $v) {
-                        ?>
-                        <li>
-                            <label>
-                                <span>*</span>
-                                <b><?php echo $v['name']?>：</b>
-                            </label>
-                            <?php if($v['type'] == 0){?>
-                                <div>
-                                    <input type="text" name=""/>
-                                </div>
-                            <?php } elseif($v['type'] == 5) {
-                            $typeValue = explode(",",$v['typeValue']);
-                            ?>
-                            <div class="infoRight">
-                                <div class="default defa04">
-                                    <span class="onlineValue">请选择</span>
-                                    <div class="clickBac clickBac03" onclick="selectInfo(this)"></div>
-                                    <!--文字-->
-                                    <div class="secFont secFont04">
-                                        <ul>
-                                            <?php foreach($typeValue as $val) { ?>
-                                                <li><?php echo $val?></li>
-                                            <?php
-                                            }
-                                            ?>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="clear: both"></div>
-                            <?php
-                            }
-                            ?>
-                        </li>
-                    <?php
-                    }
-                ?>
-                <li>
-                    <label>
-                        <span>*</span>
-                        <b>验证码：</b>
-                    </label>
-                    <div class="diffWidth">
-                        <input name="code" type="text"/>
-                        <input onclick="onlineCode(this)" type="button" value="获取验证码"/>
-                    </div>
-                </li>
-                <li>
-                    <div class="submitBtn">
-                        <div onclick="onlineSub(this)">提交</div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <script type="text/javascript">
-        function onlineCode(_this){
-            var phone = $(_this).closest('li').prev().find('input').val();
-            $.post('/cn/api/phone-code',{type:3,phoneNum:phone},function(re){
-                alert(re.message);
-            },"json")
+                <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
+            </li>
+        <?php
         }
+        ?>
 
-        function onlineSub(_this){
-            var phone = $(_this).closest('li').prev().prev().find('input').val();
-            var email = $(_this).closest('li').prev().prev().prev().find('input').val();
-            var name = $('.onlineName').val();
-            var code = $(_this).closest('li').prev().find('input').val();
-            var _class = $(_this).closest('li').prev().prev().prev().prev().find('.onlineValue').html();
-            if(phone == ''){
-                alert('留下您的联系方式');
-                return false;
-            }
-            if(code == ''){
-                alert('请输入验证码');
-                return false;
-            }
-            if(_class == '请选择'){
-                alert('请选择课程');
-                return false;
-            }
-            if(name == ''){
-                alert('请输入您的姓名');
-                return false;
-            }
-            if(email == ''){
-                alert('请输入你的联系邮箱');
-                return false;
-            }
-            $.post('/cn/api/online-words',{class:_class,name:name,email:email,phone:phone,code:code},function(re){
-                alert(re.message);
-                window.location.reload()
-            },"json")
-        }
-    </script>
+    </ul>
+    <div class="tm ct-btn mg-t1">
+        <a class="ct-b1 inb" href="/case.html">点击了解：查看更多申友名校案例</a>
+    </div>
 </div>
-<!--GMAT名师-->
-<div class="famousTeacher">
-    <div class="starCounselor noBorder">
-        <!--标题-->
-        <div class="startTitle-big title-back02">
-            <h4>GMAT名师</h4>
+<div class="bg-1 mg-t1">
+    <ul class="ct-team-1 clearfix">
+        <li>
+            <img src="/wap/images/ct-7.png" alt="">
+            <p class="ani ellipsis ct-teacher-name">Kevin</p>
+        </li>
+        <li>
+            <img src="/wap/images/ct-6.png" alt="">
+        </li>
+        <li>
+            <img src="/wap/images/ct-8.png" alt="">
+            <p class="ani ellipsis ct-teacher-name">Amanda</p>
+        </li>
+    </ul>
+    <ul class="ct-team-2 clearfix">
+        <li>
+            <img src="/wap/images/ct-9.png" alt="">
+            <p class="ani ellipsis ct-teacher-name">Eve</p>
+        </li>
+        <li>
+            <img src="/wap/images/ct-10.png" alt="">
+            <p class="ani ellipsis ct-teacher-name">Kayla</p>
+        </li>
+        <li>
+            <img src="/wap/images/ct-11.png" alt="">
+            <p class="ani ellipsis ct-teacher-name">Ada</p>
+        </li>
+        <li>
+            <img src="/wap/images/ct-12.png" alt="">
+            <p class="ani ellipsis ct-teacher-name">Cherry</p>
+        </li>
+        <li>
+            <img src="/wap/images/ct-13.png" alt="">
+            <p class="ani ellipsis ct-teacher-name">Chris</p>
+        </li>
+        <li>
+            <img src="/wap/images/ct-14.png" alt="">
+            <p class="ani ellipsis ct-teacher-name">Julie</p>
+        </li>
+    </ul>
+</div>
+<!--栏目-->
+<div class="pd1 mg-t1 bg-col-1" style="padding-bottom: 0">
+    <p class="col-name inb">每日一题</p>
+    <div class="inb fr">
+        <div class="icon inb">
+            <span class=" r-name inb">全部 ></span>
         </div>
-        <!--右上角的字-->
-        <span class="posXY-font">申友教育拥有国内专业的留学服务团队
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            追求前沿录取结果</span>
-        <div class="teaBanner tea01">
-            <div class="teacerBd teaSpe01">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['fields' => 'job,abstract','category' => "139",'pageSize'=>7]);
-                    foreach($data as $v) {
-                        ?>
-                    <li>
-                        <a href="/teachers/<?php echo $v['name']?>/<?php echo $v['id']?>.html">
-                            <div class="leftTeacher">
-                                <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="老师图片"/>
-                                <!--遮罩层-->
-                                <div class="teacherZZC">
-                                    <h5><?php echo $v['name']?></h5>
-                                    <p>
-                                        <?php echo $v['abstract']?>
-                                    </p>
-                                </div>
-                            </div>
+    </div>
+</div>
+<!--栏目 END-->
+<ul class="topic-wrap bg-1 pd-1">
+    <?php
+    $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "249,115",'pageSize'=>10]);
+    foreach($data as $v) {
+        ?>
+        <li>
+            <h1 class="topic"><?php echo $v['name']?></h1>
 
-                            <div class="bottomName otherRN01">
-                                <h4><?php echo $v['name']?></h4>
-                                <span><?php echo $v['job']?></span>
-                            </div>
-                        </a>
-                    </li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-        </div>
-        <script type="text/javascript">
-            jQuery(".tea01").slide({mainCell:".teacerBd ul",autoPlay:true,effect:"leftMarquee",vis:6,interTime:10});
-        </script>
-    </div>
-</div>
-<!--托福备考-->
-<div id="TOEFL" class="commonTitle commonTitleBG02">
-    <h1>托福备考</h1>
-    <div>
-        <b>GMAT/托福一站式学习平台全国高分基地</b>
-        <span><img src="/cn/images/cultvate_whitePhone.png" alt="白色电话" width="20"/> 400-600-1123</span>
-        <a href="http://chat.looyuoms.com/chat/chat/p.do?c=20001277&f=10057560&g=10060013&refer=tuofupeixun" style="color: #7690c8" target="_blank">在线测试</a>
-    </div>
-</div>
-<div class="commonContent">
-    <!--录取榜部分-->
-    <div class="admissionList admissSpe02">
-        <div class="admissLeft">
-            <div class="albannerHd hd">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['category' => "116,190",'pageSize'=>3]);
-                    foreach($data as $v) {
-                        ?>
-                        <li></li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-            <div class="albannerBd">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['fields'=> "url",'category' => "116,190",'pageSize'=>3]);
-                    foreach($data as $v) {
-                        ?>
-                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="banner图"/></a></li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-        </div>
-        <script type="text/javascript">
-            jQuery(".admissSpe02").slide({mainCell:".albannerBd ul",autoPlay:true,effect:"leftLoop"});
-        </script>
-        <div class="admissRight">
-            <ul>
-                <?php
-                $data = \app\modules\cn\models\Content::getContent(['category' => "116,118",'pageSize'=>7]);
-                foreach($data as $v) {
-                    ?>
-                    <li><span>●</span><a href="/word-details/<?php echo $v['id']?>/116,118.html"><?php echo $v['name']?></a></li>
-                <?php
-                }
-                ?>
-            </ul>
-        </div>
-    </div>
-    <!--培训产品部分-->
-    <div class="trainingProduct">
-        <div class="trainPleft">
-            <div class="trainPTitle trainPT01">
-                <p><a href="/toefl/assistance.html" target="_blank">培训产品</a></p>
-            </div>
-            <div class="trainProduct cultTrain">
-                <ul>
-                    <li>
-                        <div class="productLeft bluePro"><a href="javascript:;">强化班</a></div>
-                        <div class="productRight bluejQ">
-                            <div class="rightHd hd">
-                                <a href="javascript:;" class="prev"><i class="fa fa-caret-left"></i></a>
-                                <a href="javascript:;" class="next"><i class="fa fa-caret-right"></i></a>
-                            </div>
-                            <div class="rightBd bd01">
-                                <ul>
-                                    <?php
-                                    $data = \app\modules\cn\models\Content::getContent(['category' => "116,163"]);
-                                    foreach($data as $v) {
-                                        ?>
-                                        <li><a href="/picture-details/<?php echo $v['id']?>/161.html"><?php echo $v['name']?> </a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(".bluejQ").slide({mainCell:".bd01 ul",trigger:"click"});
-                        </script>
-                    </li>
-                    <li>
-                        <div class="productLeft bluePro"><a href="javascript:;">模块班</a></div>
-                        <div class="productRight bluejQ02">
-                            <div class="rightHd hd">
-                                <a href="javascript:;" class="prev"><i class="fa fa-caret-left"></i></a>
-                                <a href="javascript:;" class="next"><i class="fa fa-caret-right"></i></a>
-                            </div>
-                            <div class="rightBd bd02">
-                                <ul>
-                                    <?php
-                                    $data = \app\modules\cn\models\Content::getContent(['category' => "116,233"]);
-                                    foreach($data as $v) {
-                                        ?>
-                                        <li><a href="/picture-details/<?php echo $v['id']?>/233.html"><?php echo $v['name']?> </a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(".bluejQ02").slide({mainCell:".bd02 ul",trigger:"click"});
-                        </script>
-                    </li>
-                    <li>
-                        <div class="productLeft bluePro"><a href="javascript:;">VIP一对一</a></div>
-                        <div class="productRight bluejQ03">
-                            <div class="rightHd hd">
-                                <a href="javascript:;" class="prev"><i class="fa fa-caret-left"></i></a>
-                                <a href="javascript:;" class="next"><i class="fa fa-caret-right"></i></a>
-                            </div>
-                            <div class="rightBd bd03">
-                                <ul>
-                                    <?php
-                                    $data = \app\modules\cn\models\Content::getContent(['category' => "116,234"]);
-                                    foreach($data as $v) {
-                                        ?>
-                                        <li><a href="/picture-details/<?php echo $v['id']?>/234.html"><?php echo $v['name']?> </a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(".bluejQ03").slide({mainCell:".bd03 ul",trigger:"click"});
-                        </script>
-                    </li>
-                    <li>
-                        <div class="productLeft bluePro"><a href="javascript:;">增值服务班</a></div>
-                        <div class="productRight bluejQ04">
-                            <div class="rightHd hd">
-                                <a href="javascript:;" class="prev"><i class="fa fa-caret-left"></i></a>
-                                <a href="javascript:;" class="next"><i class="fa fa-caret-right"></i></a>
-                            </div>
-                            <div class="rightBd bd04">
-                                <ul>
-                                    <?php
-                                    $data = \app\modules\cn\models\Content::getContent(['category' => "116,235"]);
-                                    foreach($data as $v) {
-                                        ?>
-                                        <li><a href="/picture-details/<?php echo $v['id']?>/235.html"><?php echo $v['name']?> </a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(".bluejQ04").slide({mainCell:".bd04 ul",trigger:"click"});
-                        </script>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="trainPright spe02a">
-            <div class="trainPTitle trainPT01">
-                <p><a href="/question.html">托福问答</a></p>
-            </div>
-            <ul>
-                <?php
-                $data = \app\modules\cn\models\Content::getContent(['category' => "116,121",'pageSize'=>4]);
-                foreach($data as $v) {
-                    ?>
-                    <li><a href="/word-details/<?php echo $v['id']?>/116,121.html"><?php echo $v['name']?></a></li>
-                <?php
-                }
-                ?>
-            </ul>
-            <a target="_blank" href="http://chat.looyuoms.com/chat/chat/p.do?c=20001277&f=10057560&g=10060013&refer=tuofupeixun">立即提问</a>
-        </div>
-    </div>
-    <!--备考资料部分-->
-    <div class="ueberTestdaf ueberCom02">
-        <div class="ueberHd hd spe01">
-            <h4><a href="#">备考资料</a></h4>
-            <ul>
-                <li><a href="javascript:;" >听</a></li>
-                <li><a href="javascript:;">说</a></li>
-                <li><a href="javascript:;">读</a></li>
-                <li><a href="javascript:;">写</a></li>
-            </ul>
-        </div>
-        <div class="ueberBd">
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square02">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
+            <p class="ellipsis topic-de"><?php echo $v['abstract']?>......</p>
 
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "116,166,229",'pageSize'=>5]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/116,166.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square02">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "116,166,230",'pageSize'=>5]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/116,166.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square02">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "116,166,231",'pageSize'=>5]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/116,166.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square02">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "116,166,232",'pageSize'=>5]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/116,166.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <script type="text/javascript">
-        jQuery(".ueberCom02").slide({mainCell:".ueberBd",trigger:"mouseover"});
-    </script>
-    <!--客户感言部分-->
-    <div class="CustomerFeedback">
-        <div class="customer-left">
-            <img src="/cn/images/cultivate_customer02.png" alt="客户感言图片"/>
-        </div>
-        <div class="customer-right">
-            <?php
-            $data = \app\modules\cn\models\Content::getContent(['category' => "116,102",'pageSize'=>7]);
-            foreach($data as $v) {
-                ?>
-                <p><span>●</span><a href="/picture-details/<?php echo $v['id']?>/102.html"><?php echo $v['title']?></a></p>
-            <?php
-            }
-            ?>
-        </div>
-    </div>
-    <div style="clear: both"></div>
-</div>
-<!--GMAT名师-->
-<div class="famousTeacher">
-    <div class="starCounselor noBorder">
-        <!--标题-->
-        <div class="startTitle-big title-back03">
-            <h4>托福名师</h4>
-        </div>
-        <!--右上角的字-->
-        <span class="posXY-font">申友教育拥有国内专业的留学服务团队
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            追求前沿录取结果</span>
-        <div class="teaBanner tea01">
-            <div class="teacerBd teaSpe01">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['fields' => 'job,abstract','category' => "141",'pageSize'=>7]);
-                    foreach($data as $v) {
-                        ?>
-                        <li>
-                            <a href="/teachers/<?php echo $v['name']?>/<?php echo $v['id']?>.html">
-                                <div class="leftTeacher">
-                                    <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="老师图片"/>
-                                    <!--遮罩层-->
-                                    <div class="teacherZZC">
-                                        <h5><?php echo $v['name']?></h5>
-                                        <p>
-                                            <?php echo $v['abstract']?>
-                                        </p>
-                                    </div>
-                                </div>
+            <p class="topic-time">时间：<?php echo $v['createTime']?></p>
+        </li>
+    <?php
+    }
+    ?>
 
-                                <div class="bottomName otherRN02">
-                                    <h4><?php echo $v['name']?></h4>
-                                    <span><?php echo $v['job']?></span>
-                                </div>
-                            </a>
-                        </li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-        </div>
-        <script type="text/javascript">
-            jQuery(".tea01").slide({mainCell:".teacerBd ul",autoPlay:true,effect:"leftMarquee",vis:6,interTime:10});
-        </script>
-    </div>
-</div>
-<!--其他培训-->
-<div id="other" class="commonTitle commonTitleBG03 sepcial03">
-    <h1>其他培训</h1>
-    <div>
-        <b>GMAT/托福一站式学习平台全国高分基地</b>
-        <span><img src="/cn/images/cultvate_whitePhone.png" alt="白色电话" width="20"/> 400-600-1123</span>
-        <a href="http://chat.looyuoms.com/chat/chat/p.do?c=20001277&f=10057560&g=10060013&refer=qitaliuxue" target="_blank">在线测试</a>
-    </div>
-</div>
-<div class="commonContent">
-    <!--录取榜部分-->
-    <div class="admissionList admissSpe03">
-        <div class="admissLeft">
-            <div class="albannerHd hd">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['category' => "168,190",'pageSize'=>3]);
-                    foreach($data as $v) {
-                        ?>
-                        <li></li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-            <div class="albannerBd">
-                <ul>
-                    <?php
-                    $data = \app\modules\cn\models\Content::getContent(['fields'=> "url",'category' => "168,190",'pageSize'=>3]);
-                    foreach($data as $v) {
-                        ?>
-                        <li><a href="<?php echo $v['url']?>"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="banner图"/></a></li>
-                    <?php
-                    }
-                    ?>
-                </ul>
-            </div>
-        </div>
-        <script type="text/javascript">
-            jQuery(".admissSpe03").slide({mainCell:".albannerBd ul",autoPlay:true,effect:"leftLoop"});
-        </script>
-        <div class="admissRight">
-            <ul>
+</ul>
 
-                <?php
-                $data = \app\modules\cn\models\Content::getContent(['category' => "168,118",'pageSize'=>7]);
-                foreach($data as $v) {
-                    ?>
-                    <li><span>●</span><a href="/word-details/<?php echo $v['id']?>/168,118.html"><?php echo $v['name']?></a></li>
-                <?php
-                }
-                ?>
-            </ul>
-        </div>
-    </div>
-    <!--备考资料部分-->
-    <div class="ueberTestdaf ueberCom03">
-        <div class="ueberHd hd spe02">
-            <h4><a href="javascript:;">备考资料</a></h4>
-            <ul>
-                <li><a href="/list/170.html">ACT</a></li>
-                <li><a href="/list/171.html">GRE</a></li>
-                <li><a href="/list/172.html">IELTS</a></li>
-                <li><a href="/list/173.html">SAT</a></li>
-            </ul>
-        </div>
-        <div class="ueberBd">
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square03">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "166,170"]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/166,170.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square03">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "166,171"]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/166,171.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square03">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "166,172"]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/166,172.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div class="ueberBd-left">
-                        <img src="/cn/images/cultivate_apply.png" alt="图片"/>
-                        <div>敲定留学清单选校选专业？</div>
-                    </div>
-                    <div class="ueberBd-right square03">
-<!--                        <h4>敲定留学清单选校专业？</h4>-->
-                        <ul>
-                            <?php
-                            $data = \app\modules\cn\models\Content::getContent(['category' => "173"]);
-                            foreach($data as $v) {
-                                ?>
-                                <li><a href="/word-details/<?php echo $v['id']?>/173.html"><?php echo $v['name']?></a></li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <script type="text/javascript">
-        jQuery(".ueberCom03").slide({mainCell:".ueberBd",trigger:"mouseover"});
-    </script>
-    <div style="clear: both"></div>
+<div class="tm bg-col-1 pd1">
+    <p class="copyright">Copyrigth © 2016 All Right Reserved 上海小申教育科技有限公司 版权所</p>
 </div>
-
-<div class="advertisement">
-    <a href="#">
-        <img src="/cn/images/studyA_schoolApply.png" alt="广告图标"/>
+<!--footer-->
+<footer class="tm">
+<!--    <a class="inb f-list" href="/">-->
+<!--        <img src="/wap/images/icon-16.png" style="width: 1.15rem" alt="">-->
+<!--        <p class="ft-name">首页</p>-->
+<!--    </a>-->
+<!--    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">-->
+    <a class="inb f-list" href="tel:400-600-1123">
+        <img src="/wap/images/icon-17.png" style="width: 1.15rem" alt="">
+        <p class="ft-name">电话咨询</p>
     </a>
-</div>
-
-<script type="text/javascript">
-    moth(".calUl02",".calendarHd ul li",'<?php echo date("Y年m月")?>','<?php $firstday=date("Y-m"); echo date("Y年m月",strtotime("$firstday +1 month"))?>');
-    moth(".evecalUl02",".everyCahd ul li",'<?php echo date("Y年m月")?>','<?php $firstday=date("Y-m"); echo date("Y年m月",strtotime("$firstday +1 month"))?>');
-</script>
+    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
+    <a class="inb f-list" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
+        <img src="/wap/images/icon-18.png" style="width: 1.15rem" alt="">
+        <p class="ft-name">在线咨询</p>
+    </a>
+    <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
+    <a class="inb f-list" href="/contact.html">
+        <img src="/wap/images/icon-19.png" style="width: 1.15rem" alt="">
+        <p class="ft-name">全国分支</p>
+    </a>
+</footer>
+<!--footer End-->
+</body>
+</html>
