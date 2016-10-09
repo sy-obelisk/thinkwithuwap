@@ -24,7 +24,7 @@ class StudyController extends ThinkUController {
      * @return string
      */
     public function actionIndex(){
-        return $this->renderPartial('index');
+        return $this->render('index');
     }
 
 
@@ -34,7 +34,7 @@ class StudyController extends ThinkUController {
      */
     public function actionA(){
 
-        return $this->renderPartial('A');
+        return $this->render('A');
     }
 
     /**
@@ -42,7 +42,7 @@ class StudyController extends ThinkUController {
      * @Obelisk
      */
     public function actionB(){
-        return $this->renderPartial('B');
+        return $this->render('B');
     }
 
     /**
@@ -50,7 +50,7 @@ class StudyController extends ThinkUController {
      * @Obelisk
      */
     public function actionC(){
-        return $this->renderPartial('C');
+        return $this->render('C');
     }
 
     /**
@@ -58,7 +58,7 @@ class StudyController extends ThinkUController {
      * @Obelisk
      */
     public function actionD(){
-        return $this->renderPartial('D');
+        return $this->render('D');
     }
 
 
@@ -67,7 +67,7 @@ class StudyController extends ThinkUController {
      * @Obelisk
      */
     public function actionUsa(){
-        return $this->renderPartial('usa');
+        return $this->render('usa');
     }
 
     /**
@@ -77,7 +77,7 @@ class StudyController extends ThinkUController {
      */
 
     public function actionAdvantage(){
-        return $this->renderPartial('advantage');
+        return $this->render('advantage');
     }
 
     /**

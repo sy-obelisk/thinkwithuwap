@@ -21,7 +21,7 @@ class AboutController extends ThinkUController {
      * @return string
      */
     public function actionIndex(){
-        return $this->renderPartial('index');
+        return $this->render('index');
     }
 
     /**
@@ -31,7 +31,7 @@ class AboutController extends ThinkUController {
      */
 
     public function actionContact(){
-        return $this->renderPartial('contact');
+        return $this->render('contact');
     }
 
     /**
@@ -40,7 +40,7 @@ class AboutController extends ThinkUController {
      * @Obelisk
      */
     public function actionContactUs(){
-        return $this->renderPartial('contactus');
+        return $this->render('contactus');
     }
 
     /**

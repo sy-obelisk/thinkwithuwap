@@ -13,6 +13,7 @@ use app\libs\ThinkUController;
 
 class SingleController extends ThinkUController {
     public $enableCsrfValidation = false;
+    public $layout = 'cn';
     /**
      * 关于我们
      * by fawn
@@ -20,7 +21,7 @@ class SingleController extends ThinkUController {
      * @return string
      */
     public function actionIndex(){
-        return $this->renderPartial('index');
+        return $this->render('index');
     }
 
     /**

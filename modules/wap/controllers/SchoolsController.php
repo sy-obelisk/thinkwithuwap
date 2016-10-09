@@ -24,7 +24,7 @@ class SchoolsController extends ThinkUController {
             $data = file_get_contents(Yii::$app->params['schoolConnect'].'/cn/index/index?data-type=json');
         }
         $data = json_decode($data,'true');
-        return $this->renderPartial('index',['data' => $data['data']['data']]);
+        return $this->render('index',['data' => $data['data']['data']]);
     }
 
     /**首页-院校库数据

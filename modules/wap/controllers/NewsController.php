@@ -13,13 +13,14 @@ use app\libs\ThinkUController;
 
 class NewsController extends ThinkUController {
     public $enableCsrfValidation = false;
+    public $layout = 'cn';
     /**
      * 斯菲德
      * by obelisk
      * @return string
      */
     public function actionIndex(){
-        return $this->renderPartial('index');
+        return $this->render('index');
     }
 
 

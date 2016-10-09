@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <!--阻止浏览器缓存-->
-    <meta http-equiv="pragma" content="no-cache">
-    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
-    <meta http-equiv="expires" content="0">
+
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

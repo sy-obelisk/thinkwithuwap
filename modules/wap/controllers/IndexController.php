@@ -16,7 +16,7 @@ class IndexController extends ThinkUController {
     public $title;
     public $keywords;
     public function actionIndex(){
-        return $this->renderPartial('index');
+        return $this->render('index');
     }
 
     /**

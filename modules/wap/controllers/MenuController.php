@@ -13,6 +13,7 @@ use app\libs\ThinkUController;
 
 class MenuController extends ThinkUController {
     public $enableCsrfValidation = false;
+    public $layout = 'cn';
 
 
     /**
@@ -22,7 +23,7 @@ class MenuController extends ThinkUController {
      */
 
     public function actionIndex(){
-        return $this->renderPartial('index');
+        return $this->render('index');
     }
 
     /**

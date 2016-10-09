@@ -12,14 +12,14 @@ use app\libs\ThinkUController;
 
 class ClassController extends ThinkUController {
     public $enableCsrfValidation = false;
-
+    public $layout = 'cn';
     /**
      * 公开课列表页
      * @return string
      * @Obelisk
      */
     public function actionIndex(){
-        return $this->renderPartial('index');
+        return $this->render('index');
     }
 
     /**

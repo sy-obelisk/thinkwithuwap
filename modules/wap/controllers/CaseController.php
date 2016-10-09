@@ -21,7 +21,7 @@ class CaseController extends ThinkUController {
      * @return string
      */
     public function actionIndex(){
-        return $this->renderPartial('index');
+        return $this->render('index');
     }
 
     /**
