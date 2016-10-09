@@ -47,7 +47,7 @@
 <div class="ct-top">
     <div class="ct-1 tm relative">
         <img src="/wap/images/ct-1.png" alt="">
-        <div><a class="inb mg-t1 tm line-1" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/ct-3.png" alt=""></a></div>
+        <div><a class="inb mg-t1 tm line-1" target="_self" onclick="doyoo.util.openChat('g=10060013');return false;"><img src="/wap/images/ct-3.png" alt=""></a></div>
         <img class="arrow-1 ani" src="/wap/images/ct-2.png" alt="">
     </div>
     <div class="ct-2">
@@ -69,7 +69,7 @@
 
         </ul>
         <div class="tm ct-btn mg-t1">
-            <a class="ct-b1 inb" href="/case.html">点击了解：查看更多申友名校案例</a>
+            <a class="ct-b1 inb" target="_self" onclick="doyoo.util.openChat('g=10060013');return false;">点击了解：查看更多申友名校案例</a>
         </div>
     </div>
 </div>
@@ -125,7 +125,7 @@
             <li class="">
                 <a href="/USA.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-9.png" alt=""></div>
-                    <div class="inb">
+                    <div class="inb max_w">
                         <p class="other-tit">美国申请方案</p>
                         <p class="other-de color-1">Top30/50商学院申请计划</p>
                     </div>
@@ -134,7 +134,7 @@
             <li class="">
                 <a href="/single.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-10.png" alt=""></div>
-                    <div class="inb">
+                    <div class="inb max_w">
                         <p class="other-tit">单项加油站</p>
                         <p class="other-de color-2">定制个性化文书、网申、面试、签证等服务</p>
                     </div>
@@ -143,7 +143,7 @@
             <li class="">
                 <a href="/advantage.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-11.png" alt=""></div>
-                    <div class="inb">
+                    <div class="inb max_w">
                         <p class="other-tit">申友留学服务优势</p>
                         <p class="other-de color-3">提倡非中介名校申请模式，透明服务<br>
                             六位一体服务，团队精细分工
@@ -156,7 +156,7 @@
     </div>
 
     <div class="tm ct-btn">
-        <a class="ct-b1 inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">点击咨询：适合你的申请方案</a>
+        <a class="ct-b1 inb" target="_self" onclick="doyoo.util.openChat('g=10060013');return false;">点击咨询：适合你的申请方案</a>
     </div>
 </section>
 <!--内容 END-->

@@ -45,7 +45,7 @@
 </header>
 <!--内页头部 END-->
 <!--广告位-->
-<div><a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/b1.png" alt=""></a></div>
+<div><a target="_self" onclick="doyoo.util.openChat('g=10060013');return false;"><img src="/wap/images/b1.png" alt=""></a></div>
 <!--广告位 END-->
 <section class="bg-1 mg-t1">
     <div class="boost-tit clearfix" id="boost-1" style="background: #4cbfff">
