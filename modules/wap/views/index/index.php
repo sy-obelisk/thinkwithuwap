@@ -37,6 +37,15 @@
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
     <script src="/wap/js/common.js"></script>
     <title>申友留学_名校留学申请_托福培训_GMAT培训-申友教育</title>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?631aa73ee8b5d90456d785095227467a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 <body>
 <!--header-->
