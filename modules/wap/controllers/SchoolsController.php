@@ -11,6 +11,7 @@ use app\libs\Schools;
 
 class SchoolsController extends ThinkUController {
     public $enableCsrfValidation = false;
+    public $layout = 'cn';
 
     /**首页
      * @return string
