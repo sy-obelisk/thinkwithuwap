@@ -89,7 +89,7 @@
                         <p class="sc-address ellipsis en-name">位于：<?php echo $v['place']?></p>
 
                         <div class="tr" style="margin-top: 0.2rem">
-                            <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img class="sc-pe" src="/wap/images/sc-2.png" alt=""></a>
+                            <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img class="sc-pe" src="/wap/images/sc-2.png" alt=""></a>
                         </div>
                     </div>
                 </li>

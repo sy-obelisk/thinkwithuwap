@@ -66,12 +66,12 @@
 </div>
 <div class="sub-list bg-1">
     <div class="clearfix">
-        <a class="sub-1 fl inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/sub-1.png" alt=""></a>
-        <a class="sub-2 fr inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/sub-2.png" alt=""></a>
+        <a class="sub-1 fl inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/sub-1.png" alt=""></a>
+        <a class="sub-2 fr inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/sub-2.png" alt=""></a>
     </div>
     <div class="clearfix">
-        <a class="sub-3 fl inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/sub-3.png" alt=""></a>
-        <a class="sub-4 fr inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/sub-4.png" alt=""></a>
+        <a class="sub-3 fl inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/sub-3.png" alt=""></a>
+        <a class="sub-4 fr inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/sub-4.png" alt=""></a>
     </div>
 </div>
 <!--栏目 END-->
@@ -196,7 +196,7 @@
 
     </ul>
     <div class="tm ct-btn mg-t1">
-        <a class="ct-b1 inb" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">点击了解：查看更多申友名校案例</a>
+        <a class="ct-b1 inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">点击了解：查看更多申友名校案例</a>
     </div>
 </div>
 <div class="bg-1 mg-t1">
@@ -283,7 +283,7 @@
         <p class="ft-name">电话咨询</p>
     </a>
     <img src="/wap/images/line.png" style="height: 1.35rem" alt="">
-    <a class="inb f-list" href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
+    <a class="inb f-list" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
         <img src="/wap/images/icon-18.png" style="width: 1.15rem" alt="">
         <p class="ft-name">在线咨询</p>
     </a>

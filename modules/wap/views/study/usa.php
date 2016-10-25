@@ -53,7 +53,7 @@
         <img src="/wap/images/u-1.png" alt="">
         <div class="tm u-select">
             <a href="tel:400-600-1123"><img src="/wap/images/u-2.png" alt=""></a>
-            <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue"><img src="/wap/images/u-3.png" alt=""></a>
+            <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/u-3.png" alt=""></a>
         </div>
     </div>
 </div>
@@ -69,7 +69,7 @@
                 <em class="u-price">原价：8800元 </em>
             </div>
             <div class="u-btn">
-                <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
+                <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
                 <img src="/wap/images/u-btn.png" alt="">
                     </a>
             </div>
@@ -88,7 +88,7 @@
                 <img class="u-big" src="/wap/images/u-big.png" alt="">
                 <em class="u-price inb">原价：8800元 </em>
             </div>
-            <div class="u-btn">                <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
+            <div class="u-btn">                <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
                     <img src="/wap/images/u-btn.png" alt="">
                 </a></div>
         </div>
@@ -102,7 +102,7 @@
     <div class="clearfix u2-de-wrap">
         <img class="u2-de" src="/wap/images/u-7.png" alt="">
         <div class="tr u-btn fr" style="padding-bottom: 0.3rem">
-            <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue">
+            <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
                 <img src="/wap/images/u-btn.png" alt="">
             </a></div>
     </div>

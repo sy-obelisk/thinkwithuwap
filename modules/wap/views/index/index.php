@@ -51,7 +51,7 @@
 <!--侧边栏-->
 <div class="sidebar-wrap">
 
-    <a href="http://looyuoms7731.looyu.com/chat/chat/p.do?_server=0&c=20001277&f=10057560&g=10060013&refer=meiguoliuxue" target="_blank"><img src="/wap/images/onLine.png" alt=""></a>
+    <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=" target="_blank"><img src="/wap/images/onLine.png" alt=""></a>
     <a href="tel:400-600-1123"><img src="/wap/images/tel-2.png" alt=""></a>
 </div>
 <!--侧边栏 End-->
