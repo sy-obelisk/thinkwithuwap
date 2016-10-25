@@ -69,7 +69,7 @@
 
         </ul>
         <div class="tm ct-btn mg-t1">
-            <a class="ct-b1 inb" href="/case.html">点击了解：查看更多申友名校案例</a>
+            <a class="ct-b1 inb" target="_self" onclick="doyoo.util.openChat('g=10060013');return false;">点击了解：查看更多申友名校案例</a>
         </div>
     </div>
 </div>
@@ -125,7 +125,7 @@
             <li class="">
                 <a href="/USA.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-9.png" alt=""></div>
-                    <div class="inb">
+                    <div class="inb max_w">
                         <p class="other-tit">美国申请方案</p>
                         <p class="other-de color-1">Top30/50商学院申请计划</p>
                     </div>
@@ -134,7 +134,7 @@
             <li class="">
                 <a href="/single.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-10.png" alt=""></div>
-                    <div class="inb">
+                    <div class="inb max_w">
                         <p class="other-tit">单项加油站</p>
                         <p class="other-de color-2">定制个性化文书、网申、面试、签证等服务</p>
                     </div>
@@ -143,7 +143,7 @@
             <li class="">
                 <a href="/advantage.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-11.png" alt=""></div>
-                    <div class="inb">
+                    <div class="inb max_w">
                         <p class="other-tit">申友留学服务优势</p>
                         <p class="other-de color-3">提倡非中介名校申请模式，透明服务<br>
                             六位一体服务，团队精细分工
@@ -156,7 +156,11 @@
     </div>
 
     <div class="tm ct-btn">
+<<<<<<< HEAD
         <a class="ct-b1 inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">点击咨询：适合你的申请方案</a>
+=======
+        <a class="ct-b1 inb" target="_self" onclick="doyoo.util.openChat('g=10060013');return false;">点击咨询：适合你的申请方案</a>
+>>>>>>> 691b1be3e04db3beceaba1842ed135b0f33284b0
     </div>
 </section>
 <!--内容 END-->

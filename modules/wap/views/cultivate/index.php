@@ -37,6 +37,8 @@
     <script src="/wap/js/jquery-1.12.2.min.js"></script>
     <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
     <script src="/wap/js/common.js"></script>
+<!--    乐语数据监测代码-->
+    <script type="text/javascript" charset="utf-8" src="http://lead.soperson.com/20001277/10066142.js"></script>
     <title>GMAT课程</title>
 </head>
 <body>
@@ -66,12 +68,21 @@
 </div>
 <div class="sub-list bg-1">
     <div class="clearfix">
+<<<<<<< HEAD
         <a class="sub-1 fl inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/sub-1.png" alt=""></a>
         <a class="sub-2 fr inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/sub-2.png" alt=""></a>
     </div>
     <div class="clearfix">
         <a class="sub-3 fl inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/sub-3.png" alt=""></a>
         <a class="sub-4 fr inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/sub-4.png" alt=""></a>
+=======
+        <a class="sub-1 fl inb" target="_self" href="http://looyuoms7714.looyu.com/chat/chat/p.do?g=10060013&md=2&c=20001277&v=6bceb2ee258de2e8d5c5f1d0fde86bd3aa&u=74942c0766194e3715e689a837ebea1202&f=10066142&site=0&p0=http%3A%2F%2Fthinkwap.cc%2F&ct=3&refer=&loc=http%3A%2F%2Fthinkwap.cc%2F&_d=1476001546707"><img src="/wap/images/sub-1.png" alt=""></a>
+        <a class="sub-2 fr inb" target="_self" href="http://looyuoms7714.looyu.com/chat/chat/p.do?g=10060013&md=2&c=20001277&v=6bceb2ee258de2e8d5c5f1d0fde86bd3aa&u=74942c0766194e3715e689a837ebea1202&f=10066142&site=0&p0=http%3A%2F%2Fthinkwap.cc%2F&ct=3&refer=&loc=http%3A%2F%2Fthinkwap.cc%2F&_d=1476001546707"><img src="/wap/images/sub-2.png" alt=""></a>
+    </div>
+    <div class="clearfix">
+        <a class="sub-3 fl inb" target="_self" href="http://looyuoms7714.looyu.com/chat/chat/p.do?g=10060013&md=2&c=20001277&v=6bceb2ee258de2e8d5c5f1d0fde86bd3aa&u=74942c0766194e3715e689a837ebea1202&f=10066142&site=0&p0=http%3A%2F%2Fthinkwap.cc%2F&ct=3&refer=&loc=http%3A%2F%2Fthinkwap.cc%2F&_d=1476001546707"><img src="/wap/images/sub-3.png" alt=""></a>
+        <a class="sub-4 fr inb" target="_self" href="http://looyuoms7714.looyu.com/chat/chat/p.do?g=10060013&md=2&c=20001277&v=6bceb2ee258de2e8d5c5f1d0fde86bd3aa&u=74942c0766194e3715e689a837ebea1202&f=10066142&site=0&p0=http%3A%2F%2Fthinkwap.cc%2F&ct=3&refer=&loc=http%3A%2F%2Fthinkwap.cc%2F&_d=1476001546707"><img src="/wap/images/sub-4.png" alt=""></a>
+>>>>>>> 691b1be3e04db3beceaba1842ed135b0f33284b0
     </div>
 </div>
 <!--栏目 END-->
@@ -196,7 +207,11 @@
 
     </ul>
     <div class="tm ct-btn mg-t1">
+<<<<<<< HEAD
         <a class="ct-b1 inb" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">点击了解：查看更多申友名校案例</a>
+=======
+        <a class="ct-b1 inb" target="_self" href="http://looyuoms7714.looyu.com/chat/chat/p.do?g=10060013&md=2&c=20001277&v=6bceb2ee258de2e8d5c5f1d0fde86bd3aa&u=74942c0766194e3715e689a837ebea1202&f=10066142&site=0&p0=http%3A%2F%2Fthinkwap.cc%2F&ct=3&refer=&loc=http%3A%2F%2Fthinkwap.cc%2F&_d=1476001664688">点击了解：查看更多申友名校案例</a>
+>>>>>>> 691b1be3e04db3beceaba1842ed135b0f33284b0
     </div>
 </div>
 <div class="bg-1 mg-t1">

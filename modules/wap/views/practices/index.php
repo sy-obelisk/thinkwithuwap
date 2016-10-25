@@ -46,7 +46,6 @@
 <!--内页头部 END-->
 <!--广告位-->
 <div><a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/b1.png" alt=""></a></div>
-<!--广告位 END-->
 <section class="bg-1 mg-t1">
     <div class="boost-tit clearfix" id="boost-1" style="background: #4cbfff">
         <div class="fl">
