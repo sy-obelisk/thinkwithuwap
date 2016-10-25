@@ -8,14 +8,14 @@
     <meta name="author" content="">
     <meta name="Copyright" content="">
     <!-- <meta name="description" content=""> -->
-    <!-- 让IE浏览器用最高级内核渲染页面 还有�?Chrome 框架的页面用webkit 内核
+    <!-- 让IE浏览器用最高级内核渲染页面 还有用 Chrome 框架的页面用webkit 内核
     ================================================== -->
     <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
-    <!-- IOS6全屏 Chrome高版本全�?
+    <!-- IOS6全屏 Chrome高版本全屏
     ================================================== -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <!-- �?60双核浏览器用webkit内核渲染页面
+    <!-- 让360双核浏览器用webkit内核渲染页面
     ================================================== -->
     <meta name="renderer" content="webkit">
     <!-- Mobile Specific Metas
@@ -69,7 +69,7 @@
 
         </ul>
         <div class="tm ct-btn mg-t1">
-            <a class="ct-b1 inb" target="_self" onclick="doyoo.util.openChat('g=10060013');return false;">点击了解：查看更多申友名校案�?/a>
+            <a class="ct-b1 inb" target="_self" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">点击了解：查看更多申友名校案例</a>
         </div>
     </div>
 </div>
@@ -91,32 +91,32 @@
         <div class="classify-wrap inb tm">
             <div class="cp-img">
                 <a href="/A.html"><img src="/wap/images/cp-1.png" alt=""></a>
-                <p class="must">必选项�?/p>
+                <p class="must">必选项目</p>
             </div>
-            <p class="cp-tit">A类卓越菁�?/p>
-            <p class="cp-describe">进入申请�?大三大四</p>
+            <p class="cp-tit">A类卓越菁英</p>
+            <p class="cp-describe">进入申请年 大三大四</p>
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
                 <a href="/B.html"><img src="/wap/images/cp-2.png" alt=""></a>
-                <p class="must">必选项�?/p>
+                <p class="must">必选项目</p>
             </div>
-            <p class="cp-tit">B类梦想起�?/p>
-            <p class="cp-describe">有一年以上升学准备时�?/p>
+            <p class="cp-tit">B类梦想起航</p>
+            <p class="cp-describe">有一年以上升学准备时间</p>
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
                 <a href="/C.html"><img src="/wap/images/cp-1.png" alt=""></a>
             </div>
             <p class="cp-tit">C类名校直通车</p>
-            <p class="cp-describe">申请美英港热门名�?/p>
+            <p class="cp-describe">申请美英港热门名校</p>
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
                 <a href="/D.html"><img src="/wap/images/cp-1.png" alt=""></a>
-                <p class="must">精英申请者必选项�?/p>
+                <p class="must">精英申请者必选项目</p>
             </div>
-            <p class="cp-tit">D类助力传�?/p>
+            <p class="cp-tit">D类助力传奇</p>
             <p class="cp-describe">有强烈要求的Master/MBA/PHD</p>
         </div>
     </div>
@@ -127,7 +127,7 @@
                     <div class="c2-icon inb"><img src="/wap/images/icon-9.png" alt=""></div>
                     <div class="inb max_w">
                         <p class="other-tit">美国申请方案</p>
-                        <p class="other-de color-1">Top30/50商学院申请计�?/p>
+                        <p class="other-de color-1">Top30/50商学院申请计划</p>
                     </div>
                 </a>
             </li>
@@ -135,7 +135,7 @@
                 <a href="/single.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-10.png" alt=""></div>
                     <div class="inb max_w">
-                        <p class="other-tit">单项加油�?/p>
+                        <p class="other-tit">单项加油站</p>
                         <p class="other-de color-2">定制个性化文书、网申、面试、签证等服务</p>
                     </div>
                 </a>
@@ -202,7 +202,7 @@
 
 
     </ul>
-    <p class="ct-tel">免费咨询热线�?00-600-1123</p>
+    <p class="ct-tel">免费咨询热线：400-600-1123</p>
 </div>
 <!--footer-->
 <?php use app\commands\front\FooterWidget;?>
