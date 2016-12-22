@@ -34,23 +34,28 @@
     <title>申友留学_名校留学申请_托福培训_GMAT培训-申友教育</title>
 </head>
 <body>
-<div class="guide_box">
-    <div class="oneFont">
-        <h1>雷哥GMAT</h1>
-        <p>gmatonline.cn</p>
-        <img src="/wap/images/guide/guide_font.png" alt="图片"/>
-    </div>
-    <div class="centerImg">
-        <img src="/wap/images/guide/guide_centerimg.png" alt="img">
-    </div>
-    <div class="bottom_btn">
-        <a href="https://itunes.apple.com/cn/app/lei-gegmat/id1067751179?mt=8">
-            <img src="/wap/images/guide/guide_greenbtn.png" alt="btn">
-        </a>
-        <a href="/">继续使用触屏版浏览</a>
-    </div>
-    <div class="guide_close">
-        <a href="/"><img src="/wap/images/guide/guide_close.png" alt="close"></a>
+<!--<div class="guide_box">-->
+<!--    <div class="oneFont">-->
+<!--        <h1>雷哥GMAT</h1>-->
+<!--        <p>gmatonline.cn</p>-->
+<!--        <img src="/wap/images/guide/guide_font.png" alt="图片"/>-->
+<!--    </div>-->
+<!--    <div class="centerImg">-->
+<!--        <img src="/wap/images/guide/guide_centerimg.png" alt="img">-->
+<!--    </div>-->
+<!--    <div class="bottom_btn">-->
+<!--        <a href="https://itunes.apple.com/cn/app/lei-gegmat/id1067751179?mt=8">-->
+<!--            <img src="/wap/images/guide/guide_greenbtn.png" alt="btn">-->
+<!--        </a>-->
+<!--        <a href="/">继续使用触屏版浏览</a>-->
+<!--    </div>-->
+<!--    <div class="guide_close">-->
+<!--        <a href="/"><img src="/wap/images/guide/guide_close.png" alt="close"></a>-->
+<!--    </div>-->
+<!--</div>-->
+<div class="active_box">
+    <div class="active_close">
+        <a href="/"><img src="/wap/images/active_close.png" alt="关闭图标"/></a>
     </div>
 </div>
 </body>
