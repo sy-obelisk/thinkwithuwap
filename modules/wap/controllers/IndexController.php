@@ -17,12 +17,12 @@ class IndexController extends ThinkUController {
     public $keywords;
     public function actionIndex(){
         $guide = Yii::$app->session->get('guide');
-        if($guide){
+//        if($guide){
             return $this->render('index');
-        }else{
-            Yii::$app->session->set('guide',1);
-            return $this->redirect('/guide.html');
-        }
+//        }else{
+//            Yii::$app->session->set('guide',1);
+//            return $this->redirect('/guide.html');
+//        }
     }
 
     /**
