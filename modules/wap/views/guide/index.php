@@ -53,7 +53,7 @@
 <!--        <a href="/"><img src="/wap/images/guide/guide_close.png" alt="close"></a>-->
 <!--    </div>-->
 <!--</div>-->
-<div class="active_box">
+<div class="active_box" style="display: none;">
     <div class="active_close">
         <a href="/"><img src="/wap/images/active_close.png" alt="关闭图标"/></a>
     </div>
