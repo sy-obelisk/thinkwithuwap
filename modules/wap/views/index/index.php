@@ -229,8 +229,8 @@
         </div>
         <div class="gmat-right fr" style="width: 58%">
             <div class="r-top">
-                <a href="/gmat-week.html"><img src="/wap/images/icon-13.png" style="width: 48.5%" alt=""></a>
-                <a href="/gmat-summer.html"><img src="/wap/images/icon-14.png" style="width: 48.5%" alt=""></a>
+                <a href="/gmat-week.html"><img src="/wap/images/icon-13.png" style="width: 48%" alt=""></a>
+                <a href="/gmat-summer.html"><img src="/wap/images/icon-14.png" style="width: 48%" alt=""></a>
             </div>
             <a href="/gmat-vip.html"><img src="/wap/images/icon-15.png" alt=""></a>
         </div>

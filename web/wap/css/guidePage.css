@@ -53,3 +53,27 @@
 .guide_close img{
     width: 100%;
 }
+/*改版引导*/
+body,html{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0!important;
+}
+.active_box{
+    width: 100%;
+    height: 100%;
+    background: url("../images/active_img.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.active_close{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+.active_close img{
+    width: 100%;
+}

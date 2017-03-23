@@ -717,7 +717,7 @@
 }
 
 .tc-select span {
-    width: 23.9%;
+    width: 23.5%;
     text-align: center;
     color: #333333;
 }
@@ -741,7 +741,7 @@
     width: 100%;
 }
 .tc-info {
-    width: 68%;
+    width: 67%;
 }
 .tc-de{
     margin-top: 0.3rem;
@@ -753,7 +753,6 @@
 }
 
 .tc-lev{
-    margin-top: 0.6rem;
     background: #F95B52;
     font-size: 0.7rem;
     line-height: 1.3rem;
