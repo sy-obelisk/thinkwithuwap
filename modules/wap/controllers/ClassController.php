@@ -5,7 +5,7 @@
  */
 namespace app\modules\wap\controllers;
 use yii;
-use app\modules\cn\models\Content;
+use app\modules\wap\models\Content;
 use app\modules\cn\models\Login;
 use app\modules\cn\models\Collect;
 use app\libs\ThinkUController;
@@ -31,19 +31,19 @@ class ClassController extends ThinkUController {
         $data = Content::getContent(['fields' => "url,synopsis,time,score,place,description,speaker,keywords",'where' => "c.id = $id"]);
         $count = $data[0]['viewCount'];
         Content::updateAll(['viewCount' => ($count+1)],"id=$id");
-        return $this->renderPartial('details',['data' => $data,'id' => $id]);
+        return $this->render('details',['data' => $data,'id' => $id]);
     }
 
     /**
      * 课程回放
      * @Obelisk
      */
-    public function actionDetailsBack(){
+    public function actionBack(){
         $id = Yii::$app->request->get('id');
         $data = Content::getContent(['fields' => "url,synopsis,time,score,place,description,speaker,keywords",'where' => "c.id = $id"]);
 //        $count = $data[0]['viewCount'];
 //        Content::updateAll(['viewCount' => ($count+1)],"id=$id");
-        return $this->renderPartial('detailsBack',['data' => $data,'id' => $id]);
+        return $this->render('back',['data' => $data,'id' => $id]);
     }
 
     /**

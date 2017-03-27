@@ -1,0 +1,82 @@
+.class-content{
+	padding: 0 0.5rem;
+}
+.class-title{
+	padding: 0.5rem 0;
+	text-align: center;
+}
+.class-title h3{
+	font-weight: normal;
+	font-size: 0.6rem;
+}
+
+.class-title ul li{
+	font-size: 0.31rem;
+}
+.class-title ul li:first-child span:first-child{
+	margin-right: 0.3rem;
+}
+.class-title ul li img{
+	width: 0.5rem;
+}
+.class-top .class-details{
+	font-size: 0.4rem;
+	text-indent: 0.5rem;
+}
+/*您可能感兴趣的*/
+.interest{
+	padding: 0.5rem 0;
+}
+.interest .int-top img{
+	width: 1rem;
+}
+.interest .int-top h3{
+	font-size: 0.6rem;
+	font-weight: normal;
+}
+.interest .int-top a{
+	font-size: 0.5rem;
+}
+.interest .int-content ul{
+	margin-top: 0.4rem;
+}
+.interest .int-content li{
+	float: left;
+	box-sizing: border-box;
+	width: 48%;
+	margin-right: 2%;
+	background-color: rgb(232, 232, 232);
+}
+.interest .int-content li:last-child{
+	margin-right: 0;
+}
+.int-content li .int-love{
+	padding: 0 0.2rem 0.3rem;
+	font-size: 0.3rem;
+}
+.int-content li div p:nth-child(2){
+	color: rgb(133,133,133);
+}
+.class-yy span:first-child{
+	width: 60%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.int-content .class-yy img{
+	width: 0.4rem;
+	margin-right: 0.1rem;
+	vertical-align: middle;
+}
+.int-content .class-yy div span{
+	vertical-align: middle;
+}
+.class-bao{
+	margin-top: 0.3rem;
+}
+.class-bao a{
+	padding: 0 0.6rem;
+	border-radius: 0.2rem;
+	background-color: rgb(175,126,255);
+	color: #fff;
+}

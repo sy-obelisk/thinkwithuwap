@@ -8,7 +8,7 @@
  */
 namespace app\modules\wap\controllers;
 use yii;
-use app\modules\cn\models\Content;
+use app\modules\wap\models\Content;
 use app\libs\ThinkUController;
 
 class MastersController extends ThinkUController {
@@ -49,13 +49,8 @@ class MastersController extends ThinkUController {
      */
     public function actionCases(){
         $id = Yii::$app->request->get('id','');
-        if(!$id){
-            $this->redirect('/surprise.html');
-        }else{
-            $data = Content::getContent(['fields' => "job,description",'where' => "c.id = $id"]);
-            return $this->render('cases',['data' => $data]);
-        }
-
+        $data = Content::getContent(['fields' => "job,description",'where' => "c.id = $id"]);
+        return $this->render('details',['data' => $data[0]]);
     }
 
 }

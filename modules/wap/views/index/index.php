@@ -291,7 +291,7 @@
                         foreach($data as $k => $v) {
                             ?>
                             <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
-                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <div class="ali-img"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                                 <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
 
                                 <div class="inb anli-mark"><?php echo $v['abroadSchool']?></div>
@@ -306,7 +306,7 @@
                         foreach($data as $k => $v) {
                             ?>
                             <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
-                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <div class="ali-img"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                                 <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
 
                                 <div class="inb anli-mark"><?php echo $v['abroadSchool']?></div>
@@ -321,7 +321,7 @@
                         foreach($data as $k => $v) {
                             ?>
                             <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
-                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <div class="ali-img"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                                 <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
 
                                 <div class="inb anli-mark"><?php echo $v['abroadSchool']?></div>
@@ -343,7 +343,7 @@
                         foreach($data as $k => $v) {
                             ?>
                             <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
-                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <div class="ali-img"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                                 <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
 
                                 <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
@@ -358,7 +358,7 @@
                         foreach($data as $k => $v) {
                             ?>
                             <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
-                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <div class="ali-img"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                                 <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
 
                                 <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
@@ -373,7 +373,7 @@
                         foreach($data as $k => $v) {
                             ?>
                             <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
-                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <div class="ali-img"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                                 <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
 
                                 <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
@@ -396,7 +396,7 @@
                         foreach($data as $k => $v) {
                             ?>
                             <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
-                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <div class="ali-img"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                                 <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
 
                                 <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
@@ -411,7 +411,7 @@
                         foreach($data as $k => $v) {
                             ?>
                             <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
-                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <div class="ali-img"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                                 <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
 
                                 <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
@@ -426,7 +426,7 @@
                         foreach($data as $k => $v) {
                             ?>
                             <div class="anli-show f<?php echo $k==1?'r':'l'?> tm">
-                                <div class="ali-img"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                                <div class="ali-img"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                                 <p class="anli-moj ellipsis-2 tl"><?php echo $v['title']?></p>
 
                                 <div class="inb anli-mark">成绩：<?php echo $v['score']?></div>
@@ -469,7 +469,7 @@
         foreach($data as $k => $v) {
             ?>
             <div class="info-wrap">
-                <div class="info-img inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                <div class="info-img inb"><a href="/news/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                 <div class="info-text inb">
                     <h1 class="info-tit"><?php echo $v['name']?></h1>
 
@@ -488,7 +488,7 @@
         foreach($data as $k => $v) {
             ?>
             <div class="info-wrap">
-                <div class="info-img inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                <div class="info-img inb"><a href="/news/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                 <div class="info-text inb">
                     <h1 class="info-tit"><?php echo $v['name']?></h1>
 
@@ -507,7 +507,7 @@
         foreach($data as $k => $v) {
             ?>
             <div class="info-wrap">
-                <div class="info-img inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                <div class="info-img inb"><a href="/news/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                 <div class="info-text inb">
                     <h1 class="info-tit"><?php echo $v['name']?></h1>
 

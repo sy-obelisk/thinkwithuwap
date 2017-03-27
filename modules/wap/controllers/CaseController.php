@@ -8,7 +8,7 @@
  */
 namespace app\modules\wap\controllers;
 use yii;
-use app\modules\cn\models\Content;
+use app\modules\wap\models\Content;
 use app\libs\ThinkUController;
 
 class CaseController extends ThinkUController {
@@ -25,35 +25,20 @@ class CaseController extends ThinkUController {
     }
 
     /**
-     * 高分列表
-     * @return string
+     * 文字三级详情详情
      * @Obelisk
      */
-    public function actionHighScore(){
-        $page = Yii::$app->request->get('page',1);
-        $contentData = Content::getContent(['pageStr' => 1,'category' => "206,104",'pageSize' => 20,'page' => $page]);
-        $count = $contentData['count'];
-        $total = $contentData['total'];
-        unset($contentData['count']);
-        unset($contentData['total']);
-        unset($contentData['pageStr']);
-        return $this->render('highScore',['count' => $count,'total' => $total,'page' => $page,'contentData' => $contentData]);
+    public function actionDetails(){
+        $id = Yii::$app->request->get('id');
+        $category = 102;
+        $data = Content::getContent(['fields' => "keywords,abstract,description",'where' => "c.id = $id"]);
+        $correlation = Content::getContent(['pageSize' => '5','category' => $category,'where' => "c.id != $id"]);
+        $prev = Content::getContent(['category' => $category,'where' => "c.id < $id","order" => "c.id DESC","pageSize" => 1]);
+        $next = Content::getContent(['category' => $category,'where' => "c.id > $id","order" => "c.id ASC","pageSize" => 1]);
+        $count = $data[0]['viewCount'];
+        Content::updateAll(['viewCount' => ($count+1)],"id=$id");
+        return $this->render('details',['correlation' => $correlation,'data' => $data,'prev' => $prev,'next' => $next]);
     }
 
-    /**
-     * 名校列表
-     * @return string
-     * @Obelisk
-     */
-    public function actionEliteSchool(){
-        $page = Yii::$app->request->get('page',1);
-        $contentData = Content::getContent(['pageStr' => 1,'category' => "207,104",'pageSize' => 20,'page' => $page]);
-        $count = $contentData['count'];
-        $total = $contentData['total'];
-        unset($contentData['count']);
-        unset($contentData['total']);
-        unset($contentData['pageStr']);
-        return $this->render('eliteSchool',['count' => $count,'total' => $total,'page' => $page,'contentData' => $contentData]);
-    }
 
 }

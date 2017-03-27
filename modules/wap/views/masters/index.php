@@ -64,7 +64,7 @@
                 ?>
                 <li>
                     <div class="tc-img inb">
-                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                        <a href="/teachers/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="tc-info inb clearfix">
                         <div class="tc-info-top">
@@ -105,7 +105,7 @@
                 ?>
                 <li>
                     <div class="tc-img inb">
-                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                        <a href="/teachers/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="tc-info inb clearfix">
                         <div class="tc-info-top">
@@ -146,7 +146,7 @@
                 ?>
                 <li>
                     <div class="tc-img inb">
-                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                        <a href="/teachers/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="tc-info inb clearfix">
                         <div class="tc-info-top">
@@ -187,7 +187,7 @@
                 ?>
                 <li>
                     <div class="tc-img inb">
-                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                        <a href="/teachers/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="tc-info inb clearfix">
                         <div class="tc-info-top">
@@ -248,7 +248,7 @@
                 for(i=0;i<re.data.length;i++){
                     dataStr += '<li>';
                     dataStr += '<div class="tc-img inb">';
-                    dataStr += '<a href="#"><img src="<?php echo Yii::$app->params['PC']?>'+re.data[i].image+'" alt=""></a>';
+                    dataStr += '<a href="/teachers/'+re.data[i].id+'.html"><img src="<?php echo Yii::$app->params['PC']?>'+re.data[i].image+'" alt=""></a>';
                     dataStr += '</div>';
                     dataStr += '<div class="tc-info inb clearfix">';
                     dataStr += '<div class="tc-info-top">';

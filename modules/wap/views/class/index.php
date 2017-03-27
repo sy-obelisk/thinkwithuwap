@@ -65,13 +65,13 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                        <a href="/class/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit ellipsis"><?php echo $v['name']?></h1>
 
                         <p class="class-time">时间：<?php echo $v['time']?></p>
-                        <a class="inb class-btn" href="#">查看详情</a>
+                        <a class="inb class-btn" href="/class/details/<?php echo $v['id']?>.html">查看详情</a>
                     </div>
                 </li>
             <?php
@@ -99,13 +99,13 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                        <a href="/class/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit ellipsis"><?php echo $v['name']?></h1>
 
                         <p class="class-time">时间：<?php echo $v['time']?></p>
-                        <a class="inb class-btn" href="#">查看详情</a>
+                        <a class="inb class-btn" href="/class/details/<?php echo $v['id']?>.html">查看详情</a>
                     </div>
                 </li>
             <?php
@@ -133,13 +133,13 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                        <a href="/class/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit ellipsis"><?php echo $v['name']?></h1>
 
                         <p class="class-time">时间：<?php echo $v['time']?></p>
-                        <a class="inb class-btn" href="#">查看详情</a>
+                        <a class="inb class-btn" href="/class/details/<?php echo $v['id']?>.html">查看详情</a>
                     </div>
                 </li>
             <?php
@@ -167,13 +167,13 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                        <a href="/class/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit ellipsis"><?php echo $v['name']?></h1>
 
                         <p class="class-time">时间：<?php echo $v['time']?></p>
-                        <a class="inb class-btn" href="#">查看详情</a>
+                        <a class="inb class-btn" href="/class/details/<?php echo $v['id']?>.html">查看详情</a>
                     </div>
                 </li>
             <?php

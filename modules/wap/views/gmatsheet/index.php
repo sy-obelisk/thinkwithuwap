@@ -178,7 +178,7 @@
         foreach($data as $v) {
             ?>
             <li>
-                <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                <div class="ct-head inb"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                 <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
 
                 <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
@@ -248,6 +248,7 @@
     $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "249,115",'pageSize'=>10]);
     foreach($data as $v) {
         ?>
+        <a href="/GMAT/details/<?php echo $v['id']?>.html">
         <li>
             <h1 class="topic"><?php echo $v['name']?></h1>
 
@@ -255,6 +256,7 @@
 
             <p class="topic-time">时间：<?php echo $v['createTime']?></p>
         </li>
+        </a>
     <?php
     }
 ?>

@@ -101,7 +101,7 @@
         foreach($data as $v) {
             ?>
             <li>
-                <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                <div class="ct-head inb"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                 <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
 
                 <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
@@ -170,13 +170,15 @@
     $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "249,116",'pageSize'=>10]);
     foreach($data as $v) {
         ?>
-        <li>
-            <h1 class="topic"><?php echo $v['name']?></h1>
+        <a href="/TOEFL/details/<?php echo $v['id']?>.html">
+            <li>
+                <h1 class="topic"><?php echo $v['name']?></h1>
 
-            <p class="ellipsis topic-de"><?php echo $v['abstract']?>......</p>
+                <p class="ellipsis topic-de"><?php echo $v['abstract']?>......</p>
 
-            <p class="topic-time">时间：<?php echo $v['createTime']?></p>
-        </li>
+                <p class="topic-time">时间：<?php echo $v['createTime']?></p>
+            </li>
+        </a>
     <?php
     }
     ?>

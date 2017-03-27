@@ -57,7 +57,7 @@
             foreach($data as $v) {
                 ?>
                 <li>
-                    <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+                    <div class="ct-head inb"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                     <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
 
                     <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
@@ -86,11 +86,11 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                        <a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit"><?php echo $v['title']?></h1>
-                        <a class="inb case-btn" href="#">成绩：<?php echo $v['score']?></a>
+                        <a class="inb case-btn" href="/case/details/<?php echo $v['id']?>.html">成绩：<?php echo $v['score']?></a>
                     </div>
                 </li>
             <?php
@@ -118,11 +118,11 @@
                 ?>
                 <li>
                     <div class="class-img fl">
-                        <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                        <a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                     </div>
                     <div class="class-info fr">
                         <h1 class="class-tit"><?php echo $v['title']?></h1>
-                        <a class="inb case-btn" href="#">成绩：<?php echo $v['score']?></a>
+                        <a class="inb case-btn" href="/case/details/<?php echo $v['id']?>.html">成绩：<?php echo $v['score']?></a>
                     </div>
                 </li>
             <?php
@@ -150,11 +150,11 @@
             ?>
             <li>
                 <div class="class-img fl">
-                    <a href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                    <a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
                 </div>
                 <div class="class-info fr">
                     <h1 class="class-tit"><?php echo $v['title']?></h1>
-                    <a class="inb case-btn" href="#">成绩：<?php echo $v['score']?></a>
+                    <a class="inb case-btn" href="/case/details/<?php echo $v['id']?>.html">成绩：<?php echo $v['score']?></a>
                 </div>
             </li>
         <?php
