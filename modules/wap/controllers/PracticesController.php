@@ -10,7 +10,7 @@ namespace app\modules\wap\controllers;
 use yii;
 use app\modules\cn\models\CategoryExtend;
 use app\modules\cn\models\Category;
-use app\modules\cn\models\Content;
+use app\modules\wap\models\Content;
 use app\modules\cn\models\Practices;
 use app\libs\ThinkUController;
 
@@ -34,9 +34,8 @@ class PracticesController extends ThinkUController {
     public function actionDetails(){
         $id = Yii::$app->request->get('id');
         $data = Content::getContent(['fields' => "synopsis,time",'where' => "c.id = $id"]);
-        $hot = Content::getContent(['fields' => "time",'category' => "239",'pageSize' => 4,'page' => 1]);
-        $extendData = CategoryExtend::find()->where("catId=244 AND belong='content'")->orderBy('id ASC')->all();
-        return $this->render('details',['details' => $data,'hot'=>$hot,'extendData' => $extendData]);
+        $hot = Content::getContent(['fields' => "time",'category' => "238",'pageSize' => 6,'page' => 1]);
+        return $this->render('details',['details' => $data,'hot'=>$hot]);
     }
 
     public function actionHot(){

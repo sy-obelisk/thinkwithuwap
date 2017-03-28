@@ -64,12 +64,12 @@
                     foreach($data as $v) {
                         ?>
                         <li>
-                            <a class="inb boost-img" href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                            <a class="inb boost-img" href="/practices/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
 
                             <p class="boost-name ellipsis"><?php echo $v['name']?></p>
 
                             <p class="boost-time">时间：<?php echo date("Y-m-d",strtotime($v['time']))?></p>
-                            <a class="inb boost-xq" href="#"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
+                            <a class="inb boost-xq" href="/practices/<?php echo $v['id']?>.html"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
                         </li>
                     <?php
                     }
@@ -83,12 +83,12 @@
                     foreach($data as $v) {
                         ?>
                         <li>
-                            <a class="inb boost-img" href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                            <a class="inb boost-img" href="/practices/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
 
                             <p class="boost-name ellipsis"><?php echo $v['name']?></p>
 
                             <p class="boost-time">时间：<?php echo date("Y-m-d",strtotime($v['time']))?></p>
-                            <a class="inb boost-xq" href="#"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
+                            <a class="inb boost-xq" href="/practices/<?php echo $v['id']?>.html"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
                         </li>
                     <?php
                     }
@@ -121,12 +121,12 @@
                     foreach($data as $v) {
                         ?>
                         <li>
-                            <a class="inb boost-img" href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                            <a class="inb boost-img" href="/practices/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
 
                             <p class="boost-name ellipsis"><?php echo $v['name']?></p>
 
                             <p class="boost-time">时间：<?php echo date("Y-m-d",strtotime($v['time']))?></p>
-                            <a class="inb boost-xq" href="#"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
+                            <a class="inb boost-xq" href="/practices/<?php echo $v['id']?>.html"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
                         </li>
                     <?php
                     }
@@ -138,12 +138,12 @@
                     foreach($data as $v) {
                         ?>
                         <li>
-                            <a class="inb boost-img" href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                            <a class="inb boost-img" href="/practices/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
 
                             <p class="boost-name ellipsis"><?php echo $v['name']?></p>
 
                             <p class="boost-time">时间：<?php echo date("Y-m-d",strtotime($v['time']))?></p>
-                            <a class="inb boost-xq" href="#"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
+                            <a class="inb boost-xq" href="/practices/<?php echo $v['id']?>.html"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
                         </li>
                     <?php
                     }
@@ -161,12 +161,12 @@
                     foreach($data as $v) {
                         ?>
                         <li>
-                            <a class="inb boost-img" href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                            <a class="inb boost-img" href="/practices/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
 
                             <p class="boost-name ellipsis"><?php echo $v['name']?></p>
 
                             <p class="boost-time">时间：<?php echo date("Y-m-d",strtotime($v['time']))?></p>
-                            <a class="inb boost-xq" href="#"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
+                            <a class="inb boost-xq" href="/practices/<?php echo $v['id']?>.html"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
                         </li>
                     <?php
                     }
@@ -178,12 +178,12 @@
                     foreach($data as $v) {
                         ?>
                         <li>
-                            <a class="inb boost-img" href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                            <a class="inb boost-img" href="/practices/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
 
                             <p class="boost-name ellipsis"><?php echo $v['name']?></p>
 
                             <p class="boost-time">时间：<?php echo date("Y-m-d",strtotime($v['time']))?></p>
-                            <a class="inb boost-xq" href="#"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
+                            <a class="inb boost-xq" href="/practices/<?php echo $v['id']?>.html"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
                         </li>
                     <?php
                     }
@@ -213,12 +213,12 @@
                     foreach($data as $v) {
                         ?>
                         <li>
-                            <a class="inb boost-img" href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                            <a class="inb boost-img" href="/practices/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
 
                             <p class="boost-name ellipsis"><?php echo $v['name']?></p>
 
                             <p class="boost-time">时间：<?php echo date("Y-m-d",strtotime($v['time']))?></p>
-                            <a class="inb boost-xq" href="#"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
+                            <a class="inb boost-xq" href="/practices/<?php echo $v['id']?>.html"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
                         </li>
                     <?php
                     }
@@ -230,12 +230,12 @@
                     foreach($data as $v) {
                         ?>
                         <li>
-                            <a class="inb boost-img" href="#"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
+                            <a class="inb boost-img" href="/practices/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
 
                             <p class="boost-name ellipsis"><?php echo $v['name']?></p>
 
                             <p class="boost-time">时间：<?php echo date("Y-m-d",strtotime($v['time']))?></p>
-                            <a class="inb boost-xq" href="#"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
+                            <a class="inb boost-xq" href="/practices/<?php echo $v['id']?>.html"><img src="/wap/images/b-2.png" alt="">详细介绍</a>
                         </li>
                     <?php
                     }

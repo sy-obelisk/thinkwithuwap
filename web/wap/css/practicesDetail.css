@@ -151,7 +151,7 @@ input{
 /*立即报名*/
 .details-apply .apply-write-bg{
 	margin: 0.71rem 0.53rem;	
-	background: url(../img/pratices-detail-applyBG.jpg) no-repeat;
+	background: url(/wap/images/pratices-detail-applyBG.jpg) no-repeat;
 	background-size: 100% 100%;
 	padding: 0.3rem 0;
 	position: relative;

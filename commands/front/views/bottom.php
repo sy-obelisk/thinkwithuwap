@@ -1,13 +1,63 @@
-<div class="bottomInfo">
-    <a href="/" title="申友"><img src="/cn/images/index_newLogo.jpg" alt="申友logo" width="136"></a>
-    <ul>
-        <li><img src="/cn/images/index_smallIcon01.png" alt="本科留学"><a href="/Undergraduate.html" target="_blank">本科留学</a></li>
-        <li><img src="/cn/images/index_smallIcon02.png" alt="硕士留学"><a href="/Postgraduate.html" target="_blank">硕士留学</a></li>
-        <li><img src="/cn/images/index_smallIcon03.png" alt="博士留学"><a href="/Doctor.html" target="_blank">博士留学</a></li>
-        <li><img src="/cn/images/index_smallIcon04.png" alt="考试培训"><a href="/training.html" target="_blank" style="color: #82338c;font-weight: bold;">考试培训</a></li>
-        <li><img src="/cn/images/index_smallIcon05.png" alt="留学百科"><a href="/schools.html" target="_blank">院校库</a></li>
-        <li><img src="/cn/images/index_smallIcon06.png" alt="留学案例库"><a href="/case.html" target="_blank">留学案例库</a></li>
-        <li><img src="/cn/images/index_smallIcon07.png" alt="名师云集"><a href="/teachers.html" target="_blank">名师云集</a></li>
-        <li><img src="/cn/images/index_smallIcon08.png" alt="留学评估"><a href="/evaluation.html" target="_blank">留学评估</a></li>
-    </ul>
+<div class="success-assess">
+    <div class="title">
+        <img src="/wap/images/success-assess.jpg"/>
+        <h3>留学评估</h3>
+    </div>
+    <div class="assess-write">
+        <p>
+            <span>提前规划，免费评估</span><br />
+            <span>让你的留学快人一步</span>
+        </p>
+        <ul>
+            <li><input type="text" id="username" placeholder="姓名"/></li>
+            <li><input type="text" id="tel" placeholder="电话"/></li>
+            <li><input type="text" id="email" placeholder="邮箱"/></li>
+            <li><input type="text" id="country" placeholder="意向国家"/></li>
+            <li><input type="text" id="classes" placeholder="目标课程"/></li>
+            <li><button onclick="assess()">立即预约</button></li>
+        </ul>
+    </div>
 </div>
+<script type="text/javascript">
+    function assess(){
+        var name = $('#username').val(),
+            tel = $('#tel').val(),
+            email = $('#email').val(),
+            country = $('#country').val(),
+            classess = $('#classes').val();
+        var   extend = new Array();
+        if (name == "") {
+            alert("请输入姓名");
+            return false;
+        }
+        if (tel == ""){
+            alert('请输入电话');
+            return false
+        }
+        if(email == ""){
+            alert('请输入邮箱');
+            return false
+        }
+        extend.push(email);
+        if (country == ""){
+            alert('请输入意向国家');
+            return false
+        }
+        extend.push(country);
+        if (classess == "") {
+            alert('请输入目标课程');
+            return false
+        }
+        extend.push(classess);
+        console.log(extend);
+        $.post('http://www.thinkwithu.com/cn/api/wap-assess',
+            {
+                name:name,
+                phone:tel,
+                extendVal:extend
+            },function(rel){
+                alert(rel.message);
+                window.location.reload()
+            },"json")
+    }
+</script>

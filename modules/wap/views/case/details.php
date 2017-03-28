@@ -62,69 +62,12 @@
 </div>
 <!--相关阅读结束-->
 <!--留学评估-->
-<div class="success-assess">
-    <div class="title">
-        <img src="/wap/images/success-assess.jpg"/>
-        <h3>留学评估</h3>
-    </div>
-    <div class="assess-write">
-        <p>
-            <span>提前规划，免费评估</span><br />
-            <span>让你的留学快人一步</span>
-        </p>
-        <ul>
-            <li><input type="text" id="username" placeholder="姓名"/></li>
-            <li><input type="text" id="tel" placeholder="电话"/></li>
-            <li><input type="text" id="email" placeholder="邮箱"/></li>
-            <li><input type="text" id="country" placeholder="意向国家"/></li>
-            <li><input type="text" id="classes" placeholder="目标课程"/></li>
-            <li><button onclick="">立即预约</button></li>
-        </ul>
-    </div>
-</div>
+<?php use app\commands\front\BottomWidget;?>
+<?php BottomWidget::begin();?>
+<?php BottomWidget::end();?>
 <!--底部栏-->
 <div class="footer"></div>
 </body>
-<script type="text/javascript" src="jquery-1.12.2.min.js"></script>
-<script src="swiper-3.3.1.jquery.min.js"></script>
-<script type="text/javascript">
-    function assess(){
-        var name = $('#username').val(),
-            tel = $('#tel').val(),
-            email = $('#email').val(),
-            country = $('#country').val(),
-            classess = $('classess').val();
-        if (name = "") {
-            alert("请输入姓名");
-            return false;
-        }
-        if (tel = ""){
-            alert('请输入电话');
-            return false
-        }
-        if(email = ""){
-            alert('请输入邮箱');
-            return false
-        }
-        if (country = ""){
-            alert('请输入意向国家');
-            return false
-        }
-        if (classess = "") {
-            alert('请输入目标课程');
-            return false
-        }
-        $.post('#',
-            {
-                name:name,
-                tel:tel,
-                email:email,
-                country:country,
-                classess:classess
-            },function(rel){
-                alert(rel.message);
-                window.location.reload()
-            },"json")
-    }
-</script>
+<script type="text/javascript" src="/wap/js/jquery-1.12.2.min.js"></script>
+<script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
 </html>
