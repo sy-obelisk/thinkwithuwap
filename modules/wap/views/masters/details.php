@@ -71,7 +71,7 @@
 
                             <p>职位：<span><?php echo $data[$i*2]['job']?></span></p>
 
-                            <p class="clearfix"><a href="#" class="fr">在线咨询</a></p>
+                            <p class="clearfix"><a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=" class="fr">在线咨询</a></p>
                         </div>
                     </li>
                     <li>
@@ -81,7 +81,7 @@
 	
 	                        <p>职位：<span><?php echo $data[$i*2+1]['job']?></span></p>
 	
-	                        <p class="clearfix"><a href="#" class="fr">在线咨询</a></p>
+	                        <p class="clearfix"><a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=" class="fr">在线咨询</a></p>
                         </div>
                     </li>
                 </ul>
