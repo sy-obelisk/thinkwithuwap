@@ -1,13 +1,14 @@
 /*文章*/
 .details-text{
 	text-align: center;
-	padding-bottom: 0.8rem;
+	padding: 0 0.5rem 0.8rem;
 	line-height: 0.9rem;
 }
 .details-text h2{
 	font-size: 0.8rem;
 	font-weight: normal;
 	padding: 0.3rem 0;
+	
 }
 .details-text>ul{
 	font-size: 0;
@@ -23,11 +24,15 @@
 	padding-top: 0.4rem;
 	text-align: left;
 	font-size: 0.6rem !important;
-	text-indent: 0.5rem;
+	/*text-indent: 0.5rem;*/
 	line-height: 1.1rem;
 }
 .details-text p span{
 	font-size: 0.6rem !important;
+}
+.details-text p img{
+	width: 100%;
+	height: auto;
 }
 /*推荐项目*/
 .top1{

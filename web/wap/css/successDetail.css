@@ -39,9 +39,11 @@
 }
 .text-content p img{
 	width: 100% !important;
+	height: auto !important;
 }
 .text-content .text-1{
 	padding: 0.6rem 0.2rem;
+	margin-bottom: 0.2rem;
 	background-color: rgb(232,232,232);
 	border-bottom-left-radius: 0.3rem;
 	border-bottom-right-radius: 0.3rem;
@@ -88,7 +90,7 @@
 	font-size: 0.9rem;
 }
 .success-about ul{
-	padding: 0 1.2rem;
+	padding: 0 0.6rem;
 	background-color: rgb(232,232,232);
 	border-radius: 0.3rem;
 	line-height: 0.9rem;
