@@ -465,7 +465,7 @@
     <!--选项卡-->
     <div class="info-select-wrap" style="display: block;">
         <?php
-        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "178,118",'pageSize' => 3]);
+        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "178,118",'pageSize' => 10]);
         foreach($data as $k => $v) {
             ?>
             <div class="info-wrap">
@@ -484,7 +484,7 @@
     </div>
     <div class="info-select-wrap">
         <?php
-        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "177,118",'pageSize' => 3]);
+        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "177,118",'pageSize' => 10]);
         foreach($data as $k => $v) {
             ?>
             <div class="info-wrap">
@@ -503,7 +503,7 @@
     </div>
     <div class="info-select-wrap">
         <?php
-        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "105,118",'pageSize' => 3]);
+        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "105,118",'pageSize' => 10]);
         foreach($data as $k => $v) {
             ?>
             <div class="info-wrap">
