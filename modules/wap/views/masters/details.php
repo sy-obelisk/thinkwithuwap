@@ -27,7 +27,7 @@
             </li>
             <li>
                 <img src="/wap/images/teacher-liao.png"/>
-                <a href="#">和老师聊聊</a>
+                <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">和老师聊聊</a>
             </li>
         </ul>
     </div>
@@ -76,12 +76,13 @@
                     </li>
                     <li>
                         <img src="<?php echo Yii::$app->params['PC'].$data[$i*2+1]['image']?>"/>
-
-                        <p>姓名：<span><?php echo $data[$i*2+1]['name']?></span></p>
-
-                        <p>职位：<span><?php echo $data[$i*2+1]['job']?></span></p>
-
-                        <p class="clearfix"><a href="#" class="fr">在线咨询</a></p>
+                        <div>
+	                        <p>姓名：<span><?php echo $data[$i*2+1]['name']?></span></p>
+	
+	                        <p>职位：<span><?php echo $data[$i*2+1]['job']?></span></p>
+	
+	                        <p class="clearfix"><a href="#" class="fr">在线咨询</a></p>
+                        </div>
                     </li>
                 </ul>
             <?php
@@ -92,11 +93,15 @@
         <div class="swiper-pagination item-page"></div>
     </div>
 </div>
-<!--底部-->
-<div class="footer" style="height: 2rem; background: #080808;"></div>
+<!--footer-->
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
+<!--footer End-->
 </body>
 <script type="text/javascript" src="/wap/js/jquery-1.12.2.min.js"></script>
 <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
+<script src="/wap/js/common.js"></script>
 <script type="text/javascript">
     $(function(){
         mySwiper();

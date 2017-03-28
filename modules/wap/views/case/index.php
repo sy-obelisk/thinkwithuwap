@@ -57,10 +57,12 @@
             foreach($data as $v) {
                 ?>
                 <li>
-                    <div class="ct-head inb"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
-                    <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
-
-                    <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
+                	<a href="/case/details/<?php echo $v['id']?>.html">
+	                    <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+	                    <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
+	
+	                    <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
+                    </a>
                 </li>
             <?php
             }

@@ -73,46 +73,58 @@
 </div>
 <ul class="bg-1 pd-0 open-list">
     <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">GMAT强化班（周末班） </h1>
-            <P class="open-time">每月周末滚动开班</P>
-        </div>
+    	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+	        <div class="fr open-text">
+	            <h1 class="open-name">GMAT强化班（周末班） </h1>
+	            <P class="open-time">每月周末滚动开班</P>
+	        </div>
+        </a>
     </li>
     <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">GMAT国庆班 </h1>
-            <P class="open-time">10月1、2、3、4、5、6日（全日制）</P>
-        </div>
+    	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+	        <div class="fr open-text">
+	            <h1 class="open-name">GMAT国庆班 </h1>
+	            <P class="open-time">10月1、2、3、4、5、6日（全日制）</P>
+	        </div>
+        </a>
     </li>
     <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">GMAT寒假班  </h1>
-            <P class="open-time">1、2月每周滚动开班；连授班</P>
-        </div>
+    	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+	        <div class="fr open-text">
+	            <h1 class="open-name">GMAT寒假班  </h1>
+	            <P class="open-time">1、2月每周滚动开班；连授班</P>
+	        </div>
+        </a>
     </li>
     <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">GMAT VIP一对一 </h1>
-            <P class="open-time">随时开课</P>
-        </div>
+    	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+	        <div class="fr open-text">
+	            <h1 class="open-name">GMAT VIP一对一 </h1>
+	            <P class="open-time">随时开课</P>
+	        </div>
+        </a>
     </li>
     <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">GMAT PRE基础班 </h1>
-            <P class="open-time">随时开课</P>
-        </div>
+    	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+	        <div class="fr open-text">
+	            <h1 class="open-name">GMAT PRE基础班 </h1>
+	            <P class="open-time">随时开课</P>
+	        </div>
+        </a>
     </li>
     <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">GMAT机经冲刺班 </h1>
-            <P class="open-time">每月换库后开课</P>
-        </div>
+    	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+	        <div class="fr open-text">
+	            <h1 class="open-name">GMAT机经冲刺班 </h1>
+	            <P class="open-time">每月换库后开课</P>
+	        </div>
+        </a>
     </li>
 
 </ul>
@@ -178,10 +190,12 @@
         foreach($data as $v) {
             ?>
             <li>
-                <div class="ct-head inb"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
-                <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
-
-                <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
+            	<a href="/case/details/<?php echo $v['id']?>.html">
+	                <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
+	                <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
+	
+	                <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
+                </a>
             </li>
             <?php
             }

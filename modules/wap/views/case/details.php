@@ -32,12 +32,12 @@
     </div>
     <div class="text-next clearfix">
         <?php if(count($next)>0) { ?>
-            <a href="/case/details/<?php echo $next[0]['id']?>.html">下一篇：<span><?php echo $next[0]['title']?></span></a>
+            <a href="/case/details/<?php echo $next[0]['id']?>.html">上一篇：<span><?php echo $next[0]['title']?></span></a>
         <?php
         }
         ?>
         <?php if(count($prev)>0) { ?>
-            <a href="/case/details/<?php echo $prev[0]['id']?>.html">上一篇：<span><?php echo $prev[0]['title']?></span></a>
+            <a href="/case/details/<?php echo $prev[0]['id']?>.html">下一篇：<span><?php echo $prev[0]['title']?></span></a>
         <?php
         }
         ?>
@@ -65,9 +65,13 @@
 <?php use app\commands\front\BottomWidget;?>
 <?php BottomWidget::begin();?>
 <?php BottomWidget::end();?>
-<!--底部栏-->
-<div class="footer"></div>
+<!--footer-->
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
+<!--footer End-->
 </body>
 <script type="text/javascript" src="/wap/js/jquery-1.12.2.min.js"></script>
 <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
+<script src="/wap/js/common.js"></script>
 </html>

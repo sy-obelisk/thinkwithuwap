@@ -1,5 +1,8 @@
+.success-text{
+	line-height: 0.9rem;
+}
 .text-top{
-	background: url(../img/success-titleBG.jpg) no-repeat;
+	background: url(/wap/images/success-titleBG.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .text-title{
@@ -15,7 +18,7 @@
 	padding: 0.3rem;
 	width: 84%;
 	border-radius: .5rem;
-	font-size: 0.6rem;
+	font-size: 0.7rem;
 	font-weight: normal;
 	background-color: rgba(91,120,161,.7);
 	color: #fff;
@@ -24,17 +27,18 @@
 	margin-top: 0.5rem;
 }
 .text-title ul li{
-	/*float: left;
-	margin-right: 3%;*/
-	font-size: 0.4rem;
+	font-size: 0.5rem;
 	color: #fff;
 }
-/*.text-title ul li:last-child{
-	margin-right: 0;
-}*/
 .text-content{
-	padding: 0 0.5rem;
-	font-size: 0.5rem;
+	padding: 0.5rem;
+	font-size: 0.6rem;
+}
+.text-content p span{
+	font-size: 0.65rem !important;
+}
+.text-content p img{
+	width: 100% !important;
 }
 .text-content .text-1{
 	padding: 0.6rem 0.2rem;
@@ -58,10 +62,16 @@
 .text-4 p{
 	text-indent: 1rem;
 }
-.text-next{padding: 0.5rem 0.5rem 0;}
+.text-next{
+	padding: 0.5rem 0.5rem 0;
+}
 .text-next a{
-	font-size: 0.5rem;
 	float: left;
+	width: 40%;
+	font-size: 0.6rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 .text-next a:last-child{
 	float: right;
@@ -75,20 +85,22 @@
 }
 .title h3{
 	font-weight: normal;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 .success-about ul{
 	padding: 0 1.2rem;
 	background-color: rgb(232,232,232);
 	border-radius: 0.3rem;
+	line-height: 0.9rem;
 }
 .success-about ul li{
 	position: relative;
 	padding: 0.3rem 0;
-	/*border-bottom: 1px solid #4D4D4D;*/
 	font-size: 0.6rem;
 }
-
+.success-about ul li a{
+	font-size: 0.6rem;
+}
 
 .success-about ul li:last-child{
 	border: 0;
@@ -101,6 +113,7 @@
 	background-color: rgb(175, 126, 255);
 	padding: 5% 20%;
 	border-radius: 0.5rem;
+	line-height: 0.9rem;
 }
 .assess-write p{
 	color: #fff;
@@ -113,10 +126,11 @@
 }
 .success-assess input{
 	width: 100%;
-	height: 1rem;
+	height: 1.2rem;
 	padding: 0 0.3rem;
 	background-color: #fff;
 	border-radius: 0.3rem;
+	font-size: 0.4rem;
 }
 .assess-write li:last-child{
 	margin-top: 1rem;
@@ -124,8 +138,9 @@
 .assess-write li button{
 	border: none;
 	width: 100%;
-	height: 1rem;
+	height: 1.2rem;
 	border-radius: 0.3rem;
 	background-color: rgb(221,42,239);
 	color: #fff;
+	font-size: 0.4rem;
 }

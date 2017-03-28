@@ -1,6 +1,7 @@
     <title>背景提升详情页</title>
     <link rel="stylesheet" href="/wap/css/reset.css" />
     <link rel="stylesheet" href="/wap/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/wap/css/newCommon.css"/>
     <link rel="stylesheet" href="/wap/css/swiper-3.3.1.min.css" />
     <link rel="stylesheet" href="/wap/css/practicesDetail.css" />
 </head>
@@ -129,9 +130,15 @@
         </div>
     </div>
 </div>
+<!--footer-->
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
+<!--footer End-->
 </body>
 <script type="text/javascript" src="/wap/js/jquery-1.12.2.min.js"></script>
 <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
+<script src="/wap/js/common.js"></script>
 <script>
     $(function(){
         mySwiper();

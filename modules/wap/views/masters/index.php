@@ -63,22 +63,24 @@
             foreach($data as $v) {
                 ?>
                 <li>
-                    <div class="tc-img inb">
-                        <a href="/teachers/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
-                    </div>
-                    <div class="tc-info inb clearfix">
-                        <div class="tc-info-top">
-                            <div class="inb">
-                                <p class="tc-cm"><?php echo $v['name']?></p>
-
-                                <p class="tc-em"><?php echo $v['title']?></p>
-                            </div>
-                            <div class="inb tc-lev fr"><?php echo $v['job']?></div>
-                        </div>
-                        <div class="tc-de clearfix">
-                            <span class="ellipsis-2 inb tc-de-text"><?php echo $v['abstract']?></span>
-                        </div>
-                    </div>
+                	<a href="/teachers/<?php echo $v['id']?>.html">
+	                    <div class="tc-img inb">
+	                        <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="">
+	                    </div>
+	                    <div class="tc-info inb clearfix">
+	                        <div class="tc-info-top">
+	                            <div class="inb">
+	                                <p class="tc-cm"><?php echo $v['name']?></p>
+	
+	                                <p class="tc-em"><?php echo $v['title']?></p>
+	                            </div>
+	                            <div class="inb tc-lev fr"><?php echo $v['job']?></div>
+	                        </div>
+	                        <div class="tc-de clearfix">
+	                            <span class="ellipsis-2 inb tc-de-text"><?php echo $v['abstract']?></span>
+	                        </div>
+	                    </div>
+                    </a>
                 </li>
             <?php
             }
@@ -104,22 +106,24 @@
             foreach($data as $v) {
                 ?>
                 <li>
-                    <div class="tc-img inb">
-                        <a href="/teachers/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
-                    </div>
-                    <div class="tc-info inb clearfix">
-                        <div class="tc-info-top">
-                            <div class="inb">
-                                <p class="tc-cm"><?php echo $v['name']?></p>
-
-                                <p class="tc-em"><?php echo $v['title']?></p>
-                            </div>
-                            <div class="inb tc-lev fr"><?php echo $v['job']?></div>
-                        </div>
-                        <div class="tc-de clearfix">
-                            <span class="ellipsis-2 inb tc-de-text"><?php echo $v['abstract']?></span>
-                        </div>
-                    </div>
+                	<a href="/teachers/<?php echo $v['id']?>.html">
+	                    <div class="tc-img inb">
+	                        <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="">
+	                    </div>
+	                    <div class="tc-info inb clearfix">
+	                        <div class="tc-info-top">
+	                            <div class="inb">
+	                                <p class="tc-cm"><?php echo $v['name']?></p>
+	
+	                                <p class="tc-em"><?php echo $v['title']?></p>
+	                            </div>
+	                            <div class="inb tc-lev fr"><?php echo $v['job']?></div>
+	                        </div>
+	                        <div class="tc-de clearfix">
+	                            <span class="ellipsis-2 inb tc-de-text"><?php echo $v['abstract']?></span>
+	                        </div>
+	                    </div>
+                    </a>
                 </li>
             <?php
             }
@@ -145,22 +149,24 @@
             foreach($data as $v) {
                 ?>
                 <li>
-                    <div class="tc-img inb">
-                        <a href="/teachers/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
-                    </div>
-                    <div class="tc-info inb clearfix">
-                        <div class="tc-info-top">
-                            <div class="inb">
-                                <p class="tc-cm"><?php echo $v['name']?></p>
-
-                                <p class="tc-em"><?php echo $v['title']?></p>
-                            </div>
-                            <div class="inb tc-lev fr"><?php echo $v['job']?></div>
-                        </div>
-                        <div class="tc-de clearfix">
-                            <span class="ellipsis-2 inb tc-de-text"><?php echo $v['abstract']?></span>
-                        </div>
-                    </div>
+                	<a href="/teachers/<?php echo $v['id']?>.html">
+	                    <div class="tc-img inb">
+	                        <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="">
+	                    </div>
+	                    <div class="tc-info inb clearfix">
+	                        <div class="tc-info-top">
+	                            <div class="inb">
+	                                <p class="tc-cm"><?php echo $v['name']?></p>
+	
+	                                <p class="tc-em"><?php echo $v['title']?></p>
+	                            </div>
+	                            <div class="inb tc-lev fr"><?php echo $v['job']?></div>
+	                        </div>
+	                        <div class="tc-de clearfix">
+	                            <span class="ellipsis-2 inb tc-de-text"><?php echo $v['abstract']?></span>
+	                        </div>
+	                    </div>
+                    </a>
                 </li>
             <?php
             }
@@ -186,22 +192,24 @@
             foreach($data as $v) {
                 ?>
                 <li>
-                    <div class="tc-img inb">
-                        <a href="/teachers/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a>
-                    </div>
-                    <div class="tc-info inb clearfix">
-                        <div class="tc-info-top">
-                            <div class="inb">
-                                <p class="tc-cm"><?php echo $v['name']?></p>
-
-                                <p class="tc-em"><?php echo $v['title']?></p>
-                            </div>
-                            <div class="inb tc-lev fr"><?php echo $v['job']?></div>
-                        </div>
-                        <div class="tc-de clearfix">
-                            <span class="ellipsis-2 inb tc-de-text"><?php echo $v['abstract']?></span>
-                        </div>
-                    </div>
+                	<a href="/teachers/<?php echo $v['id']?>.html">
+	                    <div class="tc-img inb">
+	                        <img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt="">
+	                    </div>
+	                    <div class="tc-info inb clearfix">
+	                        <div class="tc-info-top">
+	                            <div class="inb">
+	                                <p class="tc-cm"><?php echo $v['name']?></p>
+	
+	                                <p class="tc-em"><?php echo $v['title']?></p>
+	                            </div>
+	                            <div class="inb tc-lev fr"><?php echo $v['job']?></div>
+	                        </div>
+	                        <div class="tc-de clearfix">
+	                            <span class="ellipsis-2 inb tc-de-text"><?php echo $v['abstract']?></span>
+	                        </div>
+	                    </div>
+                    </a>
                 </li>
             <?php
             }

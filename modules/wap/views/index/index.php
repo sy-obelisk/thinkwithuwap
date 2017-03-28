@@ -471,11 +471,13 @@
             <div class="info-wrap">
                 <div class="info-img inb"><a href="/news/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                 <div class="info-text inb">
-                    <h1 class="info-tit"><?php echo $v['name']?></h1>
-
-                    <p class="info-de ellipsis-2"><?php echo $v['abstract']?></p>
-
-                    <p class="time"><?php echo $v['createTime']?></p>
+                	<a href="/news/details/<?php echo $v['id']?>.html">
+	                    <h1 class="info-tit"><?php echo $v['name']?></h1>
+	
+	                    <p class="info-de ellipsis-2"><?php echo $v['abstract']?></p>
+	
+	                    <p class="time"><?php echo $v['createTime']?></p>
+                    </a>
                 </div>
             </div>
         <?php
@@ -490,11 +492,13 @@
             <div class="info-wrap">
                 <div class="info-img inb"><a href="/news/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                 <div class="info-text inb">
-                    <h1 class="info-tit"><?php echo $v['name']?></h1>
-
-                    <p class="info-de ellipsis-2"><?php echo $v['abstract']?></p>
-
-                    <p class="time"><?php echo $v['createTime']?></p>
+                	<a href="/news/details/<?php echo $v['id']?>.html">
+	                    <h1 class="info-tit"><?php echo $v['name']?></h1>
+	
+	                    <p class="info-de ellipsis-2"><?php echo $v['abstract']?></p>
+	
+	                    <p class="time"><?php echo $v['createTime']?></p>
+                   </a>
                 </div>
             </div>
         <?php
@@ -509,11 +513,13 @@
             <div class="info-wrap">
                 <div class="info-img inb"><a href="/news/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                 <div class="info-text inb">
-                    <h1 class="info-tit"><?php echo $v['name']?></h1>
-
-                    <p class="info-de ellipsis-2"><?php echo $v['abstract']?></p>
-
-                    <p class="time"><?php echo $v['createTime']?></p>
+                	<a href="/news/details/<?php echo $v['id']?>.html">
+	                    <h1 class="info-tit"><?php echo $v['name']?></h1>
+	
+	                    <p class="info-de ellipsis-2"><?php echo $v['abstract']?></p>
+	
+	                    <p class="time"><?php echo $v['createTime']?></p>
+                   </a>
                 </div>
             </div>
         <?php
