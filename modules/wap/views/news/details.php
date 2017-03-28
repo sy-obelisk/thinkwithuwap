@@ -27,7 +27,7 @@
     </div>
     <div class="text-content">
         <p class="text-1"> <?php echo $data[0]['abstract']?></p>
-        <?php echo $data[0]['description']?>
+        <?php echo str_replace('src="/files','src="'.Yii::$app->params['PC'].'/files',$data[0]['description']);?>
     </div>
     <div class="text-next clearfix">
         <?php if(count($next)>0) { ?>
