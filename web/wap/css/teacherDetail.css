@@ -1,5 +1,5 @@
 .font-5{
-	font-size: 0.5rem;
+	font-size: 0.6rem;
 }
 .item-page .swiper-pagination-bullet-active{
 	background-color: rgb(175, 126, 255);
@@ -16,10 +16,11 @@
 	float: left;
 }
 .swi-pdbotton{
-	padding-bottom: 1rem;
+	padding-bottom: 1.5rem;
 }
 .teacher-top ul{
 	margin-left: 3.2rem;
+	line-height: 1rem;
 }
 .teacher-top li{
 	margin-bottom: 0.1rem;
@@ -37,7 +38,7 @@
 .teacher-top ul li:last-child img{
 	width: 0.7rem;
 	margin-right: 0;
-	padding-top: 0.1rem;
+	padding-top: 0.3rem;
 }
 .teacher-top li:last-child a{
 	font-size: 0.45rem;
@@ -45,6 +46,7 @@
 }
 .teacher-intro{
 	padding: 0.3rem 0;
+	line-height: 1.3rem;
 }
 .teacher-intro h4{
 	width: 2rem;
@@ -83,12 +85,13 @@
 	display: -webkit-flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 0.7rem;
 }
 .tea-all-top img{
 	width: 1.3rem;
 }
 .tea-all-top h3{
-	font-size: 0.6rem;
+	font-size: 0.8rem;
 	font-weight: normal;
 }
 .tea-all-top a{
@@ -96,17 +99,22 @@
 }
 .teacher-all ul{
 	padding: 0.5rem 0;
+	line-height: 0.9rem;
 }
 .teacher-all ul li{
 	float: left;
-	margin-right: 3%;
-	width: 47%;
+	margin-right: 2%;
+	width: 49%;
 	padding-bottom: 0.2rem;
-	font-size: 0.4rem;
+	font-size: 0.6rem;
 	background-color: rgb(224, 229, 222);
 }
 .teacher-all ul li:last-child{
 	margin-right: 0;
+}
+.teacher-all ul li img{
+	width: 100%;
+	max-height: 570px;
 }
 .teacher-all ul li p:last-child a{
 	padding: 0 0.2rem;
@@ -115,5 +123,5 @@
 	background-color: rgb(175,126,255);
 }
 .teacher-all ul li div{
-	padding: 0 0.1rem;
+	padding: 0.1rem 0.2rem;
 }

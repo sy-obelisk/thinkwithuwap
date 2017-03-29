@@ -53,13 +53,13 @@
 <div class="pd-1 bg-1">
     <div style="padding: 0.3rem 0 0.7rem"><img src="/wap/images/tf-3.png" alt=""></div>
     <div class="tf-top clearfix">
-        <a href="#"><img src="/wap/images/tf-5.png" alt=""></a>
-        <a href="#"><img src="/wap/images/tf-6.png" alt=""></a>
-        <a href="#"><img src="/wap/images/tf-7.png" alt=""></a>
+        <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/tf-5.png" alt=""></a>
+        <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/tf-6.png" alt=""></a>
+        <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/tf-7.png" alt=""></a>
     </div>
     <div class="tf-bottom clearfix">
-        <a class="inb fl" href="#"><img src="/wap/images/tf-8.png" alt=""></a>
-        <a class="inb fr" href="#"><img src="/wap/images/tf-9.png" alt=""></a>
+        <a class="inb fl" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/tf-8.png" alt=""></a>
+        <a class="inb fr" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw="><img src="/wap/images/tf-9.png" alt=""></a>
     </div>
 </div>
 <div name="tf-open" id="tf-open" class="bg-1" style="padding: 0.3rem 0.625rem 0"><img src="/wap/images/tf-4.png" alt=""></div>
@@ -101,10 +101,12 @@
         foreach($data as $v) {
             ?>
             <li>
-                <div class="ct-head inb"><a href="/case/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
+            	<a href="/case/details/<?php echo $v['id']?>.html">
+                <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
                 <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
 
                 <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
+                </a>
             </li>
         <?php
         }

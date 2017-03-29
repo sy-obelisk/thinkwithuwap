@@ -98,11 +98,13 @@
             foreach($data as $k => $v) {
                 ?>
                 <li>
-                    <h1 class="topic"><?php echo $v['name']?></h1>
-
-                    <p class="ellipsis topic-de"><?php echo $v['abstract']?></p>
-
-                    <p class="topic-time">时间：<?php echo $v['createTime']?></p>
+                	<a href="/news/details/<?php echo $v['id']?>.html">
+	                    <h1 class="topic"><?php echo $v['name']?></h1>
+	
+	                    <p class="ellipsis topic-de"><?php echo $v['abstract']?></p>
+	
+	                    <p class="topic-time">时间：<?php echo $v['createTime']?></p>
+                   </a>
                 </li>
             <?php
             }
@@ -128,11 +130,13 @@
             foreach($data as $k => $v) {
                 ?>
                 <li>
-                    <h1 class="topic"><?php echo $v['name']?></h1>
-
-                    <p class="ellipsis topic-de"><?php echo $v['abstract']?></p>
-
-                    <p class="topic-time">时间：<?php echo $v['createTime']?></p>
+                	<a href="/news/details/<?php echo $v['id']?>.html">
+	                    <h1 class="topic"><?php echo $v['name']?></h1>
+	
+	                    <p class="ellipsis topic-de"><?php echo $v['abstract']?></p>
+	
+	                    <p class="topic-time">时间：<?php echo $v['createTime']?></p>
+                   </a>
                 </li>
             <?php
             }
@@ -158,11 +162,13 @@
             foreach($data as $k => $v) {
                 ?>
                 <li>
-                    <h1 class="topic"><?php echo $v['name']?></h1>
-
-                    <p class="ellipsis topic-de"><?php echo $v['abstract']?></p>
-
-                    <p class="topic-time">时间：<?php echo $v['createTime']?></p>
+                	<a href="/news/details/<?php echo $v['id']?>.html">
+	                    <h1 class="topic"><?php echo $v['name']?></h1>
+	
+	                    <p class="ellipsis topic-de"><?php echo $v['abstract']?></p>
+	
+	                    <p class="topic-time">时间：<?php echo $v['createTime']?></p>
+                   </a>
                 </li>
             <?php
             }

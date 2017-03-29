@@ -48,7 +48,7 @@
                 <h3>您可能感兴趣的</h3>
             </div>
             <a href="/class.html">更多</a>
-        </div>o
+        </div>
         <div class="int-content">
             <ul class="clearfix">
                 <?php
@@ -110,8 +110,13 @@
     </div>
 
 </div>
-<div class="footer" style="height: 2rem; background: #080808;"></div>
+<!--footer-->
+<?php use app\commands\front\FooterWidget;?>
+<?php FooterWidget::begin();?>
+<?php FooterWidget::end();?>
+<!--footer End-->
 </body>
 <script type="text/javascript" src="/wap/js/jquery-1.12.2.min.js"></script>
 <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
+<script src="/wap/js/common.js"></script>
 </html>
