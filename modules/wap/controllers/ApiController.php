@@ -120,7 +120,7 @@ class ApiController extends ThinkUApiControl {
         }elseif($list == 'list6'){
             $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "107,115",'fields' => $fields]);
         }elseif($list == 'list7'){
-            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "102,116",'fields' => $fields]);
+            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "107,116",'fields' => $fields]);
         }else{
             $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => $category,'fields' => $fields]);
         }

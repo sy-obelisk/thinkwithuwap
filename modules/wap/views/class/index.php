@@ -55,7 +55,7 @@
     <div data-value="list4" class="class-list-wrap" style="display: block">
         <ul class="class-list">
             <?php
-            $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'url,place,time', 'category' => '107', 'category_extend' =>"178,115,116",'pageSize' => 6]);
+            $data = \app\modules\wap\models\Content::getContent(['pageStr' => 1,'fields' => 'url,place,time', 'category' => '107', 'extend_category' =>"178,115,116",'pageSize' => 6]);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -266,13 +266,13 @@
                 for(i=0;i<re.data.length;i++){
                     dataStr += '<li>';
                     dataStr += '<div class="class-img fl">';
-                    dataStr += '<a href="#"><img src="<?php echo Yii::$app->params['PC']?>'+re.data[i].image+'" alt=""></a>';
+                    dataStr += '<a href="/class/details/'+re.data[i].id+'.html"><img src="<?php echo Yii::$app->params['PC']?>'+re.data[i].image+'" alt=""></a>';
                     dataStr += '</div>';
                     dataStr += '<div class="class-info fr">';
                     dataStr += '<h1 class="class-tit ellipsis">'+re.data[i].name+'</h1>';
 
                     dataStr += '<p class="class-time">时间：'+re.data[i].time+'</p>';
-                    dataStr += '<a class="inb class-btn" href="#">查看详情</a>';
+                    dataStr += '<a class="inb class-btn" href="/class/details/'+re.data[i].id+'.html">查看详情</a>';
                     dataStr += '</div>';
                     dataStr += '</li>';
                 }
