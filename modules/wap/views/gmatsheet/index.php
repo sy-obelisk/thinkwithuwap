@@ -76,8 +76,17 @@
     	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
 	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
 	        <div class="fr open-text">
+	            <h1 class="open-name">GMAT强化班（连授班） </h1>
+	            <P class="open-time">3月、4月、5月、6月、7月、8月</P>
+	        </div>
+        </a>
+    </li>
+    <li>
+    	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+	        <div class="fr open-text">
 	            <h1 class="open-name">GMAT强化班（周末班） </h1>
-	            <P class="open-time">每月周末滚动开班</P>
+	            <P class="open-time">3月-8月周末开班</P>
 	        </div>
         </a>
     </li>
@@ -85,17 +94,8 @@
     	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
 	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
 	        <div class="fr open-text">
-	            <h1 class="open-name">GMAT国庆班 </h1>
-	            <P class="open-time">10月1、2、3、4、5、6日（全日制）</P>
-	        </div>
-        </a>
-    </li>
-    <li>
-    	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
-	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-	        <div class="fr open-text">
-	            <h1 class="open-name">GMAT寒假班  </h1>
-	            <P class="open-time">1、2月每周滚动开班；连授班</P>
+	            <h1 class="open-name">GMAT 强化班（在线班）  </h1>
+	            <P class="open-time">随时开课</P>
 	        </div>
         </a>
     </li>

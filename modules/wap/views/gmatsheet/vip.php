@@ -75,11 +75,11 @@
         </li>
         <li>
             <img src="/wap/images/v-7.png" alt="">
-            <p class="teacher-name">Demon</p>
+            <p class="teacher-name">Gary</p>
         </li>
         <li>
             <img src="/wap/images/v-8.png" alt="">
-            <p class="teacher-name">James</p>
+            <p class="teacher-name">Bob</p>
         </li>
 
 

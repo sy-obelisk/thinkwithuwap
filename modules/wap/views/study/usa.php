@@ -65,8 +65,8 @@
         <div class="u-de-wrap">
             <p class="u-de">适合DIY或者半DIY，或者纠结机构选择的同学。可享受专业申请老师留学规划、实习指导、备考指导、选校评估服务。</p>
             <div class="price-wrap">
-                <span class="price">限期优惠价：980元</span>
-                <em class="u-price">原价：8800元 </em>
+                <span class="price">限时优惠</span>
+                <!--<em class="u-price">原价：8800元 </em>-->
             </div>
             <div class="u-btn">
                 <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
@@ -82,11 +82,11 @@
             <p class="u-de">包含留学规划、GMAT视频课程及考试辅导、背景提升指导、选校、文书、网申、签证。限期选择全套服务，享受半价优惠。</p>
             <div class="price-wrap">
                 <div class="inb">
-                    <p class="price">限期优惠价：980元</p>
-                    <p class="price">限期优惠价：980元</p>
+                    <p class="price">限时优惠</p>
+<!--                    <p class="price">限期优惠价：980元</p>-->
                 </div>
-                <img class="u-big" src="/wap/images/u-big.png" alt="">
-                <em class="u-price inb">原价：8800元 </em>
+                <!--<img class="u-big" src="/wap/images/u-big.png" alt="">-->
+                <!--<em class="u-price inb">原价：8800元 </em>-->
             </div>
             <div class="u-btn">                <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
                     <img src="/wap/images/u-btn.png" alt="">

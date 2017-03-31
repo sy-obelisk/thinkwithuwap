@@ -460,7 +460,7 @@
     <div class="select-wrap s1">
         <span class="inb current">留学动态</span>
         <span class="inb">考试动态</span>
-        <span class="inb">申友专题</span>
+        <span class="inb">免费公开课</span>
     </div>
     <!--选项卡-->
     <div class="info-select-wrap" style="display: block;">
