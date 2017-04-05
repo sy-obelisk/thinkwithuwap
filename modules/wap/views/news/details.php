@@ -2,7 +2,7 @@
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="keywords" content="留学动态,留学资讯,留学新闻,gmat考试技巧,gmat资讯,gmat动态,申友动态,申友公开课,申友专题">
-    <meta name="description" content="申友教育为您提供热门的留学资讯,gamt考试动态,免费公开课开课时间,以及申友做题技巧,为您名校留学保驾护航。">
+    <meta name="description" content="<?php echo $data[0]['abstract']?>">
     <meta name="title" content="留学动态_gmat资讯_申友专题-申友教育">
     <meta name="author" content="">
     <meta name="Copyright" content="">
@@ -22,7 +22,7 @@
     <!-- !!!注意 minimal-ui 是IOS7.1的新属性，最小化浏览器UI -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <title>动态</title>
+    <title><?php echo $data[0]['name']?>-申友网</title>
     <link rel="stylesheet" href="/wap/css/reset.css" />
     <link rel="stylesheet" href="/wap/css/common.css" />
     <link rel="stylesheet" href="/wap/css/swiper-3.3.1.min.css" />
