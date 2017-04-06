@@ -91,7 +91,7 @@
         </a>
     </li>
     <li>
-    	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+    	<a href="http://m.gmatonline.cn/wap/index.html">
 	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
 	        <div class="fr open-text">
 	            <h1 class="open-name">GMAT 强化班（在线班）  </h1>

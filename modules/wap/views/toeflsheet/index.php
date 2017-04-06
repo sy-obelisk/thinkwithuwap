@@ -72,11 +72,13 @@
         </div>
     </li>
     <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">托福强化班（线上）</h1>
-            <P class="open-time">随时开课</P>
-        </div>
+    	<a href="http://m.gmatonline.cn/wap/index.html">
+	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+	        <div class="fr open-text">
+	            <h1 class="open-name">托福强化班（线上）</h1>
+	            <P class="open-time">随时开课</P>
+	        </div>
+        </a>
     </li>
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
