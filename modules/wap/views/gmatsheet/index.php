@@ -223,7 +223,7 @@
     <ul class="ct-team-2 clearfix">
         <li>
             <img src="/wap/images/ct-9.png" alt="">
-            <p class="ani ellipsis ct-teacher-name">Eve</p>
+            <p class="ani ellipsis ct-teacher-name">Faye</p>
         </li>
         <li>
             <img src="/wap/images/ct-10.png" alt="">
@@ -231,11 +231,11 @@
         </li>
         <li>
             <img src="/wap/images/ct-11.png" alt="">
-            <p class="ani ellipsis ct-teacher-name">Ada</p>
+            <p class="ani ellipsis ct-teacher-name">Phoebe</p>
         </li>
         <li>
             <img src="/wap/images/ct-12.png" alt="">
-            <p class="ani ellipsis ct-teacher-name">Cherry</p>
+            <p class="ani ellipsis ct-teacher-name">Zora</p>
         </li>
         <li>
             <img src="/wap/images/ct-13.png" alt="">

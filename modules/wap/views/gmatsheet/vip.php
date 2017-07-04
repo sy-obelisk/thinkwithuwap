@@ -63,7 +63,7 @@
         </li>
         <li>
             <img src="/wap/images/v-4.png" alt="">
-            <p class="teacher-name">Cherry</p>
+            <p class="teacher-name">Zora</p>
         </li>
         <li>
             <img src="/wap/images/v-5.png" alt="">
@@ -79,7 +79,7 @@
         </li>
         <li>
             <img src="/wap/images/v-8.png" alt="">
-            <p class="teacher-name">Bob</p>
+            <p class="teacher-name">Faye</p>
         </li>
 
 
