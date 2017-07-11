@@ -1,0 +1,42 @@
+.suit-people {
+    width: 60%;
+    float: left;
+}
+.tf-vip>h3 {
+    font-size: .9rem;
+    font-weight: normal;
+    color: #802F8A;
+}
+.tf-vip>p {
+    font-size: .5rem;
+    line-height: .9rem;
+}
+.suit-img {
+    width: 40%;
+}
+/*培训授课内容*/
+.sub-img {
+    margin: .6rem 0;
+}
+/*课程特色*/
+.feature-font {
+    margin: .6rem 0;
+}
+.feature-title {
+    line-height: 1.2rem;
+    padding-left: 1.5rem;
+    margin: 1rem 0 .6rem 0;
+    background: url("/wap/images/toefl09.png") 0 0 no-repeat;
+    -webkit-background-size: 1.2rem 1.2rem;
+    background-size: 1.2rem 1.2rem;
+    color: #ee4c38!important;
+}
+/*底部课程*/
+.tf-bottom {
+    padding: .6rem 0;
+}
+.tf-bottom p {
+    text-align: center;
+    font-size: .6rem;
+    color: #802F8A;
+}

@@ -407,15 +407,19 @@
 .teacher-name {
     position: absolute;
     text-align: center;
-    width: 2rem;
-    line-height: 2rem;
-    border-radius: 50%;
-    background: #008BA3;
+    width: 3rem;
+    line-height: 1.2rem;
+    background-color: #aa89bd;
     font-size: 0.6rem;
     color: #ffffff;
     font-family: Impact;
-    left: 25%;
-    bottom: -0.9rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -.6rem;
 }
 /*===============================GMATVIP班 END=====================================*/
 

@@ -36,4 +36,15 @@ class ToeflsheetController extends ThinkUController {
         Content::updateAll(['viewCount' => ($count+1)],"id=$id");
         return $this->render('details',['correlation' => $correlation,'data' => $data,'prev' => $prev,'next' => $next]);
     }
+    public function actionVip(){
+//        $id = Yii::$app->request->get('id');
+//        $category = "249,116";
+//        $data = Content::getContent(['fields' => "keywords,abstract,description",'where' => "c.id = $id"]);
+//        $correlation = Content::getContent(['pageSize' => '5','category' => $category,'where' => "c.id != $id"]);
+//        $prev = Content::getContent(['category' => $category,'where' => "c.id < $id","order" => "c.id DESC","pageSize" => 1]);
+//        $next = Content::getContent(['category' => $category,'where' => "c.id > $id","order" => "c.id ASC","pageSize" => 1]);
+//        $count = $data[0]['viewCount'];
+//        Content::updateAll(['viewCount' => ($count+1)],"id=$id");
+        return $this->render('vip');
+    }
 }

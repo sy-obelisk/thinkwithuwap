@@ -247,11 +247,13 @@
             </a>
         </div>
         <div class="fr train-text-wrap" style="background: #FF9933">
-            <img src="/wap/images/p1.png" style="width: 1.83rem" alt="">
-            <div class="inb train-text">
-                <p class="train-tit">托福 VIP</p>
-                <p class="train-de">高效提升 高能冲刺</p>
-            </div>
+            <a href="/toefl-vip.html">
+                <img src="/wap/images/p1.png" style="width: 1.83rem" alt="">
+                <div class="inb train-text">
+                    <p class="train-tit">托福 VIP</p>
+                    <p class="train-de">高效提升 高能冲刺</p>
+                </div>
+            </a>
         </div>
     </div>
 </section>

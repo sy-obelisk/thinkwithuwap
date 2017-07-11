@@ -193,14 +193,12 @@
             	<a href="/case/details/<?php echo $v['id']?>.html">
 	                <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
 	                <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
-	
 	                <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
                 </a>
             </li>
             <?php
             }
         ?>
-
     </ul>
     <div class="tm ct-btn mg-t1">
         <a class="ct-b1 inb" href="/case.html">点击了解：查看更多申友名校案例</a>
