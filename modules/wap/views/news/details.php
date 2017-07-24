@@ -33,7 +33,7 @@
 <header class="pd-0 details-top bc-175">
     <div class="header-2">
         <a class="tb tl" href="javascript:history.go(-1)"><img class="reBack" src="/wap/images/pratices-arrow-left.png" alt=""></a>
-        <span class="tb header-tit tm">动态</span>
+        <span class="tb header-tit tm">最新资讯</span>
         <span class="tr tb"></span>
     </div>
 </header>
