@@ -34,59 +34,34 @@
   <link rel="stylesheet" href="/wap/css/common.css">
   <link rel="stylesheet" href="/wap/css/main2.css">
   <link rel="stylesheet" href="/wap/css/swiper-3.3.1.min.css">
+  <link rel="stylesheet" href="/wap/css/sat.css">
   <script src="/wap/js/jquery-1.12.2.min.js"></script>
   <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
   <script src="/wap/js/common.js"></script>
-  <title>GMATVIP班</title>
+  <title>SAT全能小班</title>
 </head>
 <body>
 <!--内页头部-->
 <header class=" pd-0 bg-1">
   <div class="header-2">
     <a class="tb tl" href="javascript:history.go(-1)"><img class="reBack" src="/wap/images/reBack.png" alt=""></a>
-    <span class=" tb header-tit tm">GMATVIP班</span>
+    <span class=" tb header-tit tm">SAT全能小班</span>
     <a class="tr tb" href="menu.html">
       <img class="menu-icon" src="/wap/images/menu.png" alt="">
     </a>
   </div>
 </header>
 <!--内页头部 END-->
-<div class="bg-1 pd-0 mg-t1">
-  <img src="/wap/images/v-1.png" alt="">
+<div class="bg-1 pd-0 mg-t1 clearfix">
+  <div class="sat-people tl">
+    <h3 class="open-name">针对人群</h3>
+    <p class="open-time">1. 有一定的语言能力，SAT备考时间充足，需全科系统加强的学员。</p>
+    <p class="open-time">2. 没有考过新SAT考试，经申友团队内部标准测试符合以上标准。</p>
+  </div>
+  <img class="suit-img" src="/wap/images/toefl.png" alt="">
 </div>
 <div class="pd-0 bg-1 mg-t1">
-  <img src="/wap/images/v-2.png" alt="">
-  <ul class="teacher-list tm">
-    <li>
-      <img src="/wap/images/v-3.png" alt="">
-      <p class="teacher-name">Kevin</p>
-    </li>
-    <li>
-      <img src="/wap/images/v-4.png" alt="">
-      <p class="teacher-name">Zora</p>
-    </li>
-    <li>
-      <img src="/wap/images/v-5.png" alt="">
-      <p class="teacher-name">Julie</p>
-    </li>
-    <li>
-      <img src="/wap/images/v-6.png" alt="">
-      <p class="teacher-name">Amanda</p>
-    </li>
-    <li>
-      <img src="/wap/images/v-7.png" alt="">
-      <p class="teacher-name">Gary</p>
-    </li>
-    <li>
-      <img src="/wap/images/v-8.png" alt="">
-      <p class="teacher-name">Faye</p>
-    </li>
-
-
-  </ul>
-</div>
-<div class="mg-t1" style="padding-bottom: 0.7rem">
-  <img src="/wap/images/v-9.png" alt="">
+  <img src="/wap/images/sat-quan.png" alt="">
 </div>
 <!--footer-->
 <?php use app\commands\front\FooterWidget;?>

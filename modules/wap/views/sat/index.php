@@ -27,6 +27,7 @@
 <link rel="stylesheet" href="/wap/css/common.css">
 <link rel="stylesheet" href="/wap/css/main2.css">
 <link rel="stylesheet" href="/wap/css/swiper-3.3.1.min.css">
+<link rel="stylesheet" href="/wap/css/sat.css">
 <script src="/wap/js/jquery-1.12.2.min.js"></script>
 <script src="/wap/js/swiper-3.3.1.jquery.min.js"></script>
 <script src="/wap/js/common.js"></script>
@@ -52,228 +53,154 @@
   <p class="col-name inb">选择申友的理由</p>
 </div>
 <div class="bg-1 pd-1" style="padding-bottom: 1rem">
-  <img src="/wap/images/sub-7.png" alt="">
+<!--  <img src="/wap/images/sub-7.png" alt="">-->
+  <ul class="sat-reason">
+    <li>
+      <h2>1</h2>
+      <p>海内外超强SAT名师团队授课，SAT高分保驾护航</p>
+    </li>
+    <li>
+      <h2>2</h2>
+      <p>SAT全方位增值服务课程，全能班，冲刺班，VIP班</p>
+    </li>
+    <li>
+      <h2>3</h2>
+      <p>雷哥SAT名师团队自主研发的SAT系列高分备考教材</p>
+    </li>
+    <li>
+      <h2>4</h2>
+      <p>体验一站式SAT考试新生态在线学习服务平台系统</p>
+    </li>
+    <li>
+      <h2>5</h2>
+      <p>雷哥SAT名师团队自主研发的F-inspire课程体系</p>
+    </li>
+    <li>
+      <h2>6</h2>
+      <p>全国SAT高分培训基地，SAT学员口碑推荐</p>
+    </li>
+  </ul>
 </div>
 <div class="pd1 mg-t1 bg-col-1">
   <p class="col-name inb">申友SAT特色课程，青春年华，一起奋斗</p>
 </div>
 <div class="sub-list bg-1">
-  <div class="clearfix">
-    <a class="sub-1 fl inb" href="/SAT-week.html"><img src="/wap/images/sub-1.png" alt=""></a>
-    <a class="sub-2 fr inb" href="/SAT-vip.html"><img src="/wap/images/sub-2.png" alt=""></a>
-  </div>
-  <div class="clearfix">
-    <a class="sub-3 fl inb" href="/SAT-summer.html"><img src="/wap/images/sub-3.png" alt=""></a>
-    <a class="sub-4 fr inb" href="#"><img src="/wap/images/sub-4.png" alt=""></a>
-  </div>
+  <ul class="sat-course clearfix">
+    <li>
+      <a href="/SAT-week.html">
+        <div></div>
+      </a>
+      <p>全能小班</p>
+    </li>
+    <li>
+      <a href="/SAT-summer.html">
+        <div></div>
+      </a>
+      <p>冲刺小班</p>
+    </li>
+    <li>
+      <a href="/SAT-vip.html">
+        <div></div>
+      </a>
+      <p>1对1VIP班</p>
+    </li>
+    <li>
+      <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+        <div></div>
+      </a>
+      <p>视频课</p>
+    </li>
+    <li>
+      <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+        <div></div>
+      </a>
+      <p>直播课</p>
+    </li>
+  </ul>
 </div>
 <!--栏目 END-->
 <div class="pd1 mg-t1 bg-col-1" name="SAT-open" id="SAT-open">
   <p class="col-name inb">SAT最新开班查询</p>
 </div>
-<ul class="bg-1 pd-0 open-list">
+<ul class="sat-open bg-1 pd-0 open-list">
   <li>
     <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
-      <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+      <div class="fl open-img"><img src="/wap/images/sat01.png" alt=""></div>
       <div class="fr open-text">
-        <h1 class="open-name">SAT强化班（连授班） </h1>
-        <P class="open-time">3月、4月、5月、6月、7月、8月</P>
+        <h1 class="open-name">SAT全能小班</h1>
+        <P class="open-time">120课时，周末班，寒暑假班</P>
+        <p class="open-time">（1-2月寒假连授班，3-6月周末班，7-8月暑假连授班，9-12月周末班）</p>
       </div>
     </a>
   </li>
   <li>
     <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
-      <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+      <div class="fl open-img"><img src="/wap/images/sat02.png" alt=""></div>
       <div class="fr open-text">
-        <h1 class="open-name">SAT强化班（周末班） </h1>
-        <P class="open-time">3月-8月周末开班</P>
+        <h1 class="open-name">SAT冲刺小班</h1>
+        <P class="open-time">90课时，周末班，寒暑假班</P>
+        <p class="open-time">（1-2月寒假连授班，3-6月周末班，7-8月暑假连授班，9-12月周末班）</p>
       </div>
     </a>
   </li>
   <li>
     <a href="http://m.SATonline.cn/wap/index.html">
-      <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+      <div class="fl open-img"><img src="/wap/images/sat03.png" alt=""></div>
       <div class="fr open-text">
-        <h1 class="open-name">SAT 强化班（在线班）  </h1>
-        <P class="open-time">随时开课</P>
+        <h1 class="open-name">SAT1对1VIP</h1>
+        <p class="open-time">10课时起报，随时开课</p>
       </div>
     </a>
   </li>
   <li>
     <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
-      <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+      <div class="fl open-img"><img src="/wap/images/sat04.png" alt=""></div>
       <div class="fr open-text">
-        <h1 class="open-name">SAT VIP一对一 </h1>
-        <P class="open-time">随时开课</P>
+        <h1 class="open-name">SAT视频课</h1>
+        <P class="open-time">90-120课时，根据学员情况，灵活观看视频</P>
       </div>
     </a>
   </li>
   <li>
     <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
-      <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+      <div class="fl open-img"><img src="/wap/images/sat05.png" alt=""></div>
       <div class="fr open-text">
-        <h1 class="open-name">SAT PRE基础班 </h1>
-        <P class="open-time">随时开课</P>
+        <h1 class="open-name">SAT直播课</h1>
+        <p class="open-time">90-120课时，周末班，寒暑假班，晚班</p>
       </div>
     </a>
   </li>
-  <li>
-    <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
-      <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-      <div class="fr open-text">
-        <h1 class="open-name">SAT机经冲刺班 </h1>
-        <P class="open-time">每月换库后开课</P>
-      </div>
-    </a>
-  </li>
-
 </ul>
+<!--案例-->
 <div class="pd1 mg-t1 bg-col-1">
-  <p class="col-name inb">选择申友SAT课程，轻松拿高分</p>
-  <ul class="course-wrap tm">
-    <li>
-      <p class="course-tit">测评预<br>约访谈</p>
-      <p class="course-de">名师剖析测评结果，针对性提出复习建议</p>
-      <p class="course-time">（2课时）</p>
+  <p class="col-name inb">部分申友本科案例介绍</p>
+  <ul class="sat-case mg-t1">
+    <li class="clearfix">
+      <div>
+        <img src="/wap/images/sat06.png" alt="">
+      </div>
+      <div>
+        <p class="open-time">学生信息：邓 M.   成都L中</p>
+        <p class="open-time">基本条件：GPA85+；TOEFL100+；SAT2160</p>
+        <p class="open-time">申请方向：美国本科会计</p>
+        <p class="open-time">录取结果：伊利诺伊大学香槟分校UIUC、南加州大学USC</p>
+        <p class="open-time">顾问点评：邓同学硬条件总体不错，均分高，SAT2160，托福100+，学生在校活动经历丰富，包括模联、足协、美式辩论队、国际青年圆桌会议、主持人，志愿者服务，其中足协和模联参与度高。每个申请essay邓同学都先用英文写出自己的想法，文书老师与学生进行深入交流，理清脉络形成逻辑性强的文章。</p>
+      </div>
     </li>
-    <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
     <li>
-      <p class="course-tit">基础<br>课程</p>
-      <p class="course-de">SAT强化课前预习，掌握考试基础知识</p>
-      <p class="course-time">（30课时）</p>
-    </li>
-    <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
-    <li>
-      <p class="course-tit">核心<br>课程</p>
-      <p class="course-de">指导 GMAT 核心内容的解题思路和方法</p>
-      <p class="course-time">（30课时）</p>
-    </li>
-    <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
-    <li>
-      <p class="course-tit">真题<br>精讲</p>
-      <p class="course-de">远程线上讲解，做题中巩固思路和方法</p>
-      <p class="course-time">（32课时）</p>
-    </li>
-    <!--        <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>-->
-    <li>
-      <p class="course-tit">模考<br>解析</p>
-      <p class="course-de">学管老师发送模考卷， 在线直播分析讲解</p>
-      <p class="course-time">（6课时）</p>
-    </li>
-    <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
-    <li>
-      <p class="course-tit">名师<br>答疑</p>
-      <p class="course-de">遇到问题，可上传至社区，会有老师答疑</p>
-      <p class="course-time">（免费赠送）</p>
-    </li>
-    <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
-    <!--        <div class="inb sub-8" style=" margin: 0.5rem 0.3rem 0;"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>-->
-    <li>
-      <p class="course-tit">学习<br>社区</p>
-      <p class="course-de">成为申友学员并开通账号后即可登陆使用</p>
-      <p class="course-time">（免费赠送）</p>
-    </li>
-    <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
-    <!--        <div class="inb sub-8" style=" margin: 0.5rem 0.3rem 0;"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>-->
-    <li>
-      <p class="course-tit">机经<br>冲刺</p>
-      <p class="course-de">当月题库讲解机经，助大家进行考前冲刺</p>
-      <p class="course-time">（换库后）</p>
+      <div>
+        <img src="/wap/images/sat07.png" alt="">
+      </div>
+      <div>
+        <p class="open-time">学生信息：赵Y.R.  北师大二附中国际班</p>
+        <p class="open-time">基本条件：GPA3.6+；TOEFL100+；ACT 31</p>
+        <p class="open-time">申请方向：美国/加拿大本科</p>
+        <p class="open-time">录取结果：多伦多大学建筑学 、俄亥俄州立大学 、匹兹堡大学</p>
+        <p class="open-time">顾问点评：赵同学自身英语水平能力不错，GPA，托福和ACT成绩都比较高；在校经历丰富，有多个文体类校级奖项，三段志愿者经历，罗德岛大学暑期交换经历；文书老师把学生软硬件背景结合起来，呈现出一个有责任感，综合能力很强，且很正能量的形象，最后拿到了世界名校多伦多大学的录取。</p>
+      </div>
     </li>
   </ul>
 </div>
-<div class="sub-case">
-  <img src="/wap/images/sub-tit.png" alt="">
-  <ul class="ct-user-list tm clearfix mg-t1">
-    <?php
-    $data = \app\modules\wap\models\Content::getContent(['fields' => 'score,abroadSchool','category' => "178,102",'pageSize'=>6]);
-    foreach($data as $v) {
-      ?>
-      <li>
-        <a href="/case/details/<?php echo $v['id']?>.html">
-          <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
-          <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
-          <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
-        </a>
-      </li>
-      <?php
-    }
-    ?>
-  </ul>
-  <div class="tm ct-btn mg-t1">
-    <a class="ct-b1 inb" href="/case.html">点击了解：查看更多申友名校案例</a>
-  </div>
-</div>
-<div class="bg-1 mg-t1">
-  <ul class="ct-team-1 clearfix">
-    <li>
-      <img src="/wap/images/ct-7.png" alt="">
-      <p class="ani ellipsis ct-teacher-name">Kevin</p>
-    </li>
-    <li>
-      <img src="/wap/images/ct-6.png" alt="">
-    </li>
-    <li>
-      <img src="/wap/images/ct-8.png" alt="">
-      <p class="ani ellipsis ct-teacher-name">Amanda</p>
-    </li>
-  </ul>
-  <ul class="ct-team-2 clearfix">
-    <li>
-      <img src="/wap/images/ct-9.png" alt="">
-      <p class="ani ellipsis ct-teacher-name">Faye</p>
-    </li>
-    <li>
-      <img src="/wap/images/ct-10.png" alt="">
-      <p class="ani ellipsis ct-teacher-name">Kayla</p>
-    </li>
-    <li>
-      <img src="/wap/images/ct-11.png" alt="">
-      <p class="ani ellipsis ct-teacher-name">Phoebe</p>
-    </li>
-    <li>
-      <img src="/wap/images/ct-12.png" alt="">
-      <p class="ani ellipsis ct-teacher-name">Zora</p>
-    </li>
-    <li>
-      <img src="/wap/images/ct-13.png" alt="">
-      <p class="ani ellipsis ct-teacher-name">Chris</p>
-    </li>
-    <li>
-      <img src="/wap/images/ct-14.png" alt="">
-      <p class="ani ellipsis ct-teacher-name">Julie</p>
-    </li>
-  </ul>
-</div>
-<!--栏目-->
-<div class="pd1 mg-t1 bg-col-1" style="padding-bottom: 0">
-  <p class="col-name inb">每日一题</p>
-  <div class="inb fr">
-    <div class="icon inb">
-      <span class=" r-name inb">全部 ></span>
-    </div>
-  </div>
-</div>
-<!--栏目 END-->
-<ul class="topic-wrap bg-1 pd-1">
-  <?php
-  $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "249,115",'pageSize'=>10]);
-  foreach($data as $v) {
-    ?>
-    <a href="/GMAT/details/<?php echo $v['id']?>.html">
-      <li>
-        <h1 class="topic"><?php echo $v['name']?></h1>
-
-        <p class="ellipsis topic-de"><?php echo $v['abstract']?>......</p>
-
-        <p class="topic-time">时间：<?php echo $v['createTime']?></p>
-      </li>
-    </a>
-    <?php
-  }
-  ?>
-
-</ul>
 <!--footer-->
 <?php use app\commands\front\FooterWidget;?>
 <?php FooterWidget::begin();?>
