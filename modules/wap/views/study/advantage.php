@@ -133,7 +133,7 @@
 </section>
 <!--优势 标题-->
 <div class="ad-tit-wrap pd-0 clearfix">
-    <em class="tit-num inb">4</em><span class="ad-tit-l">高效背景实力提升</span>
+    <em class="tit-num inb">4</em><span class="ad-tit-l">定制高校申请服务</span>
     <i class="ad-tit-r fr">留学无限制，名校任我选</i>
 </div>
 <!--优势 标题 END-->

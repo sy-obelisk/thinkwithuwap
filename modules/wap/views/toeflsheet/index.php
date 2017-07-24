@@ -72,11 +72,13 @@
         </div>
     </li>
     <li>
-        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
-        <div class="fr open-text">
-            <h1 class="open-name">托福强化班（线上）</h1>
-            <P class="open-time">随时开课</P>
-        </div>
+    	<a href="http://m.gmatonline.cn/wap/index.html">
+	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
+	        <div class="fr open-text">
+	            <h1 class="open-name">托福强化班（线上）</h1>
+	            <P class="open-time">随时开课</P>
+	        </div>
+        </a>
     </li>
     <li>
         <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
@@ -133,7 +135,7 @@
     <ul class="ct-team-2 clearfix">
         <li>
             <img src="/wap/images/ct-9.png" alt="">
-            <p class="ani ellipsis ct-teacher-name">Eve</p>
+            <p class="ani ellipsis ct-teacher-name">Faye</p>
         </li>
         <li>
             <img src="/wap/images/ct-10.png" alt="">
@@ -141,11 +143,11 @@
         </li>
         <li>
             <img src="/wap/images/ct-11.png" alt="">
-            <p class="ani ellipsis ct-teacher-name">Ada</p>
+            <p class="ani ellipsis ct-teacher-name">Phoebe</p>
         </li>
         <li>
             <img src="/wap/images/ct-12.png" alt="">
-            <p class="ani ellipsis ct-teacher-name">Cherry</p>
+            <p class="ani ellipsis ct-teacher-name">Zora</p>
         </li>
         <li>
             <img src="/wap/images/ct-13.png" alt="">

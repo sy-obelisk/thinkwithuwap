@@ -91,7 +91,7 @@
         </a>
     </li>
     <li>
-    	<a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
+    	<a href="http://m.gmatonline.cn/wap/index.html">
 	        <div class="fl open-img"><img src="/wap/images/sub-5.png" alt=""></div>
 	        <div class="fr open-text">
 	            <h1 class="open-name">GMAT 强化班（在线班）  </h1>
@@ -138,7 +138,7 @@
         </li>
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
         <li>
-            <p class="course-tit">课前<br>预习</p>
+            <p class="course-tit">基础<br>课程</p>
             <p class="course-de">GMAT强化课前预习，掌握考试基础知识</p>
             <p class="course-time">（30课时）</p>
         </li>
@@ -157,7 +157,7 @@
 <!--        <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>-->
         <li>
             <p class="course-tit">模考<br>解析</p>
-            <p class="course-de">学管老师发送模考卷， 远程线上分析讲解</p>
+            <p class="course-de">学管老师发送模考卷， 在线直播分析讲解</p>
             <p class="course-time">（6课时）</p>
         </li>
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
@@ -193,14 +193,12 @@
             	<a href="/case/details/<?php echo $v['id']?>.html">
 	                <div class="ct-head inb"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></div>
 	                <p class="user-de ellipsis-2"><?php echo $v['title']?></p>
-	
 	                <p class="ct-school ellipsis"><?php echo $v['abroadSchool']?></p>
                 </a>
             </li>
             <?php
             }
         ?>
-
     </ul>
     <div class="tm ct-btn mg-t1">
         <a class="ct-b1 inb" href="/case.html">点击了解：查看更多申友名校案例</a>
@@ -223,7 +221,7 @@
     <ul class="ct-team-2 clearfix">
         <li>
             <img src="/wap/images/ct-9.png" alt="">
-            <p class="ani ellipsis ct-teacher-name">Eve</p>
+            <p class="ani ellipsis ct-teacher-name">Faye</p>
         </li>
         <li>
             <img src="/wap/images/ct-10.png" alt="">
@@ -231,11 +229,11 @@
         </li>
         <li>
             <img src="/wap/images/ct-11.png" alt="">
-            <p class="ani ellipsis ct-teacher-name">Ada</p>
+            <p class="ani ellipsis ct-teacher-name">Phoebe</p>
         </li>
         <li>
             <img src="/wap/images/ct-12.png" alt="">
-            <p class="ani ellipsis ct-teacher-name">Cherry</p>
+            <p class="ani ellipsis ct-teacher-name">Zora</p>
         </li>
         <li>
             <img src="/wap/images/ct-13.png" alt="">

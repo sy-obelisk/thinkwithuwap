@@ -215,12 +215,17 @@ body{
 .other-list li:nth-child(1) {
     background: #DE8CDE;
 }
-
 .other-list li:nth-child(2) {
+    background: #ff7387;
+}
+.other-list li:nth-child(2) .other-de {
+    color: #8B008B;
+}
+.other-list li:nth-child(3) {
     background: #9999FF;
 }
 
-.other-list li:nth-child(3) {
+.other-list li:nth-child(4) {
     background: #17BDFF;
 }
 

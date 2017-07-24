@@ -102,10 +102,10 @@
             <p class="nav-name">托福</p>
         </li>
         <li>
-            <a href="/class.html">
-                <div class="nav-icon"><img src="/wap/images/icon-4.png" alt=""></div>
+            <a href="/SAT.html">
+                <div class="nav-icon"><img src="/wap/images/icon-25.png" alt=""></div>
             </a>
-            <p class="nav-name">申友课堂</p>
+            <p class="nav-name">SAT</p>
         </li>
         <li>
             <a href="/schools.html">
@@ -117,10 +117,10 @@
             <p class="nav-name">院校搜索</p>
         </li>
         <li>
-            <a href="/practices.html">
-                <div class="nav-icon"><img src="/wap/images/icon-6.png" alt=""></div>
+            <a href="/class.html">
+                <div class="nav-icon"><img src="/wap/images/icon-4.png" alt=""></div>
             </a>
-            <p class="nav-name">背景提升</p>
+            <p class="nav-name">申友课堂</p>
         </li>
         <li>
             <a href="/case.html">
@@ -198,6 +198,15 @@
                 </a>
             </li>
             <li class="">
+                <a href="/practices.html">
+                    <div class="c2-icon inb"><img src="/wap/images/icon-6.png" alt=""></div>
+                    <div class="inb max_w">
+                        <p class="other-tit">背景提升</p>
+                        <p class="other-de color-2">海外游学、海外实训、国内外实习，Summer School申请</p>
+                    </div>
+                </a>
+            </li>
+            <li class="">
                 <a href="/single.html">
                     <div class="c2-icon inb"><img src="/wap/images/icon-10.png" alt=""></div>
                     <div class="inb max_w">
@@ -247,11 +256,13 @@
             </a>
         </div>
         <div class="fr train-text-wrap" style="background: #FF9933">
-            <img src="/wap/images/p1.png" style="width: 1.83rem" alt="">
-            <div class="inb train-text">
-                <p class="train-tit">托福 VIP</p>
-                <p class="train-de">高效提升 高能冲刺</p>
-            </div>
+            <a href="/toefl-vip.html">
+                <img src="/wap/images/p1.png" style="width: 1.83rem" alt="">
+                <div class="inb train-text">
+                    <p class="train-tit">托福 VIP</p>
+                    <p class="train-de">高效提升 高能冲刺</p>
+                </div>
+            </a>
         </div>
     </div>
 </section>
