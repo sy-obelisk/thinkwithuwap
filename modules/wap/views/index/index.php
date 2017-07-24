@@ -102,10 +102,10 @@
             <p class="nav-name">托福</p>
         </li>
         <li>
-            <a href="/class.html">
-                <div class="nav-icon"><img src="/wap/images/icon-4.png" alt=""></div>
+            <a href="/sat.html">
+                <div class="nav-icon"><img src="/wap/images/icon-25.png" alt=""></div>
             </a>
-            <p class="nav-name">申友课堂</p>
+            <p class="nav-name">SAT</p>
         </li>
         <li>
             <a href="/schools.html">
@@ -117,10 +117,10 @@
             <p class="nav-name">院校搜索</p>
         </li>
         <li>
-            <a href="/practices.html">
-                <div class="nav-icon"><img src="/wap/images/icon-6.png" alt=""></div>
+            <a href="/class.html">
+                <div class="nav-icon"><img src="/wap/images/icon-4.png" alt=""></div>
             </a>
-            <p class="nav-name">背景提升</p>
+            <p class="nav-name">申友课堂</p>
         </li>
         <li>
             <a href="/case.html">
@@ -194,6 +194,15 @@
                     <div class="inb max_w">
                         <p class="other-tit">美国申请方案</p>
                         <p class="other-de color-1">Top30/50商学院申请计划</p>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/practices.html">
+                    <div class="c2-icon inb"><img src="/wap/images/icon-6.png" alt=""></div>
+                    <div class="inb max_w">
+                        <p class="other-tit">背景提升</p>
+                        <p class="other-de color-2">海外游学、海外实训、国内外实习，Summer School申请</p>
                     </div>
                 </a>
             </li>

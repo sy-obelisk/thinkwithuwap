@@ -138,7 +138,7 @@
         </li>
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
         <li>
-            <p class="course-tit">课前<br>预习</p>
+            <p class="course-tit">基础<br>课程</p>
             <p class="course-de">GMAT强化课前预习，掌握考试基础知识</p>
             <p class="course-time">（30课时）</p>
         </li>
@@ -157,7 +157,7 @@
 <!--        <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>-->
         <li>
             <p class="course-tit">模考<br>解析</p>
-            <p class="course-de">学管老师发送模考卷， 远程线上分析讲解</p>
+            <p class="course-de">学管老师发送模考卷， 在线直播分析讲解</p>
             <p class="course-time">（6课时）</p>
         </li>
         <div class="inb sub-8"><img src="/wap/images/sub-8.png" style="width: 1.1rem" alt=""></div>
