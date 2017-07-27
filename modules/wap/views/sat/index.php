@@ -88,31 +88,31 @@
   <ul class="sat-course clearfix">
     <li>
       <a href="/SAT-week.html">
-        <div></div>
+        <img src="/wap/images/sat-icon1.png" alt="">
       </a>
       <p>全能小班</p>
     </li>
     <li>
       <a href="/SAT-summer.html">
-        <div></div>
+        <img src="/wap/images/sat-icon2.png" alt="">
       </a>
       <p>冲刺小班</p>
     </li>
     <li>
       <a href="/SAT-vip.html">
-        <div></div>
+        <img src="/wap/images/sat-icon3.png" alt="">
       </a>
-      <p>1对1VIP班</p>
+      <p>VIP班</p>
     </li>
     <li>
       <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
-        <div></div>
+        <img src="/wap/images/sat-icon4.png" alt="">
       </a>
       <p>视频课</p>
     </li>
     <li>
       <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
-        <div></div>
+        <img src="/wap/images/sat-icon5.png" alt="">
       </a>
       <p>直播课</p>
     </li>
@@ -144,7 +144,7 @@
     </a>
   </li>
   <li>
-    <a href="http://m.SATonline.cn/wap/index.html">
+    <a href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=">
       <div class="fl open-img"><img src="/wap/images/sat03.png" alt=""></div>
       <div class="fr open-text">
         <h1 class="open-name">SAT1对1VIP</h1>
