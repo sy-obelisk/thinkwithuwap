@@ -172,14 +172,14 @@
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="/C.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/C.html"><img src="/wap/images/cp-3.png" alt=""></a>
             </div>
             <p class="cp-tit">C类名校直通车</p>
             <p class="cp-describe">申请美英港热门名校</p>
         </div>
         <div class="classify-wrap inb tm">
             <div class="cp-img">
-                <a href="/D.html"><img src="/wap/images/cp-1.png" alt=""></a>
+                <a href="/D.html"><img src="/wap/images/cp-4.png" alt=""></a>
                 <p class="must">精英申请者必选项目</p>
             </div>
             <p class="cp-tit">D类助力传奇</p>
