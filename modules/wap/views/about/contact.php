@@ -47,7 +47,7 @@
 <h1 class="contact-tit pd-1 bg-1 tm">全国免费咨询热线：400-600-1123</h1>
 <ul class="contact-wrap">
     <li>
-        <h1 class="region-name inb">北京服务中心</h1>
+        <h1 class="region-name inb">北京（总部）服务中心</h1>
         <p class="contact-text">电话：
             <span>010-82194388</span>
             <span> &nbsp;010-82194149</span>

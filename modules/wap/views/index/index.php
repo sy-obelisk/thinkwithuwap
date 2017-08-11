@@ -518,13 +518,13 @@
     </div>
     <div class="info-select-wrap">
         <?php
-        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => "105,118",'pageSize' => 10]);
+        $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','category' => '107', 'extend_category' =>"178,115,116",'pageSize' => 10]);
         foreach($data as $k => $v) {
             ?>
             <div class="info-wrap">
-                <div class="info-img inb"><a href="/news/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
+                <div class="info-img inb"><a href="/class/details/<?php echo $v['id']?>.html"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
                 <div class="info-text inb">
-                	<a href="/news/details/<?php echo $v['id']?>.html">
+                	<a href="/class/details/<?php echo $v['id']?>.html">
 	                    <h1 class="info-tit"><?php echo $v['name']?></h1>
 	
 	                    <p class="info-de ellipsis-2"><?php echo $v['abstract']?></p>
