@@ -44,7 +44,7 @@
 <header class=" pd-0 bg-1">
     <div class="header-2">
         <a class="tb tl" href="javascript:history.go(-1)"><img class="reBack" src="/wap/images/reBack.png" alt=""></a>
-        <span class=" tb header-tit tm">GMAT暑期班</span>
+        <span class=" tb header-tit tm">GMAT寒假班</span>
         <a class="tr tb" href="menu.html">
             <img class="menu-icon" src="/wap/images/menu.png" alt="">
         </a>
