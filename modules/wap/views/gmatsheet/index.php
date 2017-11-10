@@ -231,7 +231,7 @@
         </li>
         <li>
             <img src="/wap/images/ct-11.png" alt="">
-            <p class="ani ellipsis ct-teacher-name">Phoebe</p>
+            <p class="ani ellipsis ct-teacher-name">Sharron</p>
         </li>
         <li>
             <img src="/wap/images/ct-12.png" alt="">
