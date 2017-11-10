@@ -22,7 +22,9 @@ class GmatsheetController extends ThinkUController {
      * @return string
      */
     public function actionIndex(){
-        return $this->render('index');
+        $extendData  = Content::getContent(['category' => 248,'fields' => 'hot,time,url','order'=>'sort','limit' => 6]);
+        return $this->render('index',['extendData' => $extendData]);
+//        return $this->render('index');
     }
 
     public function actionDetails(){
