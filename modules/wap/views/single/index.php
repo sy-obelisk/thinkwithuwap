@@ -51,28 +51,28 @@
                 <img src="/wap/images/g-2.png" alt="">
             </div>
             <p class="gas-name">文书定制</p>
-            <a class="gas-show" href="#">立即查看></a>
+            <a class="gas-show" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=" target="_blank">立即查看></a>
         </li>
         <li>
             <div class="gas-img">
                 <img src="/wap/images/g-3.png" alt="">
             </div>
             <p class="gas-name">网申服务</p>
-            <a class="gas-show" href="#">立即查看></a>
+            <a class="gas-show" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=" target="_blank">立即查看></a>
         </li>
         <li>
             <div class="gas-img">
                 <img src="/wap/images/g-4.png" alt="">
             </div>
             <p class="gas-name">面试辅导</p>
-            <a class="gas-show" href="#">立即查看></a>
+            <a class="gas-show" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=" target="_blank">立即查看></a>
         </li>
         <li>
             <div class="gas-img">
                 <img src="/wap/images/g-5.png" alt="">
             </div>
             <p class="gas-name">签证服务</p>
-            <a class="gas-show" href="#">立即查看></a>
+            <a class="gas-show" href="http://p.qiao.baidu.com/im/index?siteid=9946474&ucid=3827656&cp=&cr=&cw=" target="_blank">立即查看></a>
         </li>
     </ul>
 </div>
