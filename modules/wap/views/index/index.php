@@ -154,37 +154,49 @@
 <!--内容-->
 <section class="pd1 bg-col-1 clearfix">
     <div class="content clearfix">
-        <div class="classify-wrap inb tm">
-            <div class="cp-img">
-                <a href="/A.html"><img src="/wap/images/cp-1.png" alt=""></a>
-                <p class="must">必选项目</p>
+
+        <?php foreach($product as $k=>$v){?>
+            <div class="classify-wrap inb tm">
+                <div class="cp-img">
+                    <a href="/plan/<?php echo $v['id']?>.html"><img src="http://www.shenyou.com<?php echo $v['image']?>" alt=""></a>
+<!--                    <p class="must">必选项目</p>-->
+                </div>
+                <p class="cp-tit"><?php echo $v['name']?></p>
+                <p class="cp-describe"><?php echo $v['catName']?></p>
             </div>
-            <p class="cp-tit">A类卓越菁英</p>
-            <p class="cp-describe">进入申请年 大三大四</p>
-        </div>
-        <div class="classify-wrap inb tm">
-            <div class="cp-img">
-                <a href="/B.html"><img src="/wap/images/cp-2.png" alt=""></a>
-                <p class="must">必选项目</p>
-            </div>
-            <p class="cp-tit">B类梦想起航</p>
-            <p class="cp-describe">有一年以上升学准备时间</p>
-        </div>
-        <div class="classify-wrap inb tm">
-            <div class="cp-img">
-                <a href="/C.html"><img src="/wap/images/cp-3.png" alt=""></a>
-            </div>
-            <p class="cp-tit">C类名校直通车</p>
-            <p class="cp-describe">申请美英港热门名校</p>
-        </div>
-        <div class="classify-wrap inb tm">
-            <div class="cp-img">
-                <a href="/D.html"><img src="/wap/images/cp-4.png" alt=""></a>
-                <p class="must">精英申请者必选项目</p>
-            </div>
-            <p class="cp-tit">D类助力传奇</p>
-            <p class="cp-describe">有强烈要求的Master/MBA/PHD</p>
-        </div>
+        <?php }?>
+
+<!--        <div class="classify-wrap inb tm">-->
+<!--            <div class="cp-img">-->
+<!--                <a href="/A.html"><img src="/wap/images/cp-1.png" alt=""></a>-->
+<!--                <p class="must">必选项目</p>-->
+<!--            </div>-->
+<!--            <p class="cp-tit">A类卓越菁英</p>-->
+<!--            <p class="cp-describe">进入申请年 大三大四</p>-->
+<!--        </div>-->
+<!--        <div class="classify-wrap inb tm">-->
+<!--            <div class="cp-img">-->
+<!--                <a href="/B.html"><img src="/wap/images/cp-2.png" alt=""></a>-->
+<!--                <p class="must">必选项目</p>-->
+<!--            </div>-->
+<!--            <p class="cp-tit">B类梦想起航</p>-->
+<!--            <p class="cp-describe">有一年以上升学准备时间</p>-->
+<!--        </div>-->
+<!--        <div class="classify-wrap inb tm">-->
+<!--            <div class="cp-img">-->
+<!--                <a href="/C.html"><img src="/wap/images/cp-3.png" alt=""></a>-->
+<!--            </div>-->
+<!--            <p class="cp-tit">C类名校直通车</p>-->
+<!--            <p class="cp-describe">申请美英港热门名校</p>-->
+<!--        </div>-->
+<!--        <div class="classify-wrap inb tm">-->
+<!--            <div class="cp-img">-->
+<!--                <a href="/D.html"><img src="/wap/images/cp-4.png" alt=""></a>-->
+<!--                <p class="must">精英申请者必选项目</p>-->
+<!--            </div>-->
+<!--            <p class="cp-tit">D类助力传奇</p>-->
+<!--            <p class="cp-describe">有强烈要求的Master/MBA/PHD</p>-->
+<!--        </div>-->
     </div>
     <div class="content">
         <ul class="other-list">

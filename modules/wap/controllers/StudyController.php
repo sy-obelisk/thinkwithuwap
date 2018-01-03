@@ -9,7 +9,7 @@
 namespace app\modules\wap\controllers;
 use yii;
 use app\modules\cn\models\CategoryExtend;
-use app\modules\cn\models\Content;
+use app\modules\wap\models\Content;
 use app\modules\cn\models\Category;
 use app\libs\ThinkUController;
 
@@ -33,8 +33,9 @@ class StudyController extends ThinkUController {
      * @Obelisk
      */
     public function actionA(){
-
-        return $this->render('A');
+        $id = Yii::$app->request->get('id');
+        $data = Content::getContent(['where' => "c.id = $id",'fields' => "abstract,description","pageSize" => 1])[0];
+        return $this->render('A',['data'=>$data]);
     }
 
     /**

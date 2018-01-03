@@ -17,8 +17,9 @@ class IndexController extends ThinkUController {
     public $keywords;
     public function actionIndex(){
         $guide = Yii::$app->session->get('guide');
+        $product = Content::getContent(['category' => '261','fields' => "abstract,description","order" => "c.id DESC",'limit'=>4]);
 //        if($guide){
-            return $this->render('index');
+            return $this->render('index',['product'=>$product]);
 //        }else{
 //            Yii::$app->session->set('guide',1);
 //            return $this->redirect('/guide.html');
