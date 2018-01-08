@@ -33,9 +33,17 @@ class StudyController extends ThinkUController {
      * @Obelisk
      */
     public function actionA(){
+       return $this->render('A');
+    }
+
+    /**
+     * 留学产品
+     * @Obelisk
+     */
+    public function actionPlan(){
         $id = Yii::$app->request->get('id');
         $data = Content::getContent(['where' => "c.id = $id",'fields' => "abstract,description","pageSize" => 1])[0];
-        return $this->render('A',['data'=>$data]);
+        return $this->render('plan',['data'=>$data]);
     }
 
     /**
