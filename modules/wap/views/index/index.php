@@ -158,7 +158,7 @@
         <?php foreach($product as $k=>$v){?>
             <div class="classify-wrap inb tm">
                 <div class="cp-img">
-                    <a href="/plan/<?php echo $v['id']?>.html"><img src="http://www.shenyou.com<?php echo $v['image']?>" alt=""></a>
+                    <a href="/plan/<?php echo $v['id']?>.html"><img src="http://www.thinkwithu.com/<?php echo $v['image']?>" alt=""></a>
 <!--                    <p class="must">必选项目</p>-->
                 </div>
                 <p class="cp-tit"><?php echo $v['name']?></p>
