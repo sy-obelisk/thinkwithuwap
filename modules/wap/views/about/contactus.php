@@ -65,8 +65,16 @@
                 <p>【1】静安区北京西路1701号静安中华大厦2609室</p>
                 <p>【2】杨浦区政学路51号瑞力创新中心2号楼305室</p>
             </div>
-
-
+        </div>
+    </li>
+    <li>
+        <h1 class="region-name inb">广州服务中心</h1>
+        <p class="contact-text">电话：
+            <span>400-600-1123</span>
+        </p>
+        <div class="contact-text">
+            <em class="inb c-addres">地址：</em>
+            广州市天河区冼村路11号保利威座北塔3502室
         </div>
     </li>
     <li>
@@ -76,7 +84,7 @@
         </p>
         <div class="contact-text">
             <em class="inb c-addres">地址：</em>
-            成都市锦江区总府路2号时代广场A座2807
+            成都市锦江区东大街下东大街段258号西部国际金融中心（WIFC）2号楼20层（近太古里、东门大桥)
         </div>
     </li>
     <li>
@@ -117,16 +125,6 @@
         <div class="contact-text">
             <em class="inb c-addres">地址：</em>
             西安市高新区高新四路与科技路十字旺座国际
-        </div>
-    </li>
-    <li>
-        <h1 class="region-name inb">广州服务中心</h1>
-        <p class="contact-text">电话：
-            <span>400-600-1123</span>
-        </p>
-        <div class="contact-text">
-            <em class="inb c-addres">地址：</em>
-            广州市天河区体育西路111号建和中心
         </div>
     </li>
     <li>
