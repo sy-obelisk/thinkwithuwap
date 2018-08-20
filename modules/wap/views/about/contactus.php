@@ -104,7 +104,7 @@
         </p>
         <div class="contact-text">
             <em class="inb c-addres">地址：</em>
-            武汉市珞瑜路889号光谷融众国际1501室（光谷国际广场二期）
+            武汉市珞瑜路光谷世界城1栋1单元 11421室
         </div>
     </li>
     <li>
