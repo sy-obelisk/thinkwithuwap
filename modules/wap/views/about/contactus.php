@@ -70,7 +70,7 @@
     <li>
         <h1 class="region-name inb">广州服务中心</h1>
         <p class="contact-text">电话：
-            <span>400-6021-727</span>
+            <span>020-87589724</span>
         </p>
         <div class="contact-text">
             <em class="inb c-addres">地址：</em>
@@ -104,7 +104,7 @@
         </p>
         <div class="contact-text">
             <em class="inb c-addres">地址：</em>
-            武汉市珞瑜路光谷世界城1栋1单元 11421室
+            武汉市珞瑜路光谷世界城1栋1单元 14层 11421
         </div>
     </li>
     <li>
