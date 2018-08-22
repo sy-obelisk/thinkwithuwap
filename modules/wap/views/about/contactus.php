@@ -70,7 +70,7 @@
     <li>
         <h1 class="region-name inb">广州服务中心</h1>
         <p class="contact-text">电话：
-            <span>400-600-1123</span>
+            <span>400-6021-727</span>
         </p>
         <div class="contact-text">
             <em class="inb c-addres">地址：</em>
