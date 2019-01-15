@@ -49,7 +49,7 @@
     <div class="swiper-container-1 banner-wrap relative">
         <div class="swiper-wrapper">
             <?php
-            $data = \app\modules\wap\models\Content::getContent(['fields' => 'url','category' => "190,255",'pageSize' => 5]);
+            $data = \app\modules\wap\models\Content::getContent(['fields' => 'url','category' => "190,255",'pageSize' => 5,'order'=>'c.id desc']);
             foreach($data as $v) {
                 ?>
                 <div class="swiper-slide banner"><a href="<?php echo $v['url']?>"><img src="<?php echo Yii::$app->params['PC'].$v['image']?>" alt=""></a></div>
@@ -89,7 +89,7 @@
     <div data-value="178,118" class="n-wrap" style="padding-top: 0.3rem;display: block;">
         <ul class="topic-wrap bg-1 pd-1">
             <?php
-            $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','pageStr' => 1,'category' => "178,118",'pageSize' => 5]);
+            $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','pageStr' => 1,'category' => "178,118",'pageSize' => 5,'order'=>'c.id desc']);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -121,7 +121,7 @@
     <div data-value="177,118" class="n-wrap" style="padding-top: 0.3rem;">
         <ul class="topic-wrap bg-1 pd-1">
             <?php
-            $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','pageStr' => 1,'category' => "177,118",'pageSize' => 5]);
+            $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','pageStr' => 1,'category' => "177,118",'pageSize' => 5,'order'=>'c.id desc']);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
@@ -153,7 +153,7 @@
     <div data-value="105,118" class="n-wrap" style="padding-top: 0.3rem;">
         <ul class="topic-wrap bg-1 pd-1">
             <?php
-            $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','pageStr' => 1,'category' => "105,118",'pageSize' => 5]);
+            $data = \app\modules\wap\models\Content::getContent(['fields' => 'abstract','pageStr' => 1,'category' => "105,118",'pageSize' => 5,'order'=>'c.id desc']);
             $total = $data['total'];
             $count = $data['count'];
             unset($data['count']);
