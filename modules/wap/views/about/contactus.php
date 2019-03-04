@@ -44,6 +44,18 @@
 <h1 class="contact-tit pd-1 bg-1 tm">全国免费咨询热线：400-600-1123</h1>
 <ul class="contact-wrap">
     <li>
+        <h1 class="region-name inb">上海(总部)服务中心</h1>
+        <p class="contact-text">电话：
+            <span>021-52986736</span>
+        </p>
+        <div class="contact-text">
+            <em class="inb c-addres">地址：</em>
+            <div class="inb">
+                <p>徐汇区虹桥路355号城开国际大厦5楼</p>
+            </div>
+        </div>
+    </li>
+    <li>
         <h1 class="region-name inb">北京服务中心</h1>
         <p class="contact-text">电话：
             <span>010-82602100</span>
@@ -54,19 +66,7 @@
 
         </div>
     </li>
-    <li>
-        <h1 class="region-name inb">上海服务中心</h1>
-        <p class="contact-text">电话：
-            <span>021-52986736</span>
-        </p>
-        <div class="contact-text">
-            <em class="inb c-addres">地址：</em>
-            <div class="inb">
-<!--                <p>【1】静安区北京西路1701号静安中华大厦2609室</p>-->
-                <p>【2】杨浦区政学路51号创智天地企业中心2号楼305室</p>
-            </div>
-        </div>
-    </li>
+
     <li>
         <h1 class="region-name inb">广州服务中心</h1>
         <p class="contact-text">电话：
