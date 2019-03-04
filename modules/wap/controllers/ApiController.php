@@ -108,21 +108,21 @@ class ApiController extends ThinkUApiControl {
         $fields = Yii::$app->request->post('fields');
         $pageClass = Yii::$app->request->post('pageClass','num');
         if($list == 'list1'){
-            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "102",'extend_category' => "115,116",'fields' => $fields]);
+            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "102",'extend_category' => "115,116",'fields' => $fields,'order'=>'c.id desc']);
         }elseif($list == 'list2'){
-            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "102,115",'fields' => $fields]);
+            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "102,115",'fields' => $fields,'order'=>'c.id desc']);
         }elseif($list == 'list3'){
-            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "102,116",'fields' => $fields]);
+            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "102,116",'fields' => $fields,'order'=>'c.id desc']);
         }elseif($list == 'list4'){
-            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "107",'extend_category' => "178,115,116",'fields' => $fields]);
+            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "107",'extend_category' => "178,115,116",'fields' => $fields,'order'=>'c.id desc']);
         }elseif($list == 'list5'){
-            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "107,178",'fields' => $fields]);
+            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "107,178",'fields' => $fields,'order'=>'c.id desc']);
         }elseif($list == 'list6'){
-            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "107,115",'fields' => $fields]);
+            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "107,115",'fields' => $fields,'order'=>'c.id desc']);
         }elseif($list == 'list7'){
-            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "107,116",'fields' => $fields]);
+            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => "107,116",'fields' => $fields,'order'=>'c.id desc']);
         }else{
-            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => $category,'fields' => $fields]);
+            $data = Content::getContent(['pageStr' => 1,'page' => $page,'pageSize' => $pageSize,'category' => $category,'fields' => $fields,'order'=>'c.id desc']);
         }
         $count = $data['count'];
         $total = $data['total'];
