@@ -97,7 +97,7 @@
         </p>
         <div class="contact-text">
             <em class="inb c-addres">地址：</em>
-            杭州市下城区庆春路118号嘉德广场1703室
+            杭州市江干区钱江新城万银国际1303
         </div>
     </li>
     <li>
